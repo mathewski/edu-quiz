@@ -3,32 +3,95 @@ import { computed, onMounted, ref, watch } from "vue";
 
 const STORAGE_KEY = "quiz_state_v1";
 
-const questions = ref([]);
+const categories = ref([]);
+const questionCategoryMap = ref({});
 const currentQuestion = ref(null);
 const selectedIndex = ref(null);
 const isSubmitted = ref(false);
 const isCorrect = ref(false);
 const loading = ref(true);
 const errorMessage = ref("");
-const answered = ref({});
+const answeredByCategory = ref({});
+const selectedCategory = ref("");
 
 const currentQuestionText = computed(
   () => currentQuestion.value?.question ?? null,
 );
 
-const canSubmit = computed(() => selectedIndex.value !== null && !isSubmitted.value);
-const canNext = computed(() => questions.value.length > 0);
+const canSubmit = computed(
+  () => selectedIndex.value !== null && !isSubmitted.value,
+);
+const canNext = computed(() => currentCategoryQuestions.value.length > 0);
 
-const totalCount = computed(() => questions.value.length);
+const uiCategories = computed(() => [
+  "Wszystko",
+  ...categories.value.map((item) => item.category),
+]);
+
+const allQuestions = computed(() =>
+  categories.value.flatMap((item) => item.questions),
+);
+
+const currentCategoryQuestions = computed(() => {
+  if (selectedCategory.value === "Wszystko") {
+    return allQuestions.value;
+  }
+  const group = categories.value.find(
+    (item) => item.category === selectedCategory.value,
+  );
+  return group?.questions ?? [];
+});
+
+const currentAnswered = computed(() => {
+  if (selectedCategory.value === "Wszystko") {
+    const merged = {};
+    for (const [category, answers] of Object.entries(
+      answeredByCategory.value,
+    )) {
+      for (const [questionText, status] of Object.entries(answers)) {
+        merged[questionText] = status;
+      }
+    }
+    return merged;
+  }
+  return answeredByCategory.value[selectedCategory.value] ?? {};
+});
+
+const totalCount = computed(() => currentCategoryQuestions.value.length);
 const correctCount = computed(
-  () => Object.values(answered.value).filter((value) => value === "correct").length,
+  () =>
+    Object.values(currentAnswered.value).filter((value) => value === "correct")
+      .length,
 );
 const wrongCount = computed(
-  () => Object.values(answered.value).filter((value) => value === "wrong").length,
+  () =>
+    Object.values(currentAnswered.value).filter((value) => value === "wrong")
+      .length,
 );
 const remainingCount = computed(() =>
   Math.max(totalCount.value - correctCount.value, 0),
 );
+
+const allCompleted = computed(() => {
+  const total = allQuestions.value.length;
+  if (!total) {
+    return false;
+  }
+  const completed = allQuestions.value.filter(
+    (question) => getStatusForQuestion(question.question) === "correct",
+  ).length;
+  return completed === total;
+});
+
+const categoryCompleted = computed(() => {
+  if (!currentCategoryQuestions.value.length) {
+    return false;
+  }
+  const completed = currentCategoryQuestions.value.filter(
+    (question) => getStatusForQuestion(question.question) === "correct",
+  ).length;
+  return completed === currentCategoryQuestions.value.length;
+});
 
 const progressSegments = computed(() => {
   if (!totalCount.value) {
@@ -44,7 +107,10 @@ const wasPreviouslyWrong = computed(() => {
   if (!currentQuestionText.value) {
     return false;
   }
-  return answered.value[currentQuestionText.value] === "wrong" && !isSubmitted.value;
+  return (
+    currentAnswered.value[currentQuestionText.value] === "wrong" &&
+    !isSubmitted.value
+  );
 });
 
 const saveState = () => {
@@ -52,14 +118,26 @@ const saveState = () => {
     return;
   }
   const state = {
-    answered: answered.value,
-    currentQuestionText: currentQuestionText.value,
-    selectedIndex: selectedIndex.value,
-    isSubmitted: isSubmitted.value,
-    isCorrect: isCorrect.value,
+    answeredByCategory: answeredByCategory.value,
+    selectedCategory: selectedCategory.value,
+    currentQuestionByCategory: {
+      ...(stateCache.value?.currentQuestionByCategory ?? {}),
+      [selectedCategory.value]: currentQuestionText.value,
+    },
+    selectionByCategory: {
+      ...(stateCache.value?.selectionByCategory ?? {}),
+      [selectedCategory.value]: {
+        selectedIndex: selectedIndex.value,
+        isSubmitted: isSubmitted.value,
+        isCorrect: isCorrect.value,
+      },
+    },
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  stateCache.value = state;
 };
+
+const stateCache = ref(null);
 
 const restoreState = () => {
   if (typeof localStorage === "undefined") {
@@ -76,9 +154,17 @@ const restoreState = () => {
   }
 };
 
+const getStatusForQuestion = (questionText) => {
+  const category = questionCategoryMap.value[questionText];
+  if (!category) {
+    return currentAnswered.value[questionText];
+  }
+  return answeredByCategory.value[category]?.[questionText];
+};
+
 const getQuestionPool = () =>
-  questions.value.filter(
-    (question) => answered.value[question.question] !== "correct",
+  currentCategoryQuestions.value.filter(
+    (question) => getStatusForQuestion(question.question) !== "correct",
   );
 
 const pickRandomQuestion = () => {
@@ -103,32 +189,56 @@ const loadQuestions = async () => {
     if (!response.ok) {
       throw new Error("Nie udało się wczytać pliku pytania.json.");
     }
-    questions.value = await response.json();
+    categories.value = await response.json();
+    const mapping = {};
+    for (const group of categories.value) {
+      for (const question of group.questions) {
+        mapping[question.question] = group.category;
+      }
+    }
+    questionCategoryMap.value = mapping;
 
     const stored = restoreState();
-    if (stored?.answered) {
-      answered.value = stored.answered;
+    stateCache.value = stored;
+    if (stored?.answeredByCategory) {
+      answeredByCategory.value = stored.answeredByCategory;
     }
 
-    if (stored?.currentQuestionText) {
-      const matched = questions.value.find(
-        (question) => question.question === stored.currentQuestionText,
-      );
-      if (matched) {
-        currentQuestion.value = matched;
-        selectedIndex.value = stored.selectedIndex ?? null;
-        isSubmitted.value = Boolean(stored.isSubmitted);
-        isCorrect.value = Boolean(stored.isCorrect);
-      } else {
-        pickRandomQuestion();
-      }
-    } else {
-      pickRandomQuestion();
-    }
+    const initialCategory =
+      stored?.selectedCategory ?? "Wszystko";
+    selectedCategory.value = initialCategory;
+
+    restoreCategoryState();
   } catch (error) {
     errorMessage.value = error.message;
   } finally {
     loading.value = false;
+  }
+};
+
+const restoreCategoryState = () => {
+  const stored = stateCache.value;
+  if (!selectedCategory.value) {
+    currentQuestion.value = null;
+    return;
+  }
+
+  const questionText =
+    stored?.currentQuestionByCategory?.[selectedCategory.value];
+  const selection = stored?.selectionByCategory?.[selectedCategory.value];
+  const matched = questionText
+    ? currentCategoryQuestions.value.find(
+        (question) => question.question === questionText,
+      )
+    : null;
+
+  if (matched) {
+    currentQuestion.value = matched;
+    selectedIndex.value = selection?.selectedIndex ?? null;
+    isSubmitted.value = Boolean(selection?.isSubmitted);
+    isCorrect.value = Boolean(selection?.isCorrect);
+  } else {
+    pickRandomQuestion();
   }
 };
 
@@ -139,7 +249,13 @@ const submitAnswer = () => {
   isSubmitted.value = true;
   isCorrect.value =
     selectedIndex.value === currentQuestion.value.correctAnswerIndex;
-  answered.value[currentQuestion.value.question] = isCorrect.value
+  const category =
+    questionCategoryMap.value[currentQuestion.value.question] ??
+    selectedCategory.value;
+  if (!answeredByCategory.value[category]) {
+    answeredByCategory.value[category] = {};
+  }
+  answeredByCategory.value[category][currentQuestion.value.question] = isCorrect.value
     ? "correct"
     : "wrong";
   saveState();
@@ -161,14 +277,45 @@ const answerClasses = (index) => {
     : `${base} border-rose-400 bg-rose-50`;
 };
 
+const resetQuiz = () => {
+  answeredByCategory.value = {};
+  selectedCategory.value = "Wszystko";
+  currentQuestion.value = null;
+  selectedIndex.value = null;
+  isSubmitted.value = false;
+  isCorrect.value = false;
+  stateCache.value = null;
+  if (typeof localStorage !== "undefined") {
+    localStorage.removeItem(STORAGE_KEY);
+  }
+  restoreCategoryState();
+};
+
+const changeCategory = (category) => {
+  if (category === selectedCategory.value) {
+    return;
+  }
+  selectedCategory.value = category;
+  selectedIndex.value = null;
+  isSubmitted.value = false;
+  isCorrect.value = false;
+  restoreCategoryState();
+  saveState();
+};
+
 watch([selectedIndex, isSubmitted, isCorrect, currentQuestionText], saveState);
 watch(
-  answered,
+  answeredByCategory,
   () => {
     saveState();
   },
   { deep: true },
 );
+
+watch(selectedCategory, () => {
+  restoreCategoryState();
+  saveState();
+});
 
 onMounted(loadQuestions);
 </script>
@@ -178,14 +325,27 @@ onMounted(loadQuestions);
     <main class="mx-auto flex min-h-screen max-w-3xl flex-col px-6 py-12">
       <header class="mb-10">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
-          Quiz informatyczny
+          Informatyka 6 - Quiz
         </p>
         <h1 class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">
-          Sprawdź wiedzę, jedno pytanie na raz
+          Sprawdź wiedzę
         </h1>
-        <p class="mt-3 max-w-2xl text-slate-600">
-          Wybierz odpowiedź, zatwierdź i sprawdź, czy jest poprawna.
-        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <button
+            v-for="category in uiCategories"
+            :key="category"
+            type="button"
+            class="rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-wide transition"
+            :class="
+              category === selectedCategory
+                ? 'border-slate-900 bg-slate-900 text-white'
+                : 'border-slate-200 bg-white text-slate-600 hover:border-slate-300'
+            "
+            @click="changeCategory(category)"
+          >
+            {{ category }}
+          </button>
+        </div>
       </header>
 
       <section
@@ -195,7 +355,31 @@ onMounted(loadQuestions);
         <div v-else-if="errorMessage" class="text-rose-600">
           {{ errorMessage }}
         </div>
-        <div v-else-if="currentQuestion" class="space-y-6">
+        <div v-else-if="allCompleted" class="space-y-6 text-center py-12">
+          <div class="mx-auto flex h-28 w-28 items-center justify-center rounded-full bg-amber-100 text-amber-500">
+            <svg
+              class="h-14 w-14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M7 2a1 1 0 0 0-1 1v2H4a1 1 0 0 0-1 1v3a5 5 0 0 0 5 5h.09A5.002 5.002 0 0 0 11 15.9V18H8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-3v-2.1A5.002 5.002 0 0 0 15.91 14H16a5 5 0 0 0 5-5V6a1 1 0 0 0-1-1h-2V3a1 1 0 0 0-1-1H7Zm-2 7V7h1v2a5.02 5.02 0 0 0 .27 1.6A3 3 0 0 1 5 9Zm14 0a3 3 0 0 1-1.27 2.6A5.02 5.02 0 0 0 18 9V7h1v2Zm-9 4a3 3 0 0 1-3-3V4h10v6a3 3 0 0 1-3 3h-4Z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-2xl font-semibold text-emerald-600 sm:text-3xl">
+            Ukończyłeś quiz!
+          </h2>
+          <button
+            type="button"
+            class="mx-auto rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:text-slate-900"
+            @click="resetQuiz"
+          >
+            Rozwiąż ponownie
+          </button>
+        </div>
+        <div v-else-if="currentQuestion && !categoryCompleted" class="space-y-6">
           <div class="space-y-4">
             <div class="grid gap-3 text-sm text-slate-600 sm:grid-cols-3">
               <div class="rounded-2xl border border-emerald-100 bg-emerald-50 px-4 py-3">
@@ -270,11 +454,11 @@ onMounted(loadQuestions);
 
           <div
             v-if="isSubmitted"
-            class="rounded-2xl border px-4 py-3 text-sm font-semibold"
+            class="rounded-2xl text-sm font-semibold text-center px-2 py-1"
             :class="
               isCorrect
-                ? 'border-emerald-200 bg-emerald-50 text-emerald-700'
-                : 'border-rose-200 bg-rose-50 text-rose-700'
+                ? 'text-emerald-700'
+                : 'text-rose-700'
             "
           >
             {{
@@ -291,20 +475,28 @@ onMounted(loadQuestions);
               :disabled="!canSubmit"
               @click="submitAnswer"
             >
-              Zatwierdź
+              Sprawdź odpowiedź
             </button>
             <button
               type="button"
-              class="flex-1 rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:text-slate-900 disabled:cursor-not-allowed disabled:border-slate-200 disabled:text-slate-300"
+              class="flex-1 rounded-full border px-6 py-3 text-sm font-semibold transition disabled:cursor-not-allowed disabled:border-slate-200 disabled:text-slate-300"
+              :class="
+                isCorrect
+                  ? 'bg-emerald-500 border-emerald-500 text-white transition hover:bg-emerald-400 hover:text-white hover:border-emerald-500'
+                  : 'border-slate-200 text-slate-700 transition hover:border-slate-300 hover:text-slate-900'
+              "
               :disabled="!canNext"
               @click="nextQuestion"
             >
-              Następne pytanie
+              {{ isCorrect ? 'Następne pytanie' : 'Inne pytanie' }}
             </button>
           </div>
         </div>
-        <div v-else class="text-slate-500">
-          Wszystkie pytania zostały już poprawnie rozwiązane.
+        <div v-else class="space-y-2 text-slate-600 py-12">
+          <p class="text-base font-semibold text-slate-900 text-center text-emerald-600">
+            Odpowiedziałeś poprawnie na wszystkie pytania w kategorii <strong class="uppercase">{{ selectedCategory }}</strong>.
+          </p>
+          <p class="text-center text-emerald-600">Wybierze inną kategorię.</p>
         </div>
       </section>
     </main>

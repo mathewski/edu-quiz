@@ -72,3 +72,43 @@ błędnie. Spróbuj jeszcze raz!"
 
 # poprawki
 niech przycisk "następne pytanie" będzie jednak zawsze aktywny
+
+# kategorie
+z puli pytań wyciągnij kilka kategorii, których te pytania dotyczą, np. "Gimp", "Excel", "Bezpieczeństwo w
+sieci" itp. i zbierz pytania w grupy kategorii. zmodyfikuj plik pytania.json tak, aby jago struktura wyglądała
+następująco:
+
+[
+  {
+    category: "Excel",
+    questions: [
+      {
+        question: "treść pytania",
+        answers: [
+          "odpowiedź 1",
+          "odpowiedź 2",
+          "odpowiedź 3"
+        ],
+        correctAnswerIndex: 0
+      }
+    ]
+  }
+]
+
+zmień aplikację tak, aby:
+- pod tytułem znajdowała się lista kategorii do wyboru (może jedna linijka przycisków?)
+- zaznaczenie kategorii podświetla ją i zapisuje stan w localstorage, a pytania są losowane tylko z wybranej kategorii, stan quizu pojazuje dane z wybranej kategorii
+
+# wszystkie
+w formularzu dodaj kategowię "Wszystko" jako pierwszą. Po jej wybraniu pytania i statystyki odnoszą się do
+pytań zebranych ze wszystkich kategorii.
+
+# trophy
+Jeżeli na wszystkie pytania w danej kategorii odpowiedziano poprawnie, ukryj pytanie w formularzu i pokaż
+komunikat "Odpowiedziałeś poprawnie na wszystkie pytania w [nazwa wybranej kategorii]. Wybierze inną
+kategorię.". Ukryj przyciski "sprawdź" i "następne".
+
+Jeżeli na wszystkie pytania we wszystkich kategoriach odpowiedziano poprawnie, zamiast pytań i przycisków, pokaż
+dużą  ikonę trophy w odpowiednim triumfującym stylu i komunikat "Gratulacje! Rozwiązałeś poprawnie cały quiz.".
+pod spodem pokaż zielony przycisk "Rozwiąż ponownie", który zresetuje odpowiedzi, wybierze kategorię "Wszystko"
+i zacznie ponownie.
