@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { inject, computed, type ComputedRef, type Ref } from 'vue'
+import { inject, computed, watch, type ComputedRef, type Ref } from 'vue'
 import type { Question } from '@/types'
+import { useAutoAdvance } from '@/composables/useAutoAdvance'
 
 interface QuizStateInjection {
   currentQuestion: Ref<Question | null>
@@ -28,10 +29,44 @@ const {
   canNext
 } = quizState
 
-defineEmits<{
+const emit = defineEmits<{
   submitAnswer: []
   nextQuestion: []
 }>()
+
+// Auto-advance countdown
+const { progress, isActive, start, stop, pause, resume } = useAutoAdvance(() => {
+  emit('nextQuestion')
+})
+
+// Watch for answer submission to start countdown (both correct and wrong)
+watch([isSubmitted, isCorrect], ([submitted]) => {
+  if (submitted) {
+    start()
+  } else {
+    stop()
+  }
+})
+
+// Stop countdown when question changes
+watch(currentQuestion, () => {
+  stop()
+})
+
+// Handle hover events
+const handleMouseEnter = () => {
+  pause()
+}
+
+const handleMouseLeave = () => {
+  resume()
+}
+
+// Handle next button click
+const handleNextClick = () => {
+  stop() // Stop the countdown
+  emit('nextQuestion')
+}
 
 const answerClasses = computed(() => (index: number) => {
   const base = 'flex items-center gap-3 rounded-xl border px-4 py-3 transition'
@@ -100,16 +135,28 @@ const answerClasses = computed(() => (index: number) => {
       </button>
       <button
         type="button"
-        class="flex-1 rounded-full border px-6 py-3 text-sm font-semibold transition disabled:cursor-not-allowed disabled:border-slate-200 disabled:text-slate-300"
+        class="relative flex-1 overflow-hidden rounded-full border px-6 py-3 text-sm font-semibold transition disabled:cursor-not-allowed disabled:border-slate-200 disabled:text-slate-300"
         :class="
           isCorrect
             ? 'bg-emerald-500 border-emerald-500 text-white transition hover:bg-emerald-400 hover:text-white hover:border-emerald-500'
             : 'border-slate-200 text-slate-700 transition hover:border-slate-300 hover:text-slate-900'
         "
         :disabled="!canNext"
-        @click="$emit('nextQuestion')"
+        @mouseenter="handleMouseEnter"
+        @mouseleave="handleMouseLeave"
+        @click="handleNextClick"
       >
-        {{ isCorrect ? 'Następne pytanie' : 'Inne pytanie' }}
+        <!-- Countdown progress overlay -->
+        <div
+          v-if="isActive"
+          class="absolute inset-0 transition-all duration-100 ease-linear"
+          :class="isCorrect ? 'bg-emerald-300/30' : 'bg-slate-300/40'"
+          :style="{ width: progress + '%' }"
+        />
+        <!-- Button text -->
+        <span class="relative z-10">
+          {{ isCorrect ? 'Następne pytanie' : 'Inne pytanie' }}
+        </span>
       </button>
     </div>
   </div>
