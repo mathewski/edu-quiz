@@ -1,5 +1,5 @@
-import { ref, computed, watch, type Ref, type ComputedRef } from 'vue'
-import type { Question, QuizState, StorageState, ProgressSegments } from '@/types'
+import { ref, computed, watch, type Ref } from 'vue'
+import type { Question, StorageState, ProgressSegments } from '@/types'
 import { useLocalStorage } from './useLocalStorage'
 import { useQuestionPicker } from './useQuestionPicker'
 
@@ -55,7 +55,7 @@ export function useQuizState(quizData: UseQuizDataReturn) {
   const currentAnswered = computed(() => {
     if (selectedCategory.value === 'Wszystko') {
       const merged: Record<string, 'correct' | 'wrong'> = {}
-      for (const [category, answers] of Object.entries(answeredByCategory.value)) {
+      for (const [, answers] of Object.entries(answeredByCategory.value)) {
         for (const [questionText, status] of Object.entries(answers)) {
           merged[questionText] = status
         }
@@ -87,7 +87,7 @@ export function useQuizState(quizData: UseQuizDataReturn) {
       return false
     }
     const completed = allQuestions.value.filter(
-      (question) => 
+      (question: Question) => 
         getStatusForQuestion(question.question, quizData.questionCategoryMap.value, answeredByCategory.value) === 'correct'
     ).length
     return completed === total
@@ -98,7 +98,7 @@ export function useQuizState(quizData: UseQuizDataReturn) {
       return false
     }
     const completed = currentCategoryQuestions.value.filter(
-      (question) =>
+      (question: Question) =>
         getStatusForQuestion(question.question, quizData.questionCategoryMap.value, answeredByCategory.value) === 'correct'
     ).length
     return completed === currentCategoryQuestions.value.length
@@ -139,13 +139,21 @@ export function useQuizState(quizData: UseQuizDataReturn) {
     }
 
     // Load existing state
-    const stored = restoreState() ?? { quizzes: {} }
+    const stored: StorageState = restoreState() ?? { 
+      currentQuizFile: quizData.selectedQuizFile.value, 
+      quizzes: {} 
+    }
 
     // Get current quiz's cached state
-    const currentQuizCache = stored.quizzes[quizData.selectedQuizFile.value] ?? {}
+    const currentQuizCache = stored.quizzes[quizData.selectedQuizFile.value] ?? {
+      answeredByCategory: {},
+      selectedCategory: 'Wszystko',
+      currentQuestionByCategory: {},
+      selectionByCategory: {}
+    }
 
     // Update current quiz's state
-    const quizState: QuizState = {
+    const quizStateData = {
       answeredByCategory: answeredByCategory.value,
       selectedCategory: selectedCategory.value,
       currentQuestionByCategory: {
@@ -164,7 +172,7 @@ export function useQuizState(quizData: UseQuizDataReturn) {
 
     // Update full state
     stored.currentQuizFile = quizData.selectedQuizFile.value
-    stored.quizzes[quizData.selectedQuizFile.value] = quizState
+    stored.quizzes[quizData.selectedQuizFile.value] = quizStateData
 
     saveState(stored)
     stateCache.value = stored
@@ -185,7 +193,7 @@ export function useQuizState(quizData: UseQuizDataReturn) {
     const selection = quizState?.selectionByCategory?.[selectedCategory.value]
     const matched = questionText
       ? currentCategoryQuestions.value.find(
-          (question) => question.question === questionText
+          (question: Question) => question.question === questionText
         )
       : null
 

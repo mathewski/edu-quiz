@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { inject, type ComputedRef, type Ref } from 'vue'
+import { inject, type ComputedRef } from 'vue'
 import type { ProgressSegments } from '@/types'
 
 interface QuizStateInjection {

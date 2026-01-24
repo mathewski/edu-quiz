@@ -1,4 +1,4 @@
-import type { StorageState, QuizState } from '@/types'
+import type { StorageState } from '@/types'
 
 const STORAGE_KEY = 'quiz_state_v2'
 const OLD_STORAGE_KEY = 'quiz_state_v1'

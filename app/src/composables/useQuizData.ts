@@ -1,4 +1,4 @@
-import { ref, type Ref } from 'vue'
+import { ref } from 'vue'
 import type { QuizMetadata, Category } from '@/types'
 import { useLocalStorage } from './useLocalStorage'
 
