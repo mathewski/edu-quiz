@@ -3,382 +3,31 @@
     "category": "Chmura i pliki",
     "questions": [
       {
-        "question": "Co oznacza pojęcie \"chmura\" w kontekście informatycznym?",
+        "question": "Czym jest \"chmura\" w kontekście informatycznym?",
         "answers": [
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
-          "Usługa przechowywania i udostępniania plików przez internet na zdalnych serwerach",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co jest przykładem formatowania czcionki w tabeli?",
-        "answers": [
-          "Utworzenie prezentacji zamiast arkusza.",
-          "Zapisanie pliku jako obraz zamiast tabeli.",
-          "Zmiana koloru tekstu na czerwony."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co daje formatowanie warunkowe?",
-        "answers": [
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "Wyróżnia komórki spełniające warunek."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to jest fotomontaż?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Połączenie kilku zdjęć w jedno."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co obejmuje formatowanie czcionki i wyglądu tabeli w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "Zmiana kroju, rozmiaru, koloru czcionki oraz obramowania komórek"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza tworzenie fotomontaży w GIMP z użyciem warstw?",
-        "answers": [
-          "Łączenie elementów z różnych obrazów na osobnych warstwach.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "To program do grafiki wektorowej, a nie rastrowej."
+          "Zbiorem serwerów połączonych z internetem, na których można przechowywać dane i uruchamiać programy.",
+          "Oprogramowaniem antywirusowym chroniącym przed zagrożeniami",
+          "Bezprzewodowym połączeniem internetowym WiFi"
         ],
         "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jakie są zalety używania warstw podczas pracy w programie GIMP?",
-        "answers": [
-          "Możliwość niezależnej edycji poszczególnych elementów obrazu",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "To narzędzie służące głównie do pisania tekstów."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jaki jest główny element interfejsu programu GIMP?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "Okno obrazu, przybornik narzędzi, panele dokowania i menu",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza zmiana ustawień narzędzi w GIMP?",
-        "answers": [
-          "To program do grafiki wektorowej, a nie rastrowej.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Dostosowanie parametrów, np. rozmiaru pędzla."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak udostępnić projekty w serwisie społeczności Scratcha?",
-        "answers": [
-          "Pobranie pliku na komputer bez nadania dostępu innym.",
-          "Zapisanie kopii lokalnej zamiast nadania uprawnień.",
-          "Klikając przycisk \"Udostępnij\" po zapisaniu projektu online"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co jest niezbędne, aby wysłać i odebrać wiadomość e-mail?",
-        "answers": [
-          "To system przesyłania plików bez treści wiadomości.",
-          "To sposób komunikacji wymagający komunikatora, nie poczty.",
-          "Posiadanie własnego adresu e-mail oraz dostępu do internetu."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza udostępnienie dokumentu w chmurze internetowej?",
-        "answers": [
-          "Zapisanie kopii lokalnej zamiast nadania uprawnień.",
-          "Nadanie innym dostępu do pliku.",
-          "Pobranie pliku na komputer bez nadania dostępu innym."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak można wykorzystać pomoc w programach?",
-        "answers": [
-          "Zmiana koloru czcionki w dokumencie.",
-          "Zapisanie pliku w nowym folderze.",
-          "Otworzyć sekcję Pomoc i przeczytać wskazówki."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to jest formatowanie warunkowe w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "Automatyczna zmiana formatowania komórek na podstawie ich wartości lub reguł",
-          "To arkusz, w którym nie ma wierszy i kolumn."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza udostępnienie skryptów w serwisie Scratcha?",
-        "answers": [
-          "Zapisanie kopii lokalnej zamiast nadania uprawnień.",
-          "Pobranie pliku na komputer bez nadania dostępu innym.",
-          "Opublikowanie projektu, aby inni mogli go zobaczyć."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak wygląda współpraca przy edycji dokumentu w chmurze?",
-        "answers": [
-          "Ustalenia zespołu są ignorowane.",
-          "Zespół pracuje na osobnych kopiach bez uzgodnień.",
-          "Kilka osób wprowadza zmiany w tym samym dokumencie."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to jest formatowanie warunkowe w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "Automatyczna zmiana wyglądu komórek na podstawie ich wartości lub spełnienia warunku"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jakie operacje można wykonywać na układzie kolumn i wierszy w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "Zmiana szerokości kolumn, wysokości wierszy, ukrywanie i wyświetlanie"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Która z poniższych zasad dotyczy ergonomii pracy przy komputerze?",
-        "answers": [
-          "Zignorować ostrzeżenia o niebezpiecznych stronach.",
-          "Udostępnić hasło znajomym, aby szybciej się zalogowali.",
-          "Ustawienie monitora tak, aby jego górna krawędź znajdowała się na wysokości wzroku lub nieco poniżej."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza wspólna praca nad dokumentem w chmurze?",
-        "answers": [
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
-          "Kilka osób edytuje ten sam dokument jednocześnie.",
-          "To sposób przesyłania plików wyłącznie przez pendrive."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak komunikować się ze znajomymi za pomocą programu MS Teams?",
-        "answers": [
-          "Wstawienie wykresu do tabeli.",
-          "Przez czat, rozmowy głosowe i wideo w aplikacji",
-          "Zmiana koloru czcionki w dokumencie."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak działa funkcja automatycznego wypełniania komórek serią danych?",
-        "answers": [
-          "Zapisanie pliku w wybranym folderze.",
-          "Rozpoznaje wzorzec i kontynuuje serię (np. 1, 2, 3... lub pon., wt., śr...)",
-          "Zamknąć program i uruchomić go ponownie."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza stosowanie netykiety w e-mailu?",
-        "answers": [
-          "To sposób komunikacji wymagający komunikatora, nie poczty.",
-          "To system przesyłania plików bez treści wiadomości.",
-          "Kulturalne zwroty i brak obraźliwych treści."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Która z poniższych czynności wymaga użycia pomocy dostępnej w programach?",
-        "answers": [
-          "Znalezienie informacji o funkcjach programu lub rozwiązaniu problemu",
-          "Zapisanie pliku w nowym folderze.",
-          "Zmiana koloru czcionki w dokumencie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co obejmuje interfejs konta pocztowego?",
-        "answers": [
-          "To usługa przechowywania plików tylko lokalnie, bez internetu.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników.",
-          "Skrzynkę odbiorczą, wysłane i foldery."
-        ],
-        "correctAnswerIndex": 2
       },
       {
         "question": "Gdzie można umieszczać własne pliki w usłudze OneDrive?",
         "answers": [
           "W folderach w chmurze OneDrive dostępnych przez internet",
-          "To sposób przesyłania plików wyłącznie przez pendrive.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników."
+          "Wyłącznie w folderze systemowym Windows na dysku lokalnym",
+          "W specjalnej partycji dysku twardego przeznaczonej dla OneDrive"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Jakie narzędzia MS Teams można wykorzystać do pracy na lekcjach?",
+        "question": "Co oznacza \"praca w czasie rzeczywistym\" nad dokumentem w chmurze?",
         "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Kalendarz, Notes zajęć, Zadania, kanały zespołów"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to jest netykieta?",
-        "answers": [
-          "Zasady kulturalnego zachowania w internecie.",
-          "To zalecenie pracy bez przerw i bez ergonomii.",
-          "To zasady udostępniania haseł w zaufanej grupie."
+          "Że wiele osób może jednocześnie edytować ten sam dokument, a zmiany są widoczne dla wszystkich niemal natychmiast.",
+          "Dokument jest automatycznie zapisywany co minutę",
+          "System przywraca poprzednie wersje dokumentu w razie błędu"
         ],
         "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza dodanie obrazu do dokumentu w OneDrive?",
-        "answers": [
-          "To sieć lokalna do udostępniania plików bez kont użytkowników.",
-          "Wstawienie grafiki do pliku online.",
-          "To sposób przesyłania plików wyłącznie przez pendrive."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza współpraca z innymi osobami podczas edycji dokumentów w chmurze?",
-        "answers": [
-          "Równoczesne edytowanie, komentowanie i wprowadzanie zmian w jednym dokumencie",
-          "Ustalenia zespołu są ignorowane.",
-          "Zespół pracuje na osobnych kopiach bez uzgodnień."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jakie działania można wykonywać z folderami w chmurze (np. OneDrive)?",
-        "answers": [
-          "Skopiować plik na pendrive i nie wysyłać go online.",
-          "Zapisać plik tylko na pulpicie bez synchronizacji.",
-          "Zakładać foldery do porządkowania gromadzonych plików"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co jest przykładem tworzenia i formatowania dokumentu w chmurze?",
-        "answers": [
-          "Zmienianie stylu nagłówka w dokumencie online.",
-          "Przeniesienie pliku na pendrive zamiast do chmury.",
-          "Zapisanie pliku wyłącznie na pulpicie bez udostępniania."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza współpraca nad dokumentem z zespołem w tym samym czasie?",
-        "answers": [
-          "Równoczesna edycja dokumentu przez wiele osób z widocznymi zmianami na żywo",
-          "Tylko jedna osoba edytuje, reszta ma podgląd.",
-          "Zmiany są widoczne dopiero po ręcznym odświeżeniu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza umieszczenie plików w OneDrive?",
-        "answers": [
-          "To sieć lokalna do udostępniania plików bez kont użytkowników.",
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
-          "Wgranie plików do chmury."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jakie narzędzia oferuje MS Teams/Google Workspace do pracy w grupie?",
-        "answers": [
-          "Czat, wideokonferencje, udostępnianie plików, wspólna edycja dokumentów",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu.",
-          "To sposób przesyłania plików wyłącznie przez pendrive."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza współpraca nad dokumentem w tym samym czasie?",
-        "answers": [
-          "Kilka osób edytuje ten sam plik jednocześnie.",
-          "Każdy pracuje na swojej kopii i łączy zmiany później.",
-          "Zmiany są widoczne dopiero po ręcznym odświeżeniu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jaką funkcję pełni opcja \"udostępniania\" dokumentów w chmurze?",
-        "answers": [
-          "Umożliwienie innym osobom dostępu do wybranych plików lub folderów",
-          "Pobranie pliku na komputer bez nadania dostępu innym.",
-          "Ustawienie pliku jako prywatnego bez wysyłania linku."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co znaczy tworzenie dokumentów bezpośrednio w OneDrive?",
-        "answers": [
-          "To sieć lokalna do udostępniania plików bez kont użytkowników.",
-          "Tworzenie pliku online w chmurze.",
-          "To program do tworzenia kopii zapasowych bez współdzielenia."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza udział w pracy grupowej?",
-        "answers": [
-          "To narzędzie tylko do kalendarza, bez edycji dokumentów.",
-          "To praca na osobnych kopiach dokumentu bez synchronizacji.",
-          "Wykonywanie przydzielonych zadań w zespole."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza automatyczne wypełnianie serią danych?",
-        "answers": [
-          "Przeciągnięcie uchwytu wypełniania, by powstał ciąg.",
-          "To tryb pracy, który zawsze usuwa pliki po zapisaniu.",
-          "To ustawienie sprzętowe niezwiązane z programami."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służy MS Teams lub Google Workspace w pracy grupowej?",
-        "answers": [
-          "Do planowania spotkań i terminów.",
-          "Do udostępniania plików zespołowi.",
-          "Do współpracy i komunikacji w zespole."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza jednoczesna edycja dokumentu w zespole?",
-        "answers": [
-          "To sposób przesyłania plików wyłącznie przez pendrive.",
-          "Wszyscy pracują w tym samym pliku w tym samym czasie.",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu."
-        ],
-        "correctAnswerIndex": 1
       },
       {
         "question": "Jak udostępnić dokumenty w OneDrive innym osobom?",
@@ -390,139 +39,537 @@
         "correctAnswerIndex": 2
       },
       {
-        "question": "Co oznacza udostępnienie dokumentu w OneDrive koleżankom i kolegom?",
+        "question": "Po co zakłada się foldery w chmurze?",
         "answers": [
-          "Nadanie im dostępu do pliku i możliwość współpracy.",
-          "Pobranie pliku na komputer bez nadania dostępu innym.",
-          "Ustawienie pliku jako prywatnego bez wysyłania linku."
+          "Aby zwiększyć limit przestrzeni dyskowej w chmurze",
+          "Żeby łatwiej porządkować i odnajdywać pliki.",
+          "Aby chronić pliki przed wirusami i złośliwym oprogramowaniem"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co znaczy tworzenie dokumentów bezpośrednio w OneDrive?",
+        "answers": [
+          "Instalacja pakietu Office na lokalnym komputerze z integracją OneDrive",
+          "Tworzenie pliku online w chmurze.",
+          "Konwersja istniejących dokumentów na format kompatybilny z OneDrive"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak dodać obrazy do dokumentów w OneDrive?",
+        "answers": [
+          "Skonwertować obraz na format tekstowy przed wstawieniem",
+          "Umieścić link do obrazu przechowywanego na innym serwerze",
+          "Przez opcję \"Wstaw\" > \"Obraz\" i wybór pliku lub wklejenie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co znaczy zapis w różnych formatach?",
+        "answers": [
+          "Kompresja pliku w celu zmniejszenia jego rozmiaru",
+          "Szyfrowanie dokumentu dla zwiększenia bezpieczeństwa",
+          "Zapisanie tego samego projektu np. jako DOCX i PDF."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Excel",
+    "questions": [
+      {
+        "question": "Do czego służy arkusz kalkulacyjny?",
+        "answers": [
+          "Do formatowania komórek i wyglądu tabeli.",
+          "Do tworzenia wykresów na podstawie danych.",
+          "Do wykonywania obliczeń, analizy danych i tworzenia wykresów"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jaki jest podstawowy element budowy arkusza kalkulacyjnego?",
+        "answers": [
+          "Komórki zorganizowane w wiersze i kolumny",
+          "Wykresy i diagramy przedstawiające dane",
+          "Formuły i funkcje do obliczeń"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Po co tworzy się foldery w OneDrive?",
+        "question": "Jak nazywa się pojedyncze pole w arkuszu kalkulacyjnym, powstające na przecięciu kolumny i wiersza?",
         "answers": [
-          "Do tworzenia kopii zapasowych bez dostępu przez internet.",
-          "Do przechowywania plików tylko w pamięci komputera.",
-          "Do porządkowania plików w chmurze."
+          "Wiersz",
+          "Wykres słupkowy",
+          "Komórka"
         ],
         "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co można robić z dokumentami w MS Teams/Google Workspace?",
-        "answers": [
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu.",
-          "Edytować wspólnie z innymi osobami z zespołu w tym samym czasie"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co można znaleźć w interfejsie programu GIMP?",
-        "answers": [
-          "To program do grafiki wektorowej, a nie rastrowej.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Przybornik narzędzi, obszar obrazu i panele."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Który projekt jest przykładem prostej gry zręcznościowej w Scratchu?",
-        "answers": [
-          "Napisanie opowiadania w edytorze tekstu.",
-          "Gra, w której łapiesz spadające obiekty.",
-          "Zapisanie pliku PDF zamiast uruchomienia skryptu."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co umożliwia praca nad dokumentem w chmurze z innymi osobami w tym samym czasie?",
-        "answers": [
-          "Zmiany są widoczne dopiero po ręcznym odświeżeniu.",
-          "Równoczesną edycję przez wiele osób z natychmiastową synchronizacją zmian",
-          "Każdy pracuje na swojej kopii i łączy zmiany później."
-        ],
-        "correctAnswerIndex": 1
       },
       {
         "question": "Jakiego typu dane można wprowadzać do arkusza kalkulacyjnego?",
         "answers": [
           "Liczby, teksty, daty i formuły",
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "To dokument tekstowy z tabelą, ale bez liczenia."
+          "Wyłącznie wartości liczbowe bez możliwości dodawania tekstu",
+          "Tylko proste liczby całkowite bez formatowania"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Co jest przykładem formatowania tekstu w arkuszu?",
+        "question": "Jak tworzy się formuły w arkuszu kalkulacyjnym?",
         "answers": [
-          "Ustawienie pogrubienia w komórce.",
-          "Utworzenie prezentacji zamiast arkusza.",
-          "Zapisanie pliku jako obraz zamiast tabeli."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza automatyczne wypełnianie serią danych?",
-        "answers": [
-          "To funkcja służąca wyłącznie do instalacji sterowników.",
-          "Przeciągnięcie uchwytu wypełniania, by powstała sekwencja.",
-          "To tryb pracy, który zawsze usuwa pliki po zapisaniu."
+          "Przez wybór gotowych szablonów formuł z menu",
+          "Zaczynając od znaku \"=\" i używając adresów komórek (np. =A1+B1)",
+          "Przez kliknięcie prawym przyciskiem na komórce"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Co oznacza udostępnienie dokumentu w chmurze?",
+        "question": "Jak działa funkcja SUMA w arkuszu kalkulacyjnym?",
         "answers": [
-          "Nadanie innym osobom dostępu do pliku.",
-          "Zapisanie kopii lokalnej zamiast nadania uprawnień.",
-          "Ustawienie pliku jako prywatnego bez wysyłania linku."
+          "Mnoży wszystkie wartości w zaznaczonym zakresie komórek",
+          "Dodaje wartości z wybranych komórek lub zakresu (np. =SUMA(A1:A10))",
+          "Oblicza średnią arytmetyczną z wybranych wartości"
         ],
-        "correctAnswerIndex": 0
+        "correctAnswerIndex": 1
       },
       {
         "question": "Co oblicza funkcja ŚREDNIA w arkuszu kalkulacyjnym?",
         "answers": [
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "To narzędzie do przechowywania danych bez możliwości obliczeń.",
+          "Sumę wszystkich wartości w zaznaczonym zakresie komórek",
+          "Największą wartość spośród wybranych komórek w arkuszu",
           "Średnią arytmetyczną z wartości w wybranych komórkach"
         ],
         "correctAnswerIndex": 2
       },
       {
-        "question": "Co jest przykładem prostej gry zręcznościowej w Scratchu?",
+        "question": "Co to jest formatowanie warunkowe w arkuszu kalkulacyjnym?",
         "answers": [
-          "Zapisanie pliku PDF zamiast uruchomienia skryptu.",
-          "Zmiana ustawień systemu zamiast projektu.",
-          "Gra, w której postać zbiera punkty unikając przeszkód."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Po co tworzy się foldery w usłudze OneDrive?",
-        "answers": [
-          "Do tworzenia kopii zapasowych bez dostępu przez internet.",
-          "Aby uporządkować i organizować przechowywane pliki",
-          "Do przenoszenia plików wyłącznie na pendrive."
+          "Ręczne kolorowanie wybranych komórek według własnych preferencji",
+          "Automatyczna zmiana formatowania komórek na podstawie ich wartości lub reguł",
+          "Ukrywanie kolumn zawierających puste lub zerowe wartości"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Co oznacza \"praca w czasie rzeczywistym\" nad dokumentem w chmurze?",
+        "question": "Jak działa funkcja automatycznego wypełniania komórek serią danych?",
         "answers": [
-          "Że wiele osób może jednocześnie edytować ten sam dokument, a zmiany są widoczne dla wszystkich niemal natychmiast.",
-          "To sposób przesyłania plików wyłącznie przez pendrive.",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu."
+          "Losowe generowanie wartości na podstawie zakresu komórek źródłowych",
+          "Rozpoznaje wzorzec i kontynuuje serię (np. 1, 2, 3... lub pon., wt., śr...)",
+          "Kopiowanie pierwszej wartości do wszystkich zaznaczonych komórek"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co oznacza sortowanie danych w porządku \"rosnącym\"?",
+        "answers": [
+          "Losowe przestawianie wierszy w arkuszu",
+          "Uporządkowanie danych od najmniejszej do największej wartości (lub od A do Z).",
+          "Grupowanie danych według kategorii"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym jest sortowanie niestandardowe?",
+        "answers": [
+          "Sortowanie ręczne przez przeciąganie wierszy",
+          "Sortowanie według wielu kryteriów jednocześnie (np. najpierw według miasta, potem według nazwiska)",
+          "Sortowanie tylko rosnąco bez możliwości malejąco"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakie operacje formatowania tekstu są dostępne w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Czcionka, rozmiar, kolor, pogrubienie, kursywa, podkreślenie",
+          "Tylko zmiana rozmiaru czcionki bez innych opcji",
+          "Wyłącznie zmiana koloru tła komórki"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Co znaczy zapis w różnych formatach?",
+        "question": "Jak zmienić szerokość kolumny w arkuszu kalkulacyjnym?",
         "answers": [
-          "Zapisanie pliku w domyślnym folderze bez wskazania miejsca.",
-          "Usunięcie pliku po zakończeniu pracy.",
-          "Zapisanie tego samego projektu np. jako DOCX i PDF."
+          "Przez zmianę rozmiaru czcionki w komórkach",
+          "Przeciągnąć krawędź nagłówka kolumny lub użyć opcji formatowania",
+          "Przez dodanie nowej kolumny obok istniejącej"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co oznacza dodanie nowego arkusza do skoroszytu?",
+        "answers": [
+          "Utworzenie kolejnej karty w pliku.",
+          "Skopiowanie zawartości istniejącego arkusza do nowego pliku",
+          "Zmiana nazwy aktualnie otwartego arkusza"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak zmienić nazwy arkuszy w skoroszycie?",
+        "answers": [
+          "Klikając prawym przyciskiem na zakładkę arkusza i wybierając \"Zmień nazwę\"",
+          "Przez zmianę nazwy pliku skoroszytu",
+          "Przez zapisanie arkusza jako nowy plik"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Po co zmieniać kolory kart arkuszy w skoroszycie?",
+        "answers": [
+          "Aby zwiększyć szybkość obliczeń w arkuszu",
+          "Aby wizualnie organizować i rozróżniać różne arkusze (np. według kategorii)",
+          "Aby zmniejszyć rozmiar pliku skoroszytu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jaki typ wykresu najlepiej wybrać, aby pokazać procentowy udział poszczególnych części w całości (np. składniki pizzy)?",
+        "answers": [
+          "Wykres kołowy",
+          "Wykres liniowy pokazujący trendy w czasie",
+          "Wykres słupkowy do porównywania wartości"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jaki wykres wybrać do pokazania zmian temperatury w czasie?",
+        "answers": [
+          "Wykres kołowy pokazujący proporcje",
+          "Wykres liniowy",
+          "Wykres słupkowy do porównań"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak wstawić wykres do arkusza kalkulacyjnego?",
+        "answers": [
+          "Przez skopiowanie wykresu z innego programu",
+          "Zaznaczyć dane i użyć opcji \"Wstaw wykres\" lub podobnej",
+          "Przez ręczne narysowanie wykresu narzędziami"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakie elementy wykresu można formatować w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Wartości w komórkach źródłowych danych",
+          "Formuły używane do obliczeń",
+          "Tytuł, legendę, kolory, etykiety osi, style"
         ],
         "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak skopiować serie danych do różnych arkuszy?",
+        "answers": [
+          "Przez utworzenie nowego skoroszytu i przeniesienie danych",
+          "Zaznaczając dane, kopiując (Ctrl+C) i wklejając (Ctrl+V) na innym arkuszu",
+          "Przez zastosowanie funkcji SUMA na wielu arkuszach"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co można śledzić w budżecie tworzonym w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Plan lekcji i zajęć szkolnych",
+          "Przychody, wydatki, bilans, kategorie kosztów",
+          "Lista kontaktów i numery telefonów"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Scratch",
+    "questions": [
+      {
+        "question": "Skąd można tworzyć skrypty w Scratchu wg wymagania?",
+        "answers": [
+          "Z dowolnego edytora tekstowego",
+          "Z programu do edycji grafiki",
+          "Ze strony https://scratch.mit.edu."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak tworzyć skrypty w Scratchu?",
+        "answers": [
+          "Przez łączenie bloków graficznych w obszarze skryptów",
+          "Przez pisanie kodu w języku Python",
+          "Przez importowanie gotowych skryptów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest zmienna w programie Scratch?",
+        "answers": [
+          "Miejscem do przechowywania wartości (np. liczby punktów), która może się zmieniać w trakcie działania programu.",
+          "Duszkiem wykonującym określone akcje",
+          "Tłem sceny zmieniającym się w projekcie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak tworzy się zmienne w Scratchu?",
+        "answers": [
+          "Przez dodawanie nowych duszków do projektu",
+          "Przez zmianę ustawień sceny w projekcie",
+          "Przez opcję \"Utwórz zmienną\" w kategorii Zmienne i nadanie jej nazwy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak przypisać wartość zmiennej w Scratchu?",
+        "answers": [
+          "Używając bloku \"ustaw [zmienna] na [wartość]\"",
+          "Przez zmianę koloru duszka w projekcie",
+          "Przez dodanie nowego tła do sceny"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak działa blok decyzyjny \"jeżeli... to...\" w Scratchu?",
+        "answers": [
+          "Wykonuje polecenia tylko wtedy, gdy warunek jest spełniony",
+          "Powtarza polecenia określoną liczbę razy",
+          "Zatrzymuje wykonywanie wszystkich skryptów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co robi blok \"jeżeli... to... w przeciwnym razie...\" w Scratchu?",
+        "answers": [
+          "Wykonuje pierwsze polecenia gdy warunek jest spełniony, lub drugie gdy nie jest spełniony",
+          "Powtarza polecenia do momentu spełnienia warunku",
+          "Kończy działanie programu natychmiast"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do czego służy blok \"Powtórz\" w Scratchu?",
+        "answers": [
+          "Do wielokrotnego wykonania tej samej serii poleceń (pętla)",
+          "Do zmiany koloru duszka na scenie",
+          "Do sprawdzania warunku logicznego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do czego służą bloki z kategorii Wyrażenia w rozbudowanych skryptach Scratcha?",
+        "answers": [
+          "Do tworzenia złożonych warunków logicznych (i, lub, nie, porównania)",
+          "Do zmiany tła sceny automatycznie",
+          "Do odtwarzania dźwięków w określonym czasie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W programie Scratch, które bloki pozwalają jednemu duszkowi wysłać sygnał, na który może zareagować inny duszek?",
+        "answers": [
+          "Bloki z kategorii \"Zdarzenia\", takie jak \"nadaj komunikat\" i \"kiedy otrzymam komunikat\".",
+          "Bloki ruchu służące do przemieszczania duszków",
+          "Bloki wyglądu zmieniające kostiumy duszków"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak reagować na komunikaty w Scratchu?",
+        "answers": [
+          "Używając bloku \"kiedy otrzymam [komunikat]\" i dodając akcje poniżej",
+          "Przez zmianę koloru duszka automatycznie",
+          "Przez zatrzymanie wszystkich skryptów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jaki jest cel wykorzystywania serwisu internetowego Scratcha?",
+        "answers": [
+          "Tworzenie dokumentów tekstowych i prezentacji",
+          "Do dzielenia się swoimi projektami i wyszukiwania pomysłów na własne projekty",
+          "Edycja zdjęć i tworzenie grafiki"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak założyć konto w serwisie Scratcha?",
+        "answers": [
+          "Rejestrując się na stronie scratch.mit.edu podając nazwę użytkownika, hasło i email",
+          "Kupując licencję w sklepie internetowym",
+          "Instalując aplikację mobilną Scratch"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak udostępnić projekty w serwisie społeczności Scratcha?",
+        "answers": [
+          "Eksport projektu do pliku PDF i wysłanie go pocztą elektroniczną",
+          "Zapisanie projektu jako plik obrazu i umieszczenie go w galerii",
+          "Klikając przycisk \"Udostępnij\" po zapisaniu projektu online"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co oznacza \"remiksowanie\" projektu w serwisie Scratch?",
+        "answers": [
+          "Usuwanie projektu z serwera Scratch",
+          "Stworzenie własnej kopii czyjegoś projektu, aby móc go modyfikować i rozwijać.",
+          "Zgłaszanie projektu jako naruszający regulamin"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co jest przykładem prostej gry zręcznościowej w Scratchu?",
+        "answers": [
+          "Kalkulator matematyczny z interfejsem graficznym",
+          "Prezentacja slajdów z efektami przejścia",
+          "Gra, w której postać zbiera punkty unikając przeszkód."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "GIMP",
+    "questions": [
+      {
+        "question": "Jaki jest główny element interfejsu programu GIMP?",
+        "answers": [
+          "Pasek przewijania służący do nawigacji w obrębie dużych obrazów",
+          "Okno obrazu, przybornik narzędzi, panele dokowania i menu",
+          "Panel histogramu pokazujący rozkład kolorów w edytowanym obrazie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Które narzędzie z przybornika GIMP służy do rysowania?",
+        "answers": [
+          "Nożyce inteligentne do zaznaczania obiektów",
+          "Wypełnienie kubełkowe do kolorowania obszarów",
+          "Ołówek."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak zmieniać ustawienia narzędzi w programie GIMP?",
+        "answers": [
+          "Przez panel opcji narzędzi, gdzie można dostosować rozmiar, twardość, krycie itp.",
+          "Przez zmianę ustawień systemu operacyjnego",
+          "Przez reinstalację programu GIMP"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym są warstwy w programie GIMP?",
+        "answers": [
+          "Różne wersje tego samego obrazu zapisane w historii",
+          "Filtry kolorystyczne stosowane do całego projektu",
+          "Niezależne poziomy obrazu, które można edytować osobno"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jakie są zalety używania warstw podczas pracy w programie GIMP?",
+        "answers": [
+          "Możliwość niezależnej edycji poszczególnych elementów obrazu",
+          "Automatyczne tworzenie kopii zapasowych każdej wprowadzonej zmiany",
+          "Zmniejszenie rozmiaru pliku graficznego po zapisaniu projektu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co to jest stopień krycia warstwy w GIMP?",
+        "answers": [
+          "Rozmiar warstwy mierzony w pikselach",
+          "Położenie warstwy względem innych warstw",
+          "Przezroczystość warstwy (0% = całkowicie przezroczysta, 100% = nieprzezroczysta)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak kopiować fragmenty obrazu między warstwami w GIMP?",
+        "answers": [
+          "Zaznaczając fragment, kopiując (Ctrl+C) i wklejając (Ctrl+V) na wybranej warstwie",
+          "Przez zapisanie fragmentu jako osobny plik",
+          "Przez zastosowanie filtru duplikacji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co oznacza tworzenie fotomontaży w GIMP z użyciem warstw?",
+        "answers": [
+          "Łączenie elementów z różnych obrazów na osobnych warstwach.",
+          "Stosowanie filtrów kolorystycznych do całego obrazu jednocześnie",
+          "Automatyczne usuwanie tła ze zdjęć za pomocą jednego narzędzia"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak dobrać odpowiednie narzędzie zaznaczenia w GIMP?",
+        "answers": [
+          "Wszystkie narzędzia zaznaczenia działają tak samo",
+          "Zawsze używać tylko zaznaczenia prostokątnego",
+          "W zależności od kształtu i charakteru fragmentu do zaznaczenia (prostokąt, elipsa, lasso, różdżka)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co oznacza retuszowanie zdjęcia?",
+        "answers": [
+          "Kadrowanie obrazu do określonego formatu",
+          "Poprawianie niedoskonałości zdjęcia.",
+          "Zmiana rozmiaru obrazu bez utraty jakości"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakie ustawienia można zmieniać w obrazach w programie GIMP?",
+        "answers": [
+          "Tylko nazwę pliku i miejsce zapisu",
+          "Wyłącznie format pliku graficznego",
+          "Kontrast, jasność, nasycenie, balans kolorów"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Do czego służy narzędzie Rozmycie Gaussa w GIMP?",
+        "answers": [
+          "Do zmniejszenia czytelności i rozmycia fragmentu obrazu",
+          "Do zwiększenia ostrości krawędzi obiektów",
+          "Do automatycznego kadrowania obrazu"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "E-mail",
+    "questions": [
+      {
+        "question": "Co jest niezbędne, aby wysłać i odebrać wiadomość e-mail?",
+        "answers": [
+          "Specjalne oprogramowanie zainstalowane na dysku twardym komputera",
+          "Certyfikat bezpieczeństwa wydany przez urząd telekomunikacyjny",
+          "Posiadanie własnego adresu e-mail oraz dostępu do internetu."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak działa poczta elektroniczna (e-mail)?",
+        "answers": [
+          "Przesyła wiadomości tylko w obrębie jednej firmy",
+          "Wymaga fizycznej karty SIM do działania",
+          "Umożliwia wysyłanie i odbieranie wiadomości przez internet"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co znajduje się w interfejsie konta pocztowego?",
+        "answers": [
+          "Skrzynka odbiorcza, wysłane, spam, opcje tworzenia wiadomości",
+          "Tylko lista kontaktów bez dostępu do wiadomości",
+          "Panel ustawień zabezpieczeń serwera pocztowego"
+        ],
+        "correctAnswerIndex": 0
       },
       {
         "question": "W jakim folderze na koncie pocztowym znajdziesz wiadomości, które do Ciebie dotarły?",
@@ -534,130 +581,172 @@
         "correctAnswerIndex": 0
       },
       {
-        "question": "Co oznacza właściwe przechowywanie prac?",
+        "question": "Co należy zrobić, aby wysłać wiadomość e-mail?",
         "answers": [
-          "To usługa przechowywania plików tylko lokalnie, bez internetu.",
-          "Zapisanie plików w uporządkowanych folderach.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników."
+          "Wpisać adres odbiorcy, temat, treść i kliknąć \"Wyślij\"",
+          "Tylko wpisać adres odbiorcy bez tematu i treści",
+          "Wyłącznie dołączyć załącznik bez treści"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak wysłać wiadomość e-mail do wielu odbiorców jednocześnie?",
+        "answers": [
+          "Wpisując wiele adresów w polach \"Do\", \"DW\" (Do wiadomości) lub \"UDW\" (Ukryte do wiadomości)",
+          "Tylko przez utworzenie grupy kontaktów wcześniej",
+          "Wyłącznie przez przekierowanie wiadomości"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W jakim celu używa się pola \"UDW\" (lub \"BCC\") podczas wysyłania wiadomości e-mail?",
+        "answers": [
+          "Aby oznaczyć wiadomość jako pilną",
+          "Aby wysłać kopię wiadomości do dodatkowych odbiorców tak, aby inni odbiorcy nie widzieli ich adresów.",
+          "Aby automatycznie zapisać kopię w folderze Wysłane"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Jakie typy danych można wprowadzać do arkusza kalkulacyjnego?",
+        "question": "Do czego służy narzędzie Kontakty w poczcie elektronicznej?",
         "answers": [
-          "Liczby, teksty, daty, formuły",
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "To arkusz, w którym nie ma wierszy i kolumn."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co jest przykładem własnego budżetu w arkuszu?",
-        "answers": [
-          "Utworzenie prezentacji zamiast arkusza.",
-          "Zapisanie pliku jako obraz zamiast tabeli.",
-          "Tabela przychodów i wydatków z obliczeniem sumy."
+          "Do sortowania wiadomości według daty",
+          "Do filtrowania spamu w skrzynce",
+          "Do zapisywania często używanych adresów e-mail osób i grup"
         ],
         "correctAnswerIndex": 2
       },
       {
-        "question": "Co oznacza, że pliki są w chmurze?",
+        "question": "Co oznacza stosowanie netykiety w e-mailu?",
         "answers": [
-          "Są przechowywane na serwerach dostępnych przez internet.",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników."
+          "Używanie tylko wielkich liter dla podkreślenia ważności wiadomości",
+          "Wysyłanie wiadomości wyłącznie w godzinach pracy biurowej",
+          "Kulturalne zwroty i brak obraźliwych treści."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "MS Teams i współpraca",
+    "questions": [
+      {
+        "question": "Jakie narzędzia oferuje MS Teams/Google Workspace do pracy w grupie?",
+        "answers": [
+          "Czat, wideokonferencje, udostępnianie plików, wspólna edycja dokumentów",
+          "Wyłącznie możliwość wysyłania wiadomości tekstowych między użytkownikami",
+          "Panel do zarządzania prawami dostępu do zasobów sieciowych"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Co oznacza właściwy podział obowiązków w grupie?",
+        "question": "Jakie narzędzia MS Teams można wykorzystać do pracy na lekcjach?",
         "answers": [
-          "Zadania są rozdzielone między członków zespołu.",
-          "To narzędzie tylko do kalendarza, bez edycji dokumentów.",
-          "To praca na osobnych kopiach dokumentu bez synchronizacji."
+          "Wyłącznie funkcja udostępniania ekranu bez innych opcji",
+          "Panel administracyjny do zarządzania serwerem szkolnym",
+          "Kalendarz, Notes zajęć, Zadania, kanały zespołów"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co można robić z dokumentami w MS Teams/Google Workspace?",
+        "answers": [
+          "Wyłącznie przeglądać dokumenty bez możliwości wprowadzania zmian",
+          "Konwertować dokumenty na różne formaty plików",
+          "Edytować wspólnie z innymi osobami z zespołu w tym samym czasie"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Bezpieczeństwo i netykieta",
+    "questions": [
+      {
+        "question": "Co to jest netykieta?",
+        "answers": [
+          "Zasady kulturalnego zachowania w internecie.",
+          "Oprogramowanie zabezpieczające przed wirusami i złośliwym kodem",
+          "System oceniania jakości treści w mediach społecznościowych"
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Co jest przykładem wprowadzania danych do arkusza?",
+        "question": "Które z poniższych zachowań jest zgodne z zasadami netykiety?",
         "answers": [
-          "Zapisanie pliku jako obraz zamiast tabeli.",
-          "Dodanie liczby do komórki A1.",
-          "Wpisanie długiego tekstu bez użycia tabeli."
+          "Sprawdzanie pisowni i gramatyki przed wysłaniem wiadomości.",
+          "Pisanie WIELKIMI LITERAMI dla podkreślenia emocji",
+          "Natychmiastowe odpowiadanie bez przemyślenia treści"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co oznacza bezpieczne korzystanie z internetu?",
+        "answers": [
+          "Korzystanie wyłącznie z komputera stacjonarnego",
+          "Niepodawanie haseł i danych osobowych obcym.",
+          "Instalacja wielu programów antywirusowych jednocześnie"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Co oznacza zapisanie efektów pracy we wskazanym miejscu?",
+        "question": "Co należy zrobić, gdy otrzymasz w internecie wiadomość od nieznajomej osoby, która Cię obraża lub straszy?",
         "answers": [
-          "Zapisanie pliku w wybranym folderze.",
-          "Wysłanie pliku na drukarkę zamiast zapisu.",
-          "Usunięcie pliku po zakończeniu pracy."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza dodanie nowego arkusza do skoroszytu?",
-        "answers": [
-          "Utworzenie kolejnej karty w pliku.",
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
-          "To usługa przechowywania plików tylko lokalnie, bez internetu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Które narzędzie z przybornika GIMP służy do rysowania?",
-        "answers": [
-          "To panel ustawień drukarki, a nie edycji grafiki.",
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Ołówek."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza retuszowanie zdjęcia?",
-        "answers": [
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "Poprawianie niedoskonałości zdjęcia.",
-          "To panel ustawień drukarki, a nie edycji grafiki."
+          "Odpowiedzieć i wyjaśnić nieporozumienie",
+          "Nie odpowiadać, zablokować nadawcę i poinformować o tym zaufaną osobę dorosłą (np. rodzica lub nauczyciela).",
+          "Przekazać wiadomość znajomym aby wiedzieli"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Jakie operacje formatowania tekstu są dostępne w arkuszu kalkulacyjnym?",
+        "question": "Które z poniższych haseł jest najbezpieczniejsze (najtrudniejsze do złamania)?",
         "answers": [
-          "Czcionka, rozmiar, kolor, pogrubienie, kursywa, podkreślenie",
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "To arkusz, w którym nie ma wierszy i kolumn."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co to jest automatyczne wypełnianie w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To dokument tekstowy z tabelą, ale bez liczenia.",
-          "Funkcja rozpoznająca wzorzec i kontynująca serię danych"
+          "Zgłoszenie nadużycia",
+          "Ergonomia",
+          "Wiosna!2024?Za-PasaM!"
         ],
         "correctAnswerIndex": 2
       },
       {
-        "question": "Co oznacza tworzenie formuł z adresami komórek?",
+        "question": "Do czego służą komunikatory internetowe?",
         "answers": [
-          "To narzędzie do przechowywania danych bez możliwości obliczeń.",
-          "Użycie odwołań, np. =A1+B1.",
-          "To dokument tekstowy z tabelą, ale bez liczenia."
+          "Do tworzenia kopii zapasowych plików",
+          "Do szybkiej komunikacji tekstowej, głosowej i wideo przez internet",
+          "Do edycji dokumentów tekstowych"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Jaki jest cel udostępniania dokumentów i folderów w chmurze internetowej?",
+        "question": "Która z poniższych zasad dotyczy ergonomii pracy przy komputerze?",
         "answers": [
-          "Pobranie pliku na komputer bez nadania dostępu innym.",
-          "Ustawienie pliku jako prywatnego bez wysyłania linku.",
-          "Umożliwienie dostępu innym osobom do wybranych zasobów"
+          "Ustawienie jasności monitora na maksimum dla lepszej widoczności",
+          "Używanie wyłącznie myszy bez klawiatury dla szybszej pracy",
+          "Ustawienie monitora tak, aby jego górna krawędź znajdowała się na wysokości wzroku lub nieco poniżej."
         ],
         "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co jest przykładem bezpiecznej i higienicznej pracy przy komputerze?",
+        "answers": [
+          "Praca w ciemności dla oszczędności energii",
+          "Siedzenie blisko monitora dla lepszej widoczności",
+          "Siedzenie z prostymi plecami i przerwy na odpoczynek."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Inne",
+    "questions": [
+      {
+        "question": "Która z poniższych czynności wymaga użycia pomocy dostępnej w programach?",
+        "answers": [
+          "Znalezienie informacji o funkcjach programu lub rozwiązaniu problemu",
+          "Automatyczne aktualizowanie programu do najnowszej wersji",
+          "Tworzenie kopii zapasowej wszystkich plików projektowych"
+        ],
+        "correctAnswerIndex": 0
       },
       {
         "question": "Które z poniższych rozszerzeń plików jest typowe dla dokumentu tekstowego?",
@@ -671,1292 +760,38 @@
       {
         "question": "Co najlepiej opisuje porządkowanie zasobów w komputerze?",
         "answers": [
-          "To program do tworzenia kopii zapasowych bez współdzielenia.",
+          "Usuwanie wszystkich starych plików co miesiąc",
           "Układanie plików w folderach według tematu.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników."
+          "Przechowywanie wszystkich plików na pulpicie"
         ],
         "correctAnswerIndex": 1
       },
       {
-        "question": "Co oznacza bezpieczna komunikacja w sieci?",
+        "question": "Co oznacza zapisanie efektów pracy we wskazanym miejscu?",
         "answers": [
-          "To sposób przesyłania plików wyłącznie przez pendrive.",
-          "To sieć lokalna do udostępniania plików bez kont użytkowników.",
-          "Używanie kulturalnego języka i ostrożność w udostępnianiu danych."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co znajduje się w interfejsie konta pocztowego?",
-        "answers": [
-          "Skrzynka odbiorcza, wysłane, spam, opcje tworzenia wiadomości",
-          "To konto w serwisie społecznościowym bez skrzynki pocztowej.",
-          "To system przesyłania plików bez treści wiadomości."
+          "Zapisanie pliku w wybranym folderze.",
+          "Wysłanie pliku na drukarkę zamiast zapisu.",
+          "Usunięcie pliku po zakończeniu pracy."
         ],
         "correctAnswerIndex": 0
       },
       {
-        "question": "Jak dodać obrazy do dokumentów w OneDrive?",
+        "question": "Co oznacza właściwy podział obowiązków w grupie?",
         "answers": [
-          "Zmień nazwę pliku lokalnie bez wysyłania do chmury.",
-          "Skopiować plik na pendrive i nie wysyłać go online.",
-          "Przez opcję \"Wstaw\" > \"Obraz\" i wybór pliku lub wklejenie"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza zmiana układu kolumn i wierszy tabeli?",
-        "answers": [
-          "Przesunięcie lub zamiana kolumn i wierszy.",
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To dokument tekstowy z tabelą, ale bez liczenia."
+          "Zadania są rozdzielone między członków zespołu.",
+          "Jedna osoba wykonuje wszystkie zadania, inne tylko obserwują",
+          "Każdy członek zespołu wykonuje dokładnie takie samme zadania"
         ],
         "correctAnswerIndex": 0
       },
-      {
-        "question": "Jak komunikuje się ze znajomymi w MS Teams?",
-        "answers": [
-          "Zamknąć czat i komunikować się wyłącznie telefonicznie.",
-          "Korzysta z czatu lub rozmowy.",
-          "Pobrać dokument i pracować na osobnej kopii."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co jest przykładem prostego obrazu w GIMP?",
-        "answers": [
-          "Stworzenie arkusza z obliczeniami zamiast grafiki.",
-          "Prosty rysunek z użyciem pędzla.",
-          "Zapisanie pliku jako dokument tekstowy."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Po co zakłada się foldery w chmurze?",
-        "answers": [
-          "Do przenoszenia plików wyłącznie na pendrive.",
-          "Żeby łatwiej porządkować i odnajdywać pliki.",
-          "Do udostępniania plików bez możliwości edycji online."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Czym są warstwy w programie GIMP?",
-        "answers": [
-          "To funkcja, która tylko zmienia nazwę pliku obrazu.",
-          "To program do grafiki wektorowej, a nie rastrowej.",
-          "Niezależne poziomy obrazu, które można edytować osobno"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Czym jest \"chmura\" w kontekście informatycznym?",
-        "answers": [
-          "Zbiorem serwerów połączonych z internetem, na których można przechowywać dane i uruchamiać programy.",
-          "To sposób przesyłania plików wyłącznie przez pendrive.",
-          "To program do tworzenia kopii zapasowych bez współdzielenia."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza kopiowanie serii danych do różnych arkuszy?",
-        "answers": [
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "Przeniesienie tej samej sekwencji do innych kart.",
-          "To dokument tekstowy z tabelą, ale bez liczenia."
-        ],
-        "correctAnswerIndex": 1
-      }
-    ]
-  },
-  {
-    "category": "Excel",
-    "questions": [
-      {
-        "question": "Jak działa funkcja SUMA w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Dodaje wartości z wybranych komórek lub zakresu (np. =SUMA(A1:A10))",
-          "Zastosować formatowanie warunkowe zamiast obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Do czego służy arkusz kalkulacyjny?",
-        "answers": [
-          "Do formatowania komórek i wyglądu tabeli.",
-          "Do tworzenia wykresów na podstawie danych.",
-          "Do wykonywania obliczeń, analizy danych i tworzenia wykresów"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego głównie służy arkusz kalkulacyjny?",
-        "answers": [
-          "Do wykonywania obliczeń, tworzenia tabel i wykresów.",
-          "Do automatycznego uzupełniania serii danych.",
-          "Do filtrowania danych bez zmiany kolejności."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza wstawienie wykresu do arkusza?",
-        "answers": [
-          "Utworzenie graficznej prezentacji danych.",
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Ukrycie danych zamiast ich prezentacji."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak wygląda poprawna formuła obliczeniowa w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Formatowanie warunkowe",
-          "=A1+B1",
-          "Skoroszyt"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak nazywa się pojedyncze pole w arkuszu kalkulacyjnym, powstające na przecięciu kolumny i wiersza?",
-        "answers": [
-          "Wiersz",
-          "Wykres słupkowy",
-          "Komórka"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza zmiana nazwy arkusza w skoroszycie?",
-        "answers": [
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "Nadanie innej nazwy karcie arkusza.",
-          "To narzędzie do przechowywania danych bez możliwości obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "W jaki sposób arkusz kalkulacyjny może być wykorzystany do obliczeń?",
-        "answers": [
-          "Wybrać filtr, aby zmienić kolejność danych.",
-          "Przez tworzenie formuł, które automatycznie przeliczają wartości",
-          "Scalić komórki, aby zmienić wartości."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Po co zmieniać kolory kart arkuszy w skoroszycie?",
-        "answers": [
-          "Do filtrowania danych bez zmiany kolejności.",
-          "Aby wizualnie organizować i rozróżniać różne arkusze (np. według kategorii)",
-          "Do sortowania danych według wybranego kryterium."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak tworzy się formuły w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Zastosować formatowanie warunkowe zamiast obliczeń.",
-          "Zaczynając od znaku \"=\" i używając adresów komórek (np. =A1+B1)",
-          "Wybrać filtr, aby zmienić kolejność danych."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jaki typ wykresu najlepiej wybrać, aby pokazać procentowy udział poszczególnych części w całości (np. składniki pizzy)?",
-        "answers": [
-          "Wykres kołowy",
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Obliczenie sumy wierszy bez grafiki."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak zmienić kolor komórki w arkuszu?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Użyć wypełnienia kolorem.",
-          "Zastosować formatowanie warunkowe zamiast obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jakie elementy można dodawać lub usuwać z wykresu?",
-        "answers": [
-          "Tytuł, legendę, etykiety danych, linie siatki, osie",
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Obliczenie sumy wierszy bez grafiki."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak skopiować serie danych do różnych arkuszy?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Zaznaczając dane, kopiując (Ctrl+C) i wklejając (Ctrl+V) na innym arkuszu",
-          "Zastosować formatowanie warunkowe zamiast obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Do czego służą funkcje SUMA i ŚREDNIA?",
-        "answers": [
-          "Do tworzenia wykresów na podstawie danych.",
-          "Do filtrowania danych bez zmiany kolejności.",
-          "Do obliczania sumy i średniej wartości."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak można zmienić wygląd wykresu?",
-        "answers": [
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Zmienić typ wykresu lub kolory serii."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak działa funkcja ŚREDNIA w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Wybrać filtr, aby zmienić kolejność danych.",
-          "Oblicza średnią arytmetyczną z wartości (np. =ŚREDNIA(A1:A10))"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak nazywa się pojedyncze pole w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Komórka.",
-          "Wybrać filtr, aby zmienić kolejność danych."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak zmienić nazwy arkuszy w skoroszycie?",
-        "answers": [
-          "Klikając prawym przyciskiem na zakładkę arkusza i wybierając \"Zmień nazwę\"",
-          "Zastosować formatowanie warunkowe zamiast obliczeń.",
-          "Wstawić wykres zamiast użyć formuły."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co jest przykładem danych różnego typu w arkuszu?",
-        "answers": [
-          "Liczby, tekst i daty.",
-          "Wpisanie długiego tekstu bez użycia tabeli.",
-          "Utworzenie prezentacji zamiast arkusza."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co daje sortowanie danych w arkuszu?",
-        "answers": [
-          "Sortowanie według jednego kryterium bez dodatkowych poziomów.",
-          "Uporządkowanie danych według wybranego kryterium.",
-          "Losowe przestawianie wierszy zamiast sortowania."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Do czego służy formatowanie warunkowe?",
-        "answers": [
-          "Do automatycznego uzupełniania serii danych.",
-          "Do sortowania danych według wybranego kryterium.",
-          "Do wyróżniania komórek spełniających warunek."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza formatowanie wykresu w arkuszu?",
-        "answers": [
-          "Zmiana kolorów lub stylu wykresu.",
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Ukrycie danych zamiast ich prezentacji."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jaką funkcję w arkuszu kalkulacyjnym należy użyć, aby komórki z liczbami większymi niż 100 automatycznie zmieniały kolor tła na zielony?",
-        "answers": [
-          "Formatowanie warunkowe",
-          "Wykres kołowy",
-          "Oś X"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jakie elementy wykresu można formatować w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Tytuł, legendę, kolory, etykiety osi, style"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza sortowanie danych w porządku \"rosnącym\"?",
-        "answers": [
-          "Sortowanie tylko alfabetyczne od A do Z.",
-          "Uporządkowanie danych od najmniejszej do największej wartości (lub od A do Z).",
-          "Losowe przestawianie wierszy zamiast sortowania."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co można zmieniać w wyglądzie wstawionego wykresu?",
-        "answers": [
-          "Tytuł, legendę, kolory, typ wykresu, style",
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Zamiana wierszy na kolumny w tabeli."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Które zastosowanie arkusza kalkulacyjnego jest poprawne?",
-        "answers": [
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "Obliczanie średniej z ocen."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jakie dane można przedstawić na wykresach w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wartości liczbowe z komórek arkusza",
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Zamiana wierszy na kolumny w tabeli."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak wykonać proste obliczenia w arkuszu?",
-        "answers": [
-          "Scalić komórki, aby zmienić wartości.",
-          "Wpisać formułę, np. =A1+B1.",
-          "Zastosować formatowanie warunkowe zamiast obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak wykonać proste obliczenia w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Wybrać filtr, aby zmienić kolejność danych.",
-          "Przez tworzenie formuł zaczynających się od znaku \"=\""
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jaki jest podstawowy element budowy arkusza kalkulacyjnego?",
-        "answers": [
-          "Komórki zorganizowane w wiersze i kolumny",
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To arkusz, w którym nie ma wierszy i kolumn."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jaki wykres wybrać do pokazania zmian temperatury w czasie?",
-        "answers": [
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Wykres liniowy",
-          "Zamiana wierszy na kolumny w tabeli."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co można śledzić w budżecie tworzonym w arkuszu kalkulacyjnym?",
-        "answers": [
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "Przychody, wydatki, bilans, kategorie kosztów",
-          "To narzędzie do przechowywania danych bez możliwości obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza dobór typu wykresu do danych?",
-        "answers": [
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Wybranie takiego wykresu, który najlepiej pokazuje dane.",
-          "Obliczenie sumy wierszy bez grafiki."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "W jakim porządku można sortować dane w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Rosnąco (od najmniejszego), malejąco (od największego), alfabetycznie",
-          "To program do tworzenia tabel bez formuł i funkcji.",
-          "To arkusz, w którym nie ma wierszy i kolumn."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służy funkcja SUMA w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Do dodawania wartości z wybranych komórek lub zakresu",
-          "Do formatowania komórek i wyglądu tabeli.",
-          "Do tworzenia wykresów na podstawie danych."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oblicza funkcja `ŚREDNIA` w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Średnią arytmetyczną wartości z zaznaczonego zakresu komórek.",
-          "To arkusz, w którym nie ma wierszy i kolumn.",
-          "To narzędzie do przechowywania danych bez możliwości obliczeń."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza dodawanie lub usuwanie elementów wykresu?",
-        "answers": [
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Zmienianie np. legendy, tytułu lub osi.",
-          "Ukrycie danych zamiast ich prezentacji."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Kiedy dobierasz typ wykresu, co jest ważne?",
-        "answers": [
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Rodzaj danych, które chcesz pokazać."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak zmienić szerokość kolumny w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Przeciągnąć krawędź nagłówka kolumny lub użyć opcji formatowania",
-          "Zastosować formatowanie warunkowe zamiast obliczeń."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak zmienić kolory komórek w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Przez opcje formatowania i wybór koloru tła lub czcionki",
-          "Zastosować formatowanie warunkowe zamiast obliczeń.",
-          "Wstawić wykres zamiast użyć formuły."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza prezentowanie danych na wykresie?",
-        "answers": [
-          "Obliczenie sumy wierszy bez grafiki.",
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Przedstawienie danych graficznie."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak wykorzystuje się arkusz kalkulacyjny do obliczeń?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Wybrać filtr, aby zmienić kolejność danych.",
-          "Wpisuje się formułę, np. =A1+A2."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jakie opcje sortowania oferuje arkusz kalkulacyjny?",
-        "answers": [
-          "Sortowanie tylko alfabetyczne od A do Z.",
-          "Sortowanie według jednego kryterium bez dodatkowych poziomów.",
-          "Rosnąco, malejąco, według jednego lub wielu kryteriów"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Który znak musi znaleźć się na początku każdej formuły w arkuszu kalkulacyjnym?",
-        "answers": [
-          "Skoroszyt",
-          "= (znak równości)",
-          "Sortowanie"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jaki typ wykresu najlepiej nadaje się do prezentacji udziału procentowego poszczególnych kategorii?",
-        "answers": [
-          "Zamiana wierszy na kolumny w tabeli.",
-          "Wykres kołowy (ciasta)",
-          "Obliczenie sumy wierszy bez grafiki."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak dodać nowy arkusz do skoroszytu?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Wybrać filtr, aby zmienić kolejność danych.",
-          "Klikając przycisk \"+\" lub \"Nowy arkusz\" przy zakładkach arkuszy"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza sortowanie niestandardowe?",
-        "answers": [
-          "Sortowanie według wielu kryteriów.",
-          "Sortowanie tylko alfabetyczne od A do Z.",
-          "Losowe przestawianie wierszy zamiast sortowania."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak wstawić wykres do arkusza kalkulacyjnego?",
-        "answers": [
-          "Ukrycie danych zamiast ich prezentacji.",
-          "Zaznaczyć dane i użyć opcji \"Wstaw wykres\" lub podobnej",
-          "Zamiana wierszy na kolumny w tabeli."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak zmienić szerokość kolumny w arkuszu?",
-        "answers": [
-          "Wstawić wykres zamiast użyć formuły.",
-          "Zastosować formatowanie warunkowe zamiast obliczeń.",
-          "Przeciągnąć granicę kolumny."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Czym jest sortowanie niestandardowe?",
-        "answers": [
-          "Sortowanie według jednego kryterium bez dodatkowych poziomów.",
-          "Sortowanie według wielu kryteriów jednocześnie (np. najpierw według miasta, potem według nazwiska)",
-          "Sortowanie tylko alfabetyczne od A do Z."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Która funkcja oblicza sumę?",
-        "answers": [
-          "Filtr",
-          "SUMA",
-          "Adres komórki"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co daje sortowanie danych w tabeli?",
-        "answers": [
-          "Losowe przestawianie wierszy zamiast sortowania.",
-          "Układanie danych np. alfabetycznie lub rosnąco.",
-          "Sortowanie tylko alfabetyczne od A do Z."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Po co zmienia się kolor kart arkuszy?",
-        "answers": [
-          "Do formatowania komórek i wyglądu tabeli.",
-          "Do automatycznego uzupełniania serii danych.",
-          "Aby łatwiej je rozróżniać."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co jest przykładem prostej formuły obliczeniowej?",
-        "answers": [
-          "Wykres słupkowy",
-          "Wiersz",
-          "=A1+A2"
-        ],
-        "correctAnswerIndex": 2
-      }
-    ]
-  },
-  {
-    "category": "Scratch",
-    "questions": [
-      {
-        "question": "Do czego służą komunikaty w programie Scratch?",
-        "answers": [
-          "Do komunikacji między duszkami (sprite'ami) i synchronizacji działań",
-          "Do powtarzania poleceń wiele razy.",
-          "Do zmiany wyglądu duszka w trakcie animacji."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak działa blok decyzyjny \"jeżeli... to...\" w Scratchu?",
-        "answers": [
-          "Wykonuje polecenia tylko wtedy, gdy warunek jest spełniony",
-          "Zmienić tło sceny zamiast wysyłać komunikat.",
-          "Przenieść duszka bez dodania skryptu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służą skrypty nadające komunikaty w Scratchu?",
-        "answers": [
-          "Do odtwarzania dźwięków w projekcie.",
-          "Do wysyłania sygnałów między elementami projektu.",
-          "Do zmiany wyglądu duszka w trakcie animacji."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak tworzy się zmienne w Scratchu?",
-        "answers": [
-          "Użyć bloków dźwięku do sprawdzania warunków.",
-          "Przenieść duszka bez dodania skryptu.",
-          "Przez opcję \"Utwórz zmienną\" w kategorii Zmienne i nadanie jej nazwy"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jakie elementy są potrzebne do wysłania wiadomości e-mail?",
-        "answers": [
-          "Adres odbiorcy, temat i treść wiadomości",
-          "To konto w serwisie społecznościowym bez skrzynki pocztowej.",
-          "To sposób komunikacji wymagający komunikatora, nie poczty."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co robi blok \"jeżeli... to... w przeciwnym razie...\" w Scratchu?",
-        "answers": [
-          "Wykonuje pierwsze polecenia gdy warunek jest spełniony, lub drugie gdy nie jest spełniony",
-          "To gra, w której nie można zmieniać zachowania postaci.",
-          "To platforma do oglądania projektów bez możliwości tworzenia."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służy blok \"Powtórz\" w Scratchu?",
-        "answers": [
-          "Do wielokrotnego wykonania tej samej serii poleceń (pętla)",
-          "Do odtwarzania dźwięków w projekcie.",
-          "Do sprawdzania warunków w skrypcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co należy zrobić, gdy otrzymasz w internecie wiadomość od nieznajomej osoby, która Cię obraża lub straszy?",
-        "answers": [
-          "Zmienić tło sceny zamiast wysyłać komunikat.",
-          "Nie odpowiadać, zablokować nadawcę i poinformować o tym zaufaną osobę dorosłą (np. rodzica lub nauczyciela).",
-          "Zwiększyć rozmiar duszka zamiast użyć zmiennej."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jaki jest cel wykorzystywania serwisu internetowego Scratcha?",
-        "answers": [
-          "To edytor tekstu do pisania kodu bez bloków graficznych.",
-          "Do dzielenia się swoimi projektami i wyszukiwania pomysłów na własne projekty",
-          "To gra, w której nie można zmieniać zachowania postaci."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Po co zakłada się konto w serwisie Scratcha?",
-        "answers": [
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do sprawdzania warunków w skrypcie.",
-          "By publikować projekty i korzystać ze społeczności."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służą skrypty przypisujące wartości zmiennym w Scratchu?",
-        "answers": [
-          "Do powtarzania poleceń wiele razy.",
-          "Ustawiają konkretne wartości zmiennych.",
-          "Do zmiany wyglądu duszka w trakcie animacji."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "W programie Scratch, które bloki pozwalają jednemu duszkowi wysłać sygnał, na który może zareagować inny duszek?",
-        "answers": [
-          "Bloki z kategorii \"Zdarzenia\", takie jak \"nadaj komunikat\" i \"kiedy otrzymam komunikat\".",
-          "To edytor tekstu do pisania kodu bez bloków graficznych.",
-          "To platforma do oglądania projektów bez możliwości tworzenia."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służą zmienne w Scratchu?",
-        "answers": [
-          "Do przechowywania wartości, np. punktów.",
-          "Do powtarzania poleceń wiele razy.",
-          "Do sprawdzania warunków w skrypcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza \"remiksowanie\" projektu w serwisie Scratch?",
-        "answers": [
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "Stworzenie własnej kopii czyjegoś projektu, aby móc go modyfikować i rozwijać.",
-          "To edytor tekstu do pisania kodu bez bloków graficznych."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Do czego służą bloki z kategorii Wyrażenia w rozbudowanych skryptach Scratcha?",
-        "answers": [
-          "Do tworzenia złożonych warunków logicznych (i, lub, nie, porównania)",
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do sprawdzania warunków w skrypcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co umożliwia blok decyzyjny „jeżeli ... to ...”?",
-        "answers": [
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "Wykonanie poleceń tylko przy spełnionym warunku.",
-          "To gra, w której nie można zmieniać zachowania postaci."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza tworzenie zmiennych w Scratchu?",
-        "answers": [
-          "To gra, w której nie można zmieniać zachowania postaci.",
-          "Dodanie miejsca do przechowywania wartości.",
-          "To edytor tekstu do pisania kodu bez bloków graficznych."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza modyfikowanie projektów znalezionych w Scratchu?",
-        "answers": [
-          "Zmienianie i ulepszanie istniejących projektów.",
-          "To edytor tekstu do pisania kodu bez bloków graficznych.",
-          "To gra, w której nie można zmieniać zachowania postaci."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Skąd można tworzyć skrypty w Scratchu wg wymagania?",
-        "answers": [
-          "To platforma do oglądania projektów bez możliwości tworzenia.",
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "Ze strony https://scratch.mit.edu."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak reagować na komunikaty w Scratchu?",
-        "answers": [
-          "Używając bloku \"kiedy otrzymam [komunikat]\" i dodając akcje poniżej",
-          "Użyć bloków dźwięku do sprawdzania warunków.",
-          "Przenieść duszka bez dodania skryptu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak tworzyć skrypty w Scratchu?",
-        "answers": [
-          "Przez łączenie bloków graficznych w obszarze skryptów",
-          "Zwiększyć rozmiar duszka zamiast użyć zmiennej.",
-          "Użyć bloków dźwięku do sprawdzania warunków."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Czym jest zmienna w programie Scratch?",
-        "answers": [
-          "Miejscem do przechowywania wartości (np. liczby punktów), która może się zmieniać w trakcie działania programu.",
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "To gra, w której nie można zmieniać zachowania postaci."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Po co w Scratchu używa się komunikatów w grze?",
-        "answers": [
-          "Do sterowania zdarzeniami w projekcie.",
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do sprawdzania warunków w skrypcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służą bardziej rozbudowane warunki w blokach Wyrażenia?",
-        "answers": [
-          "Do sprawdzania warunków w skrypcie.",
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do tworzenia złożonych sprawdzeń w skryptach."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to są komunikatory internetowe?",
-        "answers": [
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "To platforma do oglądania projektów bez możliwości tworzenia.",
-          "Programy do rozmów tekstowych lub głosowych online."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służy blok „Powtórz” w Scratchu?",
-        "answers": [
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do powtarzania poleceń wiele razy.",
-          "Wielokrotnie wykonuje tę samą serię poleceń."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służą komunikatory internetowe?",
-        "answers": [
-          "Do sprawdzania warunków w skrypcie.",
-          "Do szybkiej komunikacji tekstowej, głosowej i wideo przez internet",
-          "Do odtwarzania dźwięków w projekcie."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co to są zmienne w programie Scratch?",
-        "answers": [
-          "Pojemniki na dane, które mogą przechowywać i zmieniać wartości",
-          "To platforma do oglądania projektów bez możliwości tworzenia.",
-          "To edytor tekstu do pisania kodu bez bloków graficznych."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służą bloki z kategorii Wyrażenia w Scratchu?",
-        "answers": [
-          "Do sprawdzania warunków, np. porównywania liczb.",
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do sprawdzania warunków w skrypcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak działa wysyłanie komunikatów w Scratchu?",
-        "answers": [
-          "Przenieść duszka bez dodania skryptu.",
-          "Duszek nadaje komunikat blokiem \"nadaj [komunikat]\", który mogą odebrać inne duszki",
-          "Zmienić tło sceny zamiast wysyłać komunikat."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jaka jest różnica między \"Do wiadomości\" (DW) a \"Ukryte do wiadomości\" (UDW)?",
-        "answers": [
-          "To wiadomość działająca tylko w sieci lokalnej.",
-          "W \"DW\" wszyscy odbiorcy widzą adresy innych, w \"UDW\" adresy są ukryte",
-          "To sposób komunikacji wymagający komunikatora, nie poczty."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co robią skrypty reagujące na komunikaty w Scratchu?",
-        "answers": [
-          "To program do rysowania, który nie obsługuje skryptów.",
-          "To platforma do oglądania projektów bez możliwości tworzenia.",
-          "Wykonują akcję po odebraniu komunikatu."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służą bloki z kategorii Wyrażenia w Scratchu?",
-        "answers": [
-          "Do sprawdzania warunków logicznych i porównywania wartości",
-          "Do zmiany wyglądu duszka w trakcie animacji.",
-          "Do odtwarzania dźwięków w projekcie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służy serwis Scratcha?",
-        "answers": [
-          "Do powtarzania poleceń wiele razy.",
-          "Do dzielenia się projektami i szukania pomysłów.",
-          "Do odtwarzania dźwięków w projekcie."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co oznacza właściwa reakcja na komunikat komputera?",
-        "answers": [
-          "To edytor tekstu do pisania kodu bez bloków graficznych.",
-          "Przeczytanie komunikatu i wykonanie zalecanej akcji.",
-          "To platforma do oglądania projektów bez możliwości tworzenia."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak można modyfikować projekty w serwisie Scratcha?",
-        "answers": [
-          "Zwiększyć rozmiar duszka zamiast użyć zmiennej.",
-          "Klikając \"Zobacz kod wewnątrz\" i edytując skrypty, tworząc remiks",
-          "Zmienić tło sceny zamiast wysyłać komunikat."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Jak założyć konto w serwisie Scratcha?",
-        "answers": [
-          "Rejestrując się na stronie scratch.mit.edu podając nazwę użytkownika, hasło i email",
-          "Przenieść duszka bez dodania skryptu.",
-          "Zmienić tło sceny zamiast wysyłać komunikat."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak przypisać wartość zmiennej w Scratchu?",
-        "answers": [
-          "Używając bloku \"ustaw [zmienna] na [wartość]\"",
-          "Użyć bloków dźwięku do sprawdzania warunków.",
-          "Przenieść duszka bez dodania skryptu."
-        ],
-        "correctAnswerIndex": 0
-      }
-    ]
-  },
-  {
-    "category": "GIMP",
-    "questions": [
-      {
-        "question": "Czym są warstwy w GIMP?",
-        "answers": [
-          "To program do grafiki wektorowej, a nie rastrowej.",
-          "To narzędzie służące głównie do pisania tekstów.",
-          "Oddzielnymi poziomami obrazu, które można edytować osobno."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak zmienić kontrast lub jasność w GIMP?",
-        "answers": [
-          "Zamknąć obraz bez zapisania po edycji.",
-          "Zastosować wyostrzenie zamiast rozmycia.",
-          "Użyć narzędzi do regulacji jasności/kontrastu."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służy Rozmycie Gaussa w GIMP?",
-        "answers": [
-          "Do rozmycia fragmentu obrazu.",
-          "Do kadrowania obrazu i zmiany jego rozmiaru.",
-          "Do zmiany krycia warstw obrazu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Które narzędzia MS Teams wspierają pracę na lekcjach?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "Kalendarz, Notes zajęć, Zadania.",
-          "To panel ustawień drukarki, a nie edycji grafiki."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Do czego służy narzędzie Kontakty w poczcie elektronicznej?",
-        "answers": [
-          "Do kadrowania obrazu i zmiany jego rozmiaru.",
-          "Do korygowania jasności i kontrastu zdjęcia.",
-          "Do zapisywania często używanych adresów e-mail osób i grup"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Do czego służy narzędzie Rozmycie Gaussa w GIMP?",
-        "answers": [
-          "Do zmniejszenia czytelności i rozmycia fragmentu obrazu",
-          "Do zaznaczania fragmentu obrazu.",
-          "Do kadrowania obrazu i zmiany jego rozmiaru."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Dlaczego używa się warstw w GIMP?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "To program do grafiki wektorowej, a nie rastrowej.",
-          "Aby edytować elementy obrazu niezależnie."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Po co wykorzystuje się warstwy w programie GIMP?",
-        "answers": [
-          "Do niezależnej edycji różnych elementów obrazu",
-          "Do kadrowania obrazu i zmiany jego rozmiaru.",
-          "Do zmiany krycia warstw obrazu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Czym są warstwy w programie GIMP?",
-        "answers": [
-          "To panel ustawień drukarki, a nie edycji grafiki.",
-          "To narzędzie służące głównie do pisania tekstów.",
-          "Przezroczystymi foliami ułożonymi jedna na drugiej, na których można umieszczać różne elementy obrazu."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak zmieniać ustawienia narzędzi w programie GIMP?",
-        "answers": [
-          "Przez panel opcji narzędzi, gdzie można dostosować rozmiar, twardość, krycie itp.",
-          "Usunąć warstwę tła, aby zmienić krycie.",
-          "Zamknąć obraz bez zapisania po edycji."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak dobrać odpowiednie narzędzie zaznaczenia w GIMP?",
-        "answers": [
-          "Zamknąć obraz bez zapisania po edycji.",
-          "Usunąć warstwę tła, aby zmienić krycie.",
-          "W zależności od kształtu i charakteru fragmentu do zaznaczenia (prostokąt, elipsa, lasso, różdżka)"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co to jest stopień krycia warstwy w GIMP?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "To panel ustawień drukarki, a nie edycji grafiki.",
-          "Przezroczystość warstwy (0% = całkowicie przezroczysta, 100% = nieprzezroczysta)"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak kopiować fragmenty obrazu między warstwami w GIMP?",
-        "answers": [
-          "Zaznaczając fragment, kopiując (Ctrl+C) i wklejając (Ctrl+V) na wybranej warstwie",
-          "Zastosować wyostrzenie zamiast rozmycia.",
-          "Zamknąć obraz bez zapisania po edycji."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jakie ustawienia można zmieniać w obrazach w programie GIMP?",
-        "answers": [
-          "To narzędzie służące głównie do pisania tekstów.",
-          "To panel ustawień drukarki, a nie edycji grafiki.",
-          "Kontrast, jasność, nasycenie, balans kolorów"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak wykorzystuje się warstwy w GIMP?",
-        "answers": [
-          "Do oddzielnej edycji elementów obrazu.",
-          "Skopiować obraz do schowka zamiast retuszu.",
-          "Usunąć warstwę tła, aby zmienić krycie."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak nazywa się główny obszar w programie GIMP, w którym widzimy i edytujemy obraz?",
-        "answers": [
-          "Zaznaczenie prostokątne",
-          "Gumka",
-          "Okno obrazu"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Co oznacza kopiowanie i wklejanie fragmentów obrazu do różnych warstw?",
-        "answers": [
-          "To panel ustawień drukarki, a nie edycji grafiki.",
-          "To narzędzie służące głównie do pisania tekstów.",
-          "Przenoszenie elementów między warstwami."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Po co zmienia się stopień krycia warstw w GIMP?",
-        "answers": [
-          "Aby uzyskać określone efekty wizualne.",
-          "Do kadrowania obrazu i zmiany jego rozmiaru.",
-          "Do korygowania jasności i kontrastu zdjęcia."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Do czego służy narzędzie Kontakty w poczcie?",
-        "answers": [
-          "Do zmiany krycia warstw obrazu.",
-          "Do zaznaczania fragmentu obrazu.",
-          "Do zapisywania często używanych adresów."
-        ],
-        "correctAnswerIndex": 2
-      }
-    ]
-  },
-  {
-    "category": "E-mail",
-    "questions": [
-      {
-        "question": "Co jest przykładem wysłania wiadomości e-mail?",
-        "answers": [
-          "Zapisanie kontaktu w notesie papierowym.",
-          "Dodanie obrazu do prezentacji zamiast wysyłki.",
-          "Kliknięcie „Wyślij” po wpisaniu adresu odbiorcy."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "W jakim celu używa się pola \"UDW\" (lub \"BCC\") podczas wysyłania wiadomości e-mail?",
-        "answers": [
-          "Do wysyłania kopii do siebie w polu DW.",
-          "Aby wysłać kopię wiadomości do dodatkowych odbiorców tak, aby inni odbiorcy nie widzieli ich adresów.",
-          "Do filtrowania spamu w skrzynce odbiorczej."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co należy zrobić, aby wysłać wiadomość e-mail?",
-        "answers": [
-          "Wpisać adres odbiorcy, temat, treść i kliknąć \"Wyślij\"",
-          "Skopiować treść do notatnika zamiast wysyłki.",
-          "Wpisać adres odbiorcy w polu Temat."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak działa poczta elektroniczna?",
-        "answers": [
-          "Zapisać wiadomość jako szkic i nie wysyłać.",
-          "Skopiować treść do notatnika zamiast wysyłki.",
-          "Wysyła wiadomości między skrzynkami przez internet."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Jak wysłać e-mail do wielu odbiorców z ukryciem adresów?",
-        "answers": [
-          "Użyć pola UDW (Ukryte do wiadomości).",
-          "Wpisać adres odbiorcy w polu Temat.",
-          "Skopiować treść do notatnika zamiast wysyłki."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak wysłać wiadomość e-mail do wielu odbiorców jednocześnie?",
-        "answers": [
-          "Wpisując wiele adresów w polach \"Do\", \"DW\" (Do wiadomości) lub \"UDW\" (Ukryte do wiadomości)",
-          "Każdy pracuje na swojej kopii i łączy zmiany później.",
-          "Tylko jedna osoba edytuje, reszta ma podgląd."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak wysyła się wiadomość e-mail?",
-        "answers": [
-          "Tworzy się nową wiadomość i wpisuje adres odbiorcy.",
-          "Wpisać adres odbiorcy w polu Temat.",
-          "Skopiować treść do notatnika zamiast wysyłki."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Jak działa poczta elektroniczna (e-mail)?",
-        "answers": [
-          "Wysłać wiadomość bez wpisania adresu odbiorcy.",
-          "Skopiować treść do notatnika zamiast wysyłki.",
-          "Umożliwia wysyłanie i odbieranie wiadomości przez internet"
-        ],
-        "correctAnswerIndex": 2
-      }
-    ]
-  },
-  {
-    "category": "Bezpieczeństwo i netykieta",
-    "questions": [
-      {
-        "question": "Co jest przykładem bezpiecznej i higienicznej pracy przy komputerze?",
-        "answers": [
-          "Kliknięcie podejrzanego linku bez sprawdzenia.",
-          "Praca przez wiele godzin bez przerwy.",
-          "Siedzenie z prostymi plecami i przerwy na odpoczynek."
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "question": "Które z poniższych zachowań jest zgodne z zasadami netykiety?",
-        "answers": [
-          "Sprawdzanie pisowni i gramatyki przed wysłaniem wiadomości.",
-          "Zignorować ostrzeżenia o niebezpiecznych stronach.",
-          "Pracować w całkowitej ciemności bez przerw."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza bezpieczne korzystanie z internetu?",
-        "answers": [
-          "To reguły dotyczące tylko administratorów.",
-          "Niepodawanie haseł i danych osobowych obcym.",
-          "To sposób szybkiego publikowania danych osobowych."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Co jest przykładem bezpiecznej komunikacji w internecie?",
-        "answers": [
-          "Praca przez wiele godzin bez przerwy.",
-          "Nieużywanie obraźliwych słów i ochrona danych.",
-          "Podanie hasła w wiadomości do nieznajomego."
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "question": "Które z poniższych haseł jest najbezpieczniejsze (najtrudniejsze do złamania)?",
-        "answers": [
-          "Zgłoszenie nadużycia",
-          "Ergonomia",
-          "Wiosna!2024?Za-PasaM!"
-        ],
-        "correctAnswerIndex": 2
-      }
-    ]
-  },
-  {
-    "category": "Inne",
-    "questions": [
       {
         "question": "Co oznacza przestrzeganie zasad współpracy?",
         "answers": [
-          "Każdy wykonuje wszystko sam bez podziału zadań.",
-          "Ustalenia zespołu są ignorowane.",
+          "Praca indywidualna bez konsultacji z zespołem",
+          "Podejmowanie wszystkich decyzji samodzielnie",
           "Szanowanie ustaleń i terminów zespołu."
         ],
         "correctAnswerIndex": 2
-      },
-      {
-        "question": "Po co używa się Rozmycia Gaussa w kontekście wymagania?",
-        "answers": [
-          "Aby zmniejszyć czytelność fragmentu obrazu.",
-          "Do wyszukiwania informacji w programie.",
-          "Do zapisywania zmian w wybranym miejscu."
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "question": "Co oznacza przestrzeganie zasad współpracy w sieci?",
-        "answers": [
-          "Szacunek dla pracy innych i stosowanie ustaleń.",
-          "Każdy wykonuje wszystko sam bez podziału zadań.",
-          "Zespół pracuje na osobnych kopiach bez uzgodnień."
-        ],
-        "correctAnswerIndex": 0
       }
     ]
   }
