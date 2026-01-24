@@ -1,8 +1,14 @@
 <script setup>
 import { computed, onMounted, ref, watch } from "vue";
 
-const STORAGE_KEY = "quiz_state_v1";
+const STORAGE_KEY = "quiz_state_v2";
 
+// Quiz selection state
+const availableQuizzes = ref([]);
+const selectedQuizFile = ref(null);
+const showQuizSelector = ref(false);
+
+// Quiz data state
 const categories = ref([]);
 const questionCategoryMap = ref({});
 const currentQuestion = ref(null);
@@ -114,18 +120,26 @@ const wasPreviouslyWrong = computed(() => {
 });
 
 const saveState = () => {
-  if (typeof localStorage === "undefined") {
+  if (typeof localStorage === "undefined" || !selectedQuizFile.value) {
     return;
   }
-  const state = {
+
+  // Load existing state
+  const stored = restoreState() ?? { quizzes: {} };
+
+  // Get current quiz's cached state
+  const currentQuizCache = stored.quizzes[selectedQuizFile.value] ?? {};
+
+  // Update current quiz's state
+  const quizState = {
     answeredByCategory: answeredByCategory.value,
     selectedCategory: selectedCategory.value,
     currentQuestionByCategory: {
-      ...(stateCache.value?.currentQuestionByCategory ?? {}),
+      ...(currentQuizCache.currentQuestionByCategory ?? {}),
       [selectedCategory.value]: currentQuestionText.value,
     },
     selectionByCategory: {
-      ...(stateCache.value?.selectionByCategory ?? {}),
+      ...(currentQuizCache.selectionByCategory ?? {}),
       [selectedCategory.value]: {
         selectedIndex: selectedIndex.value,
         isSubmitted: isSubmitted.value,
@@ -133,8 +147,13 @@ const saveState = () => {
       },
     },
   };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  stateCache.value = state;
+
+  // Update full state
+  stored.currentQuizFile = selectedQuizFile.value;
+  stored.quizzes[selectedQuizFile.value] = quizState;
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+  stateCache.value = stored;
 };
 
 const stateCache = ref(null);
@@ -143,15 +162,36 @@ const restoreState = () => {
   if (typeof localStorage === "undefined") {
     return null;
   }
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) {
-    return null;
+
+  // Try v2 first
+  let raw = localStorage.getItem(STORAGE_KEY);
+  if (raw) {
+    try {
+      return JSON.parse(raw);
+    } catch (error) {
+      return null;
+    }
   }
-  try {
-    return JSON.parse(raw);
-  } catch (error) {
-    return null;
+
+  // Migration: try v1 and convert
+  raw = localStorage.getItem("quiz_state_v1");
+  if (raw) {
+    try {
+      const oldState = JSON.parse(raw);
+      const newState = {
+        currentQuizFile: "pytania.json",
+        quizzes: {
+          "pytania.json": oldState
+        }
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(newState));
+      return newState;
+    } catch (error) {
+      return null;
+    }
   }
+
+  return null;
 };
 
 const getStatusForQuestion = (questionText) => {
@@ -183,11 +223,30 @@ const pickRandomQuestion = () => {
   isCorrect.value = false;
 };
 
-const loadQuestions = async () => {
+const loadAvailableQuizzes = async () => {
   try {
-    const response = await fetch("/pytania.json");
+    const response = await fetch("/quizzes.json");
     if (!response.ok) {
-      throw new Error("Nie udało się wczytać pliku pytania.json.");
+      throw new Error("Nie udało się wczytać listy quizów");
+    }
+    availableQuizzes.value = await response.json();
+  } catch (error) {
+    // Fallback: if no quizzes.json, use default
+    console.warn("Failed to load quizzes.json, using default:", error);
+    availableQuizzes.value = [{
+      file: "pytania.json",
+      name: "Quiz Informatyka"
+    }];
+  }
+};
+
+const loadQuizData = async (quizFile) => {
+  try {
+    loading.value = true;
+    errorMessage.value = "";
+    const response = await fetch(`/${quizFile}`);
+    if (!response.ok) {
+      throw new Error(`Nie udało się wczytać pliku ${quizFile}.`);
     }
     categories.value = await response.json();
     const mapping = {};
@@ -200,12 +259,15 @@ const loadQuestions = async () => {
 
     const stored = restoreState();
     stateCache.value = stored;
-    if (stored?.answeredByCategory) {
-      answeredByCategory.value = stored.answeredByCategory;
+    const quizState = stored?.quizzes?.[quizFile];
+
+    if (quizState?.answeredByCategory) {
+      answeredByCategory.value = quizState.answeredByCategory;
+    } else {
+      answeredByCategory.value = {};
     }
 
-    const initialCategory =
-      stored?.selectedCategory ?? "Wszystko";
+    const initialCategory = quizState?.selectedCategory ?? "Wszystko";
     selectedCategory.value = initialCategory;
 
     restoreCategoryState();
@@ -216,16 +278,38 @@ const loadQuestions = async () => {
   }
 };
 
+const initializeApp = async () => {
+  const stored = restoreState();
+
+  if (stored?.currentQuizFile) {
+    // User has a quiz in progress
+    selectedQuizFile.value = stored.currentQuizFile;
+    await loadQuizData(stored.currentQuizFile);
+    showQuizSelector.value = false;
+  } else {
+    // No quiz selected - force selector to show
+    selectedQuizFile.value = null;
+    showQuizSelector.value = true;
+    loading.value = false;
+  }
+};
+
+const loadQuestions = async () => {
+  await loadAvailableQuizzes();
+  await initializeApp();
+};
+
 const restoreCategoryState = () => {
   const stored = stateCache.value;
-  if (!selectedCategory.value) {
+  if (!selectedCategory.value || !selectedQuizFile.value) {
     currentQuestion.value = null;
     return;
   }
 
+  const quizState = stored?.quizzes?.[selectedQuizFile.value];
   const questionText =
-    stored?.currentQuestionByCategory?.[selectedCategory.value];
-  const selection = stored?.selectionByCategory?.[selectedCategory.value];
+    quizState?.currentQuestionByCategory?.[selectedCategory.value];
+  const selection = quizState?.selectionByCategory?.[selectedCategory.value];
   const matched = questionText
     ? currentCategoryQuestions.value.find(
         (question) => question.question === questionText,
@@ -278,17 +362,75 @@ const answerClasses = (index) => {
 };
 
 const resetQuiz = () => {
+  if (!selectedQuizFile.value) return;
+
+  // Clear only current quiz's progress
+  const stored = restoreState() ?? { quizzes: {} };
+  if (stored.quizzes[selectedQuizFile.value]) {
+    delete stored.quizzes[selectedQuizFile.value];
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+
   answeredByCategory.value = {};
   selectedCategory.value = "Wszystko";
   currentQuestion.value = null;
   selectedIndex.value = null;
   isSubmitted.value = false;
   isCorrect.value = false;
-  stateCache.value = null;
-  if (typeof localStorage !== "undefined") {
-    localStorage.removeItem(STORAGE_KEY);
-  }
+  stateCache.value = stored;
   restoreCategoryState();
+};
+
+const selectQuiz = async (quizFile) => {
+  if (quizFile === selectedQuizFile.value) {
+    // Same quiz, just close selector
+    showQuizSelector.value = false;
+    return;
+  }
+
+  // Clear current quiz state
+  categories.value = [];
+  answeredByCategory.value = {};
+  currentQuestion.value = null;
+  selectedIndex.value = null;
+  isSubmitted.value = false;
+  isCorrect.value = false;
+  selectedCategory.value = "Wszystko";
+
+  // Load new quiz
+  selectedQuizFile.value = quizFile;
+  await loadQuizData(quizFile);
+
+  // Close selector
+  showQuizSelector.value = false;
+
+  // Save the selection
+  saveState();
+};
+
+const toggleQuizSelector = () => {
+  showQuizSelector.value = !showQuizSelector.value;
+};
+
+const getQuizName = (file) => {
+  const quiz = availableQuizzes.value.find(q => q.file === file);
+  return quiz?.name ?? 'Quiz';
+};
+
+const getQuizProgress = (quizFile) => {
+  const stored = restoreState();
+  const quizState = stored?.quizzes?.[quizFile];
+
+  if (!quizState?.answeredByCategory) return null;
+
+  let totalCorrect = 0;
+  for (const answers of Object.values(quizState.answeredByCategory)) {
+    totalCorrect += Object.values(answers).filter(v => v === "correct").length;
+  }
+
+  if (totalCorrect === 0) return null;
+
+  return `${totalCorrect} poprawnych odpowiedzi`;
 };
 
 const changeCategory = (category) => {
@@ -322,15 +464,88 @@ onMounted(loadQuestions);
 
 <template>
   <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
+    <!-- Quiz Selector Overlay -->
+    <div
+      v-if="showQuizSelector || !selectedQuizFile"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm"
+      @click.self="selectedQuizFile ? (showQuizSelector = false) : null"
+    >
+      <div class="relative mx-4 w-full max-w-2xl rounded-3xl border border-slate-200 bg-white p-8 shadow-2xl">
+        <!-- Close button - only show if a quiz is already selected -->
+        <button
+          v-if="selectedQuizFile"
+          type="button"
+          class="absolute right-4 top-4 rounded-full p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-600"
+          @click="showQuizSelector = false"
+          aria-label="Zamknij"
+        >
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <h2 class="mb-2 text-2xl font-bold text-slate-900">
+          {{ selectedQuizFile ? 'Wybierz inny quiz' : 'Wybierz quiz' }}
+        </h2>
+        <p class="mb-6 text-sm text-slate-600">
+          {{ selectedQuizFile ? 'Twój postęp zostanie zapisany automatycznie.' : 'Zacznij od wybrania quizu.' }}
+        </p>
+
+        <!-- Quiz List -->
+        <div class="space-y-3">
+          <button
+            v-for="quiz in availableQuizzes"
+            :key="quiz.file"
+            type="button"
+            class="flex w-full items-center justify-between rounded-2xl border p-4 text-left transition"
+            :class="
+              quiz.file === selectedQuizFile
+                ? 'border-slate-900 bg-slate-50'
+                : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50'
+            "
+            @click="selectQuiz(quiz.file)"
+          >
+            <div class="flex-1">
+              <h3 class="font-semibold text-slate-900">{{ quiz.name }}</h3>
+              <p v-if="getQuizProgress(quiz.file)" class="mt-1 text-sm text-slate-600">
+                {{ getQuizProgress(quiz.file) }}
+              </p>
+            </div>
+
+            <!-- Current quiz indicator -->
+            <div v-if="quiz.file === selectedQuizFile" class="ml-4">
+              <span class="rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white">
+                Aktualny
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <main class="mx-auto flex min-h-screen max-w-3xl flex-col px-6 py-12">
       <header class="mb-10">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
-          Informatyka 6 - Quiz
+          {{ selectedQuizFile ? getQuizName(selectedQuizFile) : 'Wybierz quiz' }}
         </p>
-        <h1 class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">
-          Sprawdź wiedzę
-        </h1>
-        <div class="mt-6 flex flex-wrap gap-2">
+
+        <!-- Quiz name display + selector toggle -->
+        <div class="mt-3 flex items-center justify-between gap-4">
+          <h1 class="text-3xl font-bold text-slate-900 sm:text-4xl">
+            Sprawdź wiedzę
+          </h1>
+          <button
+            v-if="selectedQuizFile"
+            type="button"
+            class="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-600 transition hover:border-slate-400 hover:text-slate-900"
+            @click="toggleQuizSelector"
+          >
+            Zmień quiz
+          </button>
+        </div>
+
+        <!-- Category buttons - only show when quiz is selected -->
+        <div v-if="selectedQuizFile" class="mt-6 flex flex-wrap gap-2">
           <button
             v-for="category in uiCategories"
             :key="category"
