@@ -20,7 +20,7 @@ export function useQuizData() {
    */
   const loadAvailableQuizzes = async (): Promise<void> => {
     try {
-      const response = await fetch('/quizzes.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}quizzes.json`)
       if (!response.ok) {
         throw new Error('Nie udało się wczytać listy quizów')
       }
@@ -43,7 +43,7 @@ export function useQuizData() {
       loading.value = true
       errorMessage.value = ''
       
-      const response = await fetch(`/${quizFile}`)
+      const response = await fetch(`${import.meta.env.BASE_URL}${quizFile}`)
       if (!response.ok) {
         throw new Error(`Nie udało się wczytać pliku ${quizFile}.`)
       }
