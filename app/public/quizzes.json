@@ -1,6 +1,10 @@
 [
   {
-    "file": "pytania.json",
+    "file": "informatyka-6.json",
     "name": "Informatyka - 6"
+  },
+  {
+    "file": "informatyka-8.json",
+    "name": "Informatyka - 8"
   }
 ]
