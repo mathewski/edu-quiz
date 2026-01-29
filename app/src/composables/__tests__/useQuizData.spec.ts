@@ -128,4 +128,85 @@ describe('useQuizData', () => {
       expect(getQuizProgressText('test.json')).toBe('1 poprawnych odpowiedzi')
     })
   })
+
+  describe('initializeApp', () => {
+    it('should load quiz when stored quiz file exists', async () => {
+      const mockState = {
+        currentQuizFile: 'test.json',
+        quizzes: {
+          'test.json': {
+            answeredByCategory: {},
+            selectedCategory: 'Wszystko',
+            currentQuestionByCategory: {},
+            selectionByCategory: {}
+          }
+        }
+      }
+      localStorage.setItem('quiz_state_v2', JSON.stringify(mockState))
+
+      const mockCategories = [
+        {
+          category: 'Excel',
+          questions: [
+            { question: 'Q1', answers: ['A', 'B'], correctAnswerIndex: 0 }
+          ]
+        }
+      ]
+
+      vi.mocked(fetch).mockResolvedValueOnce({
+        ok: true,
+        json: async () => mockCategories
+      } as Response)
+
+      const { initializeApp, selectedQuizFile, categories, loading } = useQuizData()
+      await initializeApp()
+
+      expect(selectedQuizFile.value).toBe('test.json')
+      expect(categories.value).toEqual(mockCategories)
+      expect(loading.value).toBe(false)
+    })
+
+    it('should clear selectedQuizFile when stored quiz file fails to load (404)', async () => {
+      const mockState = {
+        currentQuizFile: 'missing-quiz.json',
+        quizzes: {
+          'missing-quiz.json': {
+            answeredByCategory: {
+              Excel: { 'Q1': 'correct' }
+            },
+            selectedCategory: 'Wszystko',
+            currentQuestionByCategory: {},
+            selectionByCategory: {}
+          }
+        }
+      }
+      localStorage.setItem('quiz_state_v2', JSON.stringify(mockState))
+
+      // Mock fetch to return 404
+      vi.mocked(fetch).mockResolvedValueOnce({
+        ok: false
+      } as Response)
+
+      const { initializeApp, selectedQuizFile, errorMessage, loading } = useQuizData()
+      await initializeApp()
+
+      // After 404, selectedQuizFile should be cleared
+      expect(selectedQuizFile.value).toBeNull()
+      expect(errorMessage.value).toContain('Nie udało się wczytać')
+      expect(loading.value).toBe(false)
+
+      // Check that localStorage was cleaned up
+      const updatedState = JSON.parse(localStorage.getItem('quiz_state_v2') || '{}')
+      expect(updatedState.currentQuizFile).toBe('')
+      expect(updatedState.quizzes['missing-quiz.json']).toBeUndefined()
+    })
+
+    it('should show selector when no quiz is stored', async () => {
+      const { initializeApp, selectedQuizFile, loading } = useQuizData()
+      await initializeApp()
+
+      expect(selectedQuizFile.value).toBeNull()
+      expect(loading.value).toBe(false)
+    })
+  })
 })

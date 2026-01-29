@@ -13,7 +13,7 @@ export function useQuizData() {
   const loading = ref(true)
   const errorMessage = ref('')
   
-  const { restoreState, getQuizProgress } = useLocalStorage()
+  const { restoreState, getQuizProgress, clearQuizProgress, saveState } = useLocalStorage()
 
   /**
    * Load available quizzes from quizzes.json
@@ -76,6 +76,18 @@ export function useQuizData() {
       // User has a quiz in progress
       selectedQuizFile.value = stored.currentQuizFile
       await loadQuizData(stored.currentQuizFile)
+      
+      // If quiz failed to load (404 or other error), clear selection and localStorage
+      if (errorMessage.value) {
+        selectedQuizFile.value = null
+        clearQuizProgress(stored.currentQuizFile)
+        // Update the stored state to clear currentQuizFile
+        const updatedState = restoreState()
+        if (updatedState) {
+          updatedState.currentQuizFile = ''
+          saveState(updatedState)
+        }
+      }
     } else {
       // No quiz selected - will show selector
       selectedQuizFile.value = null
