@@ -1,0 +1,668 @@
+[
+  {
+    "category": "Algorytmy",
+    "questions": [
+      {
+        "question": "Algorytm to:",
+        "answers": [
+          "Dowolny program komputerowy napisany w języku programowania",
+          "Lista wszystkich błędów występujących w programie",
+          "Skończony ciąg jasno określonych czynności prowadzących do rozwiązania problemu"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Sytuacja warunkowa w algorytmie pozwala na:",
+        "answers": [
+          "Zatrzymanie programu w dowolnym momencie",
+          "Wykonanie różnych działań w zależności od spełnienia warunku",
+          "Automatyczne naprawianie błędów w kodzie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Algorytm Euklidesa służy do:",
+        "answers": [
+          "Obliczania pierwiastka kwadratowego",
+          "Sortowania liczb od najmniejszej do największej",
+          "Znajdowania największego wspólnego dzielnika dwóch liczb"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby znaleźć największą liczbę w zbiorze, należy:",
+        "answers": [
+          "Porównać kolejno wszystkie elementy, zapamiętując największą wartość",
+          "Zsumować wszystkie liczby i podzielić przez ich ilość",
+          "Pomnożyć pierwszą liczbę przez ostatnią"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jaką poprawną kolejność etapów rozwiązywania problemów przedstawia poniższy wybór?",
+        "answers": [
+          "Implementacja, analiza, testowanie, projektowanie",
+          "Analiza, testowanie, projektowanie, implementacja",
+          "Analiza, projektowanie rozwiązania, implementacja, testowanie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co jest kluczowe przy budowaniu algorytmów?",
+        "answers": [
+          "Uwzględnienie danych wejściowych, operacji i warunków zakończenia",
+          "Pisanie kodu w konkretnym języku programowania od razu",
+          "Zapewnienie jak największej liczby kroków, by algorytm był szczegółowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Dlaczego przedstawianie algorytmu w postaci listy kroków jest przydatne?",
+        "answers": [
+          "Zastępuje konieczność testowania rozwiązania",
+          "Pozwala pominąć analizę problemu",
+          "Ułatwia czytelne opisanie kolejności działań niezależnie od języka programowania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Które stwierdzenie najlepiej opisuje sytuację warunkową w algorytmie?",
+        "answers": [
+          "Zawsze wykonuje wszystkie gałęzie jednocześnie",
+          "Kończy algorytm niezależnie od wartości warunku",
+          "Wybiera jedną z gałęzi działania w zależności od spełnienia warunku logicznego"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co odróżnia metodę wybierania od zliczania przy porządkowaniu elementów?",
+        "answers": [
+          "Metoda zliczania korzysta z dodatkowych liczników dla wartości, wybieranie porównuje i zamienia elementy",
+          "Nie ma żadnych różnic",
+          "Metoda wybierania wymaga listy jednoelementowej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest algorytm?",
+        "answers": [
+          "Skończonym ciągiem dobrze zdefiniowanych czynności, koniecznych do wykonania różnego rodzaju zadań",
+          "Językiem programowania",
+          "Programem komputerowym"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co to jest specyfikacja problemu?",
+        "answers": [
+          "Lista kroków algorytmu",
+          "Kod programu",
+          "Opis danych wejściowych i wyjściowych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "W jaki sposób można przedstawić algorytm?",
+        "answers": [
+          "Tylko w postaci schematu blokowego",
+          "Tylko w postaci listy kroków",
+          "W postaci listy kroków, schematu blokowego lub w języku programowania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co stanowi specyfikację problemu?",
+        "answers": [
+          "Tylko nazwa programu i jego autor",
+          "Wyłącznie kod źródłowy programu",
+          "Określenie danych wejściowych i oczekiwanych wyników"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Programowanie",
+    "questions": [
+      {
+        "question": "Programowanie to:",
+        "answers": [
+          "Wyłącznie instalowanie gotowych aplikacji na komputerze",
+          "Granie w gry komputerowe",
+          "Proces tworzenia programów komputerowych poprzez pisanie kodu w określonym języku"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co najlepiej opisuje zmienną w programowaniu?",
+        "answers": [
+          "Nazwany obszar pamięci, w którym można przechowywać i zmieniać dane",
+          "Blok instrukcji powtarzanych wielokrotnie",
+          "Stałą wartość wpisywaną na stałe do kodu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Pętla powtórzeniowa w programowaniu służy do:",
+        "answers": [
+          "Wyświetlania komunikatów o błędach",
+          "Wielokrotnego wykonywania tego samego fragmentu kodu",
+          "Usuwania błędów z programu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Zmienna w programowaniu to:",
+        "answers": [
+          "Stała wartość, która nigdy się nie zmienia",
+          "Nazwa symboliczna nadana miejscu w pamięci, gdzie przechowywana jest wartość",
+          "Błąd w kodzie programu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Procedura w programowaniu to:",
+        "answers": [
+          "Narzędzie do formatowania tekstu",
+          "Wydzielony fragment kodu, który można wielokrotnie wywoływać",
+          "Rodzaj zmiennej liczbowej"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Kod źródłowy to:",
+        "answers": [
+          "Program w postaci zera i jedynek zrozumiałych tylko dla procesora",
+          "Program zapisany w języku programowania czytelnym dla człowieka",
+          "Plik wykonywalny gotowy do uruchomienia"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Kompilator to program, który:",
+        "answers": [
+          "Tłumaczy cały kod źródłowy na kod maszynowy przed uruchomieniem programu",
+          "Wykonuje program linia po linii, tłumacząc na bieżąco",
+          "Usuwa wirusy z komputera"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest programowanie?",
+        "answers": [
+          "Procesem tworzenia kodu wykonującego określone działania na komputerze",
+          "Rysowaniem schematów blokowych bez implementacji",
+          "Jedynie testowaniem gotowego programu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak działa sytuacja warunkowa w programie?",
+        "answers": [
+          "Zawsze wykonuje instrukcje w bloku ELSE",
+          "Pozwala programowi reagować na wynik porównania lub warunku logicznego",
+          "Usuwa zmienne o zadanej nazwie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym różnią się procedury z parametrami od tych bez parametrów?",
+        "answers": [
+          "Te bez parametrów nie mogą być wywoływane",
+          "Procedury z parametrami zawsze zwracają wynik numeryczny",
+          "Procedury z parametrami otrzymują wartości wejściowe, które wpływają na ich działanie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jaka jest główna różnica między kompilatorem a interpreterem?",
+        "answers": [
+          "Kompilator tłumaczy cały kod na raz do pliku wynikowego, a interpreter wykonuje instrukcje na bieżąco",
+          "Kompilator czyta kod linia po linii i natychmiast wykonuje",
+          "Interpreter tworzy plik wykonywalny przed uruchomieniem programu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest iteracja?",
+        "answers": [
+          "Wykonywaniem różnych instrukcji w zależności od warunku",
+          "Powtarzaniem wykonania tego samego fragmentu programu",
+          "Zapisywaniem danych w pamięci komputera"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakie są rodzaje licencji na oprogramowanie?",
+        "answers": [
+          "Freeware, shareware, adware, licencja komercyjna",
+          "Tylko licencja komercyjna",
+          "Tylko freeware i shareware"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jaka jest różnica między kodem źródłowym a kodem wynikowym?",
+        "answers": [
+          "Nie ma żadnej różnicy",
+          "Kod źródłowy jest pisany przez programistę, a kod wynikowy jest zrozumiały dla komputera",
+          "Kod źródłowy jest zrozumiały dla komputera, a kod wynikowy jest pisany przez programistę"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Excel",
+    "questions": [
+      {
+        "question": "Adres komórki w arkuszu kalkulacyjnym składa się z:",
+        "answers": [
+          "Tylko numeru wiersza",
+          "Litery kolumny i numeru wiersza (np. A1)",
+          "Nazwy arkusza i koloru komórki"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Formuła w arkuszu kalkulacyjnym zawsze zaczyna się od znaku:",
+        "answers": [
+          "#",
+          "@",
+          "="
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Adres bezwzględny w arkuszu kalkulacyjnym zapisuje się jako:",
+        "answers": [
+          "$A$1",
+          "@A@1",
+          "A1"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Funkcja JEŻELI w arkuszu kalkulacyjnym:",
+        "answers": [
+          "Sumuje wszystkie liczby w zakresie",
+          "Sprawdza warunek i zwraca jedną z dwóch wartości w zależności od wyniku",
+          "Usuwa duplikaty z danych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wykres słupkowy najlepiej nadaje się do:",
+        "answers": [
+          "Porównywania wartości różnych kategorii",
+          "Przedstawiania zależności między dwiema zmiennymi liczbowymi",
+          "Pokazywania struktury procentowej całości"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W jakim celu wykorzystuje się arkusz kalkulacyjny przy rozwiązywaniu problemów?",
+        "answers": [
+          "Do automatyzacji obliczeń i analizy danych w tabelach",
+          "Do kompilowania programów w języku C++",
+          "Do tworzenia animacji 3D"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co oznaczają pojęcia wiersz, kolumna, komórka i adres w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Struktury określające układ tabeli: wiersz poziomo, kolumna pionowo, komórka to przecięcie, adres łączy literę kolumny i numer wiersza",
+          "Synonimy jednego elementu arkusza",
+          "Nazwy narzędzi w programie graficznym"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co należy zrobić, aby zbudować prostą formułę w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Wpisać znak równości i użyć adresów komórek połączonych operatorami np. +, -",
+          "Wpisać wynik ręcznie do każdej komórki",
+          "Włączyć tryb drukowania"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak działają formuły wbudowane (np. SUMA)?",
+        "answers": [
+          "Nie wymagają wskazania zakresu danych",
+          "Wykonują z góry przygotowane działania po podaniu argumentów",
+          "Automatycznie tworzą wykres na podstawie danych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co oznacza zarządzanie wierszami i kolumnami w arkuszu?",
+        "answers": [
+          "Zmienianie motywu kolorystycznego programu",
+          "Odblokowanie wszystkich komórek przed wydrukiem",
+          "Dodawanie, usuwanie, ukrywanie i zmienianie kolejności wierszy oraz kolumn"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co wchodzi w skład formatowania komórek i tabel?",
+        "answers": [
+          "Ustawianie czcionek, kolorów, obramowań oraz typów danych",
+          "Kompresowanie pliku arkusza",
+          "Wyłącznie wpisywanie danych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Po co scala się komórki i włącza zawijanie tekstu?",
+        "answers": [
+          "Aby zmniejszyć rozmiar pliku arkusza",
+          "Aby dopasować układ tabeli do dłuższych nagłówków i poprawić czytelność",
+          "Aby zablokować możliwość edycji"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Które działanie pomaga w formatowaniu i drukowaniu danych?",
+        "answers": [
+          "Ustawienie marginesów, orientacji strony i obszaru wydruku",
+          "Ignorowanie podglądu wydruku",
+          "Przypadkowe zmiany rozmiaru czcionek"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak dobrać typ wykresu do danych?",
+        "answers": [
+          "Nie używać wykresów",
+          "Dopasować typ (np. kolumnowy, liniowy) do charakteru danych, by podkreślić trendy lub proporcje",
+          "Zawsze wybierać wykres kołowy"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W jaki sposób wstawia się tabelę lub wykres do dokumentu tekstowego?",
+        "answers": [
+          "Korzystając z funkcji wstawiania obiektów lub kopiowania specjalnego, zachowując formatowanie",
+          "Przepisując wartości ręcznie",
+          "Kopiując plik programu arkuszowego do folderu dokumentu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co to jest adres komórki w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Zawartość komórki",
+          "Unikalny identyfikator komórki składający się z litery kolumny i numeru wiersza",
+          "Formuła w komórce"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym jest adresowanie względne w arkuszu kalkulacyjnym?",
+        "answers": [
+          "Adres komórki, który nie zmienia się podczas kopiowania formuły",
+          "Adres komórki, w którym tylko wiersz lub tylko kolumna jest stała",
+          "Adres komórki, który zmienia się podczas kopiowania formuły"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Sprzęt komputerowy",
+    "questions": [
+      {
+        "question": "Które z poniższych NIE jest urządzeniem peryferyjnym?",
+        "answers": [
+          "Drukarka",
+          "Procesor",
+          "Skaner"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Rozdzielczość skanowania wyrażana jest w jednostkach:",
+        "answers": [
+          "MB (megabajt)",
+          "Hz (herc)",
+          "DPI (dots per inch)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak korzystać z urządzeń peryferyjnych?",
+        "answers": [
+          "Trzymać je stale wyłączone",
+          "Podłączać je przy włączonym komputerze bez sterowników",
+          "Instalować wymagane sterowniki i poprawnie podłączać oraz bezpiecznie odłączać urządzenia"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Na czym polega podstawowa obsługa skanera i drukarki?",
+        "answers": [
+          "Na ustawieniu parametrów (rozdzielczość, format), poprawnym podaniu nośnika i uruchomieniu procesu",
+          "Na formatowaniu dysku przed każdym wydrukiem",
+          "Na ręcznym przepisywaniu dokumentów"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Internet",
+    "questions": [
+      {
+        "question": "Jak skutecznie wyszukiwać informacje w internecie?",
+        "answers": [
+          "Ograniczać się do pierwszego znalezionego źródła bez weryfikacji",
+          "Wpisywać losowe znaki w wyszukiwarce",
+          "Używać precyzyjnych słów kluczowych i operatorów logicznych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby zawęzić wyniki wyszukiwania w Google do konkretnej strony, należy użyć:",
+        "answers": [
+          "page:nazwa_strony",
+          "site:nazwa_strony",
+          "find:nazwa_strony"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Oceniając wiarygodność informacji z internetu, należy sprawdzić:",
+        "answers": [
+          "Wyłącznie liczbę reklam na stronie",
+          "Źródło informacji, autora i datę publikacji",
+          "Tylko kolor strony internetowej"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co oznacza krytyczna ocena informacji z internetu?",
+        "answers": [
+          "Sprawdzanie źródła, autora i porównywanie treści z innymi wiarygodnymi materiałami",
+          "Przyjmowanie każdej informacji za prawdziwą",
+          "Unikanie czytania regulaminów"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Praca zespołowa",
+    "questions": [
+      {
+        "question": "Który z poniższych NIE jest typowym etapem projektu grupowego?",
+        "answers": [
+          "Planowanie zadań",
+          "Ignorowanie opinii członków zespołu",
+          "Realizacja i testowanie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Pole UDW (BCC) w wiadomości e-mail służy do:",
+        "answers": [
+          "Usuwania wiadomości",
+          "Dodawania załączników",
+          "Wysłania kopii wiadomości do odbiorców ukrytych przed innymi"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Które zdanie dotyczy nazywania programów, narzędzi i funkcji?",
+        "answers": [
+          "Można nadawać im dowolne pseudonimy, bo nie mają oficjalnych nazw",
+          "Wystarczy wiedzieć kolor ikony programu",
+          "Należy znać ich oficjalne nazwy i zastosowanie, by dobrać właściwe narzędzie do zadania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak wyjaśnić działanie narzędzia komputerowego?",
+        "answers": [
+          "Używając go bez żadnego komentarza",
+          "Wskazując, jakie operacje wykonuje, na jakich danych działa i jaki daje efekt",
+          "Opisując tylko wygląd ikony"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co sprzyja efektywnej współpracy w projektach?",
+        "answers": [
+          "Podział ról, wspólne planowanie i komunikacja",
+          "Brak harmonogramu działań",
+          "Ukrywanie informacji przed zespołem"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co oznacza definiowanie etapów projektu grupowego?",
+        "answers": [
+          "Określenie kolejnych faz (planowanie, realizacja, testy) wraz z odpowiedzialnościami",
+          "Automatyczne wygenerowanie raportu",
+          "Jednorazowe spotkanie zespołu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak przebiega komunikacja przez sieć lokalną i internet w kontekście projektu?",
+        "answers": [
+          "Wykorzystuje komunikatory, udostępniane foldery i współdzielone dokumenty",
+          "Polega wyłącznie na przesyłaniu plików USB",
+          "Wymaga zawsze połączenia satelitarnego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak poprawnie korzystać z poczty elektronicznej w pracy zespołowej?",
+        "answers": [
+          "Używać jasnych tematów, załączać pliki ostrożnie i odpowiadać wszystkim zainteresowanym",
+          "Wysyłać wiadomości bez tematu i treści",
+          "Przesyłać tylko emotikony"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Bezpieczeństwo i netykieta",
+    "questions": [
+      {
+        "question": "Silne hasło powinno:",
+        "answers": [
+          "Zawierać duże i małe litery, cyfry oraz znaki specjalne",
+          "Być takie samo dla wszystkich kont",
+          "Składać się tylko z własnego imienia"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zgodnie z zasadami netykiety:",
+        "answers": [
+          "Nie należy pisać całych wiadomości WIELKIMI LITERAMI, gdyż oznacza to krzyk",
+          "Należy ignorować wszystkie wiadomości",
+          "Można obrażać innych użytkowników"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co wchodzi w zakres bezpieczeństwa w internecie?",
+        "answers": [
+          "Ignorowanie ustawień prywatności",
+          "Używanie silnych haseł, aktualizacja oprogramowania i ostrożność wobec podejrzanych linków",
+          "Udostępnianie danych logowania znajomym"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakie są zasady etyczne w internecie?",
+        "answers": [
+          "Obejmują szacunek dla innych, uczciwość i odpowiedzialność za publikowane materiały",
+          "Dotyczą wyłącznie bezpieczeństwa sieciowego",
+          "Można publikować dowolne treści bez konsekwencji"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Prawo autorskie",
+    "questions": [
+      {
+        "question": "Naruszeniem praw autorskich jest:",
+        "answers": [
+          "Kupowanie legalnych kopii programów",
+          "Kopiowanie i rozpowszechnianie płatnego oprogramowania bez zgody autora",
+          "Korzystanie z darmowego oprogramowania"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co oznacza przestrzeganie licencji i praw autorskich?",
+        "answers": [
+          "Korzystanie z oprogramowania zgodnie z zapisami licencji i poszanowanie twórców",
+          "Tylko instalację aktualizacji",
+          "Dowolne kopiowanie i udostępnianie programów bez zgody"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Dlaczego warto znać przepisy prawa w internecie?",
+        "answers": [
+          "Nie mają zastosowania do użytkowników indywidualnych",
+          "Pomagają unikać łamania prawa, np. naruszeń danych osobowych czy piractwa",
+          "Zastępują wiedzę o licencjach"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Higiena pracy",
+    "questions": [
+      {
+        "question": "Która z poniższych zasad jest BŁĘDNA z punktu widzenia higieny pracy?",
+        "answers": [
+          "Oświetlenie powinno być odpowiednie",
+          "Co godzinę należy robić krótką przerwę",
+          "Monitor powinien znajdować się poniżej linii wzroku"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Na czym polega bezpieczna i higieniczna praca przy komputerze?",
+        "answers": [
+          "Na utrzymaniu prawidłowej postawy, robieniu przerw i dostosowaniu oświetlenia",
+          "Na używaniu tylko laptopa na kolanach",
+          "Na pracy w ciemności i bez przerw"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+]
