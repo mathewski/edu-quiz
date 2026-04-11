@@ -1,0 +1,865 @@
+[
+  {
+    "category": "Algorytmy i podstawy",
+    "questions": [
+      {
+        "question": "Co określa specyfikacja algorytmu?",
+        "answers": [
+          "Kolor okna programu.",
+          "Nazwisko autora programu.",
+          "Dane wejściowe i wyniki algorytmu."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który zapis jest formą przedstawienia algorytmu?",
+        "answers": [
+          "Lista zainstalowanych programów.",
+          "Schemat blokowy.",
+          "Zrzut ekranu pulpitu."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który typ w Pythonie służy do przechowywania liczb całkowitych?",
+        "answers": [
+          "`str`",
+          "`int`",
+          "`list`"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co wykorzystuje algorytm szybkiego podnoszenia do potęgi?",
+        "answers": [
+          "Binarną reprezentację wykładnika.",
+          "Wyłącznie dodawanie kolejnych jedynek.",
+          "Tylko system rzymski."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Co należy dobrać do problemu, aby rozwiązanie było sensowne i wydajne?",
+        "answers": [
+          "Tylko kolor konsoli.",
+          "Odpowiedni algorytm i struktury danych.",
+          "Wyłącznie nazwę zmiennej."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Która metoda w Pythonie zamienia małą literę na wielką?",
+        "answers": [
+          "`find()`",
+          "`replace()`",
+          "`upper()`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Operacje plikowe w programie to między innymi:",
+        "answers": [
+          "aktualizacja systemu operacyjnego.",
+          "zmiana tapety pulpitu.",
+          "wczytywanie danych z pliku i zapisywanie wyniku do pliku."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Do zliczania wystąpień znaków w tekście wygodnie użyć:",
+        "answers": [
+          "tylko funkcji `sqrt()`.",
+          "tablicy liczników.",
+          "wykresu słupkowego."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Algorytm naiwny to zwykle algorytm:",
+        "answers": [
+          "prosty, ale niekoniecznie najbardziej wydajny.",
+          "działający tylko dla liczb pierwszych.",
+          "zawsze najlepszy możliwy."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Operacja dominująca w analizie algorytmu to operacja:",
+        "answers": [
+          "wykonywana najczęściej i mająca największy wpływ na czas działania.",
+          "odpowiedzialna za kolorowanie kodu.",
+          "wykonywana tylko raz na początku."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Problem telewidza lub harmonogramu sali dotyczy głównie:",
+        "answers": [
+          "szyfrowania wiadomości.",
+          "zamiany liczb na system binarny.",
+          "wyboru niekolidujących przedziałów czasu."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Funkcja losująca w programie służy do:",
+        "answers": [
+          "obliczania NWD dwóch liczb.",
+          "generowania pseudolosowych wartości.",
+          "zamiany każdego tekstu na szyfr."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Systemy liczbowe i reprezentacja danych",
+    "questions": [
+      {
+        "question": "Czym jest pozycyjny system liczbowy?",
+        "answers": [
+          "System, w którym wartość cyfry zależy od jej położenia.",
+          "System używany wyłącznie do zapisu tekstu.",
+          "System, w którym każda cyfra ma zawsze tę samą wartość."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który zestaw zawiera systemy liczbowe często używane w informatyce?",
+        "answers": [
+          "Rzymski, grecki, łaciński.",
+          "Dwójkowy, ósemkowy, dziesiętny, szesnastkowy.",
+          "Tylko dziesiętny i procentowy."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym jest bit?",
+        "answers": [
+          "Typem wykresu w Excelu.",
+          "Ośmiobajtowym blokiem pamięci.",
+          "Najmniejszą jednostką informacji przyjmującą 0 albo 1."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile bitów ma jeden bajt?",
+        "answers": [
+          "2",
+          "8",
+          "16"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jaką wartość dziesiętną ma liczba binarna `1010`?",
+        "answers": [
+          "10",
+          "12",
+          "8"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ile bitów odpowiada jednej cyfrze w systemie ósemkowym?",
+        "answers": [
+          "4",
+          "2",
+          "3"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile bitów odpowiada jednej cyfrze w systemie szesnastkowym?",
+        "answers": [
+          "4",
+          "8",
+          "6"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest tablica kodów ASCII?",
+        "answers": [
+          "Programem do rysowania wykresów.",
+          "Sposobem sortowania danych.",
+          "Zestawem kodów przypisujących liczby znakom."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak zwykle reprezentowana jest wartość logiczna `prawda` w komputerze?",
+        "answers": [
+          "Jako -1.",
+          "Jako 1.",
+          "Jako 10."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak zapisuje się cyfrę o wartości 15 w systemie szesnastkowym?",
+        "answers": [
+          "E",
+          "G",
+          "F"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kod U2 służy do reprezentacji:",
+        "answers": [
+          "wyłącznie liczb dodatnich.",
+          "liczb ujemnych i dodatnich w systemie binarnym.",
+          "znaków ASCII."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak zwykle zapisujemy liczbę 13 w systemie binarnym?",
+        "answers": [
+          "`1010`",
+          "`1101`",
+          "`1110`"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Koniunkcja dwóch zdań logicznych jest prawdziwa wtedy, gdy:",
+        "answers": [
+          "oba zdania są prawdziwe.",
+          "oba zdania są fałszywe.",
+          "przynajmniej jedno zdanie jest prawdziwe."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Napisy i programowanie w Pythonie",
+    "questions": [
+      {
+        "question": "Który typ najlepiej nadaje się do przechowywania pojedynczego znaku w Pythonie?",
+        "answers": [
+          "`float`",
+          "`list`",
+          "`str`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak odwołujemy się do konkretnego znaku w napisie?",
+        "answers": [
+          "Za pomocą indeksu.",
+          "Za pomocą adresu e-mail.",
+          "Za pomocą wykresu."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Czym jest palindrom?",
+        "answers": [
+          "Każdy wyraz zapisany wielkimi literami.",
+          "Napis zawierający tylko cyfry.",
+          "Napis lub liczba czytane tak samo z lewej i z prawej strony."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Która liczba jest palindromem?",
+        "answers": [
+          "1234",
+          "1331",
+          "1456"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Której funkcji w Pythonie używa się do wczytania napisu ze spacjami?",
+        "answers": [
+          "`sqrt()`",
+          "`randint()`",
+          "`input()`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Która funkcja zwraca długość napisu w Pythonie?",
+        "answers": [
+          "`sort()`",
+          "`len()`",
+          "`append()`"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który zapis w Pythonie służy do pobrania fragmentu napisu?",
+        "answers": [
+          "`tekst[a:b]`",
+          "`tekst.insert()`",
+          "`tekst.pop()`"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Która metoda w Pythonie może służyć do usunięcia fragmentu napisu?",
+        "answers": [
+          "`len()`",
+          "`replace()`",
+          "`lower()`"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Parametr formalny to:",
+        "answers": [
+          "parametr zapisany w definicji funkcji.",
+          "konkretna wartość podana przy wywołaniu funkcji.",
+          "nazwa pliku źródłowego."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Parametr aktualny to:",
+        "answers": [
+          "nazwa funkcji w nagłówku.",
+          "komentarz nad funkcją.",
+          "wartość lub zmienna przekazana przy wywołaniu funkcji."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co oznacza brak instrukcji `return` w funkcji w Pythonie?",
+        "answers": [
+          "Może działać tylko na napisach.",
+          "Funkcja zwraca `None`.",
+          "Zwraca zawsze liczbę całkowitą."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jakiego typu w Pythonie używa się do przechowywania liczb całkowitych, także bardzo dużych?",
+        "answers": [
+          "`str`",
+          "`int`",
+          "`bool`"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Zmienna lokalna to zmienna:",
+        "answers": [
+          "przechowywana wyłącznie w pliku tekstowym.",
+          "dostępna tylko wewnątrz bloku lub funkcji, w której została zadeklarowana.",
+          "dostępna w całym programie bez ograniczeń."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Przekazywanie parametru przez wartość oznacza, że:",
+        "answers": [
+          "funkcja pracuje na kopii argumentu.",
+          "funkcja nie może przyjmować liczb.",
+          "funkcja zawsze zmienia zmienną oryginalną."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przekazanie obiektu mutowalnego, np. listy, do funkcji w Pythonie oznacza, że:",
+        "answers": [
+          "lista jest zawsze automatycznie kopiowana.",
+          "funkcja może zmienić ten sam obiekt przekazany z zewnątrz.",
+          "działa to wyłącznie dla napisów."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który typ w Pythonie przechowuje uporządkowaną kolekcję elementów?",
+        "answers": [
+          "`dict`",
+          "`set`",
+          "`list`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Anagramy to dwa napisy, które:",
+        "answers": [
+          "mają zawsze taką samą długość i zaczynają się tą samą literą.",
+          "składają się z tych samych liter w innej kolejności.",
+          "są palindromami."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Liczby i algorytmy matematyczne",
+    "questions": [
+      {
+        "question": "Która liczba jest liczbą pierwszą?",
+        "answers": [
+          "1",
+          "9",
+          "2"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Naiwny algorytm sprawdzania pierwszości polega na:",
+        "answers": [
+          "losowaniu odpowiedzi.",
+          "sprawdzaniu podzielności przez kolejne liczby.",
+          "zamianie liczby na tekst."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Na czym polega rozkład liczby złożonej na czynniki pierwsze?",
+        "answers": [
+          "Na zamianie jej na system szesnastkowy.",
+          "Na zapisaniu jej jako sumy liczb parzystych.",
+          "Na zapisaniu jej jako iloczynu liczb pierwszych."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Która para to liczby bliźniacze?",
+        "answers": [
+          "11 i 13",
+          "8 i 10",
+          "21 i 23"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Hipoteza Goldbacha dotyczy zapisu liczby parzystej jako:",
+        "answers": [
+          "sumy dwóch liczb pierwszych.",
+          "różnicy dwóch liczb nieparzystych.",
+          "iloczynu dwóch liczb pierwszych."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Geometryczna interpretacja algorytmu Euklidesa dotyczy:",
+        "answers": [
+          "rysowania wykresu funkcji liniowej.",
+          "obliczania pola koła.",
+          "wyznaczania największego wspólnego dzielnika."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Które dwie wersje algorytmu Euklidesa są najczęściej omawiane?",
+        "answers": [
+          "Z dzieleniem i odejmowaniem.",
+          "Z mnożeniem i potęgowaniem.",
+          "Z szyfrowaniem i deszyfrowaniem."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak najwygodniej reprezentować ułamek w programie?",
+        "answers": [
+          "Jako pojedynczy napis `str`.",
+          "Jako nazwę pliku.",
+          "Jako strukturę z licznikiem i mianownikiem."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Rozszerzony algorytm Euklidesa oprócz NWD pozwala wyznaczyć także:",
+        "answers": [
+          "liczbę cyfr po przecinku.",
+          "współczynniki w równaniu Bézouta.",
+          "wartość pierwiastka kwadratowego."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Szyfry i kryptologia",
+    "questions": [
+      {
+        "question": "Szyfr podstawieniowy polega na:",
+        "answers": [
+          "zastępowaniu jednych znaków innymi.",
+          "zmianie kolejności folderów na dysku.",
+          "kompresji pliku do ZIP."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Szyfr monoalfabetyczny to taki, w którym:",
+        "answers": [
+          "klucz zmienia się przy każdym znaku.",
+          "zmieniana jest tylko kolejność wyrazów.",
+          "każdej literze odpowiada stały zamiennik."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Szyfr permutacyjny polega głównie na:",
+        "answers": [
+          "usuwaniu wszystkich spacji.",
+          "zmianie kolejności znaków.",
+          "zamianie liczb na wykresy."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Na czym polega szyfr Cezara?",
+        "answers": [
+          "Na przesuwaniu liter alfabetu o stałą liczbę pozycji.",
+          "Na losowym mieszaniu liter bez klucza.",
+          "Na dzieleniu tekstu na bloki po 8 bitów."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Szyfr Vigenere’a wykorzystuje:",
+        "answers": [
+          "tylko jedną stałą zamianę wszystkich liter.",
+          "słowo-klucz i wiele przesunięć alfabetu.",
+          "wyłącznie zapis binarny tekstu."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Kryptoanaliza to:",
+        "answers": [
+          "łamanie szyfrów lub analiza sposobów ich złamania.",
+          "tworzenie wykresów kołowych.",
+          "czyszczenie pamięci komputera."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Analiza częstości przy łamaniu szyfru Cezara polega na:",
+        "answers": [
+          "liczeniu liczby akapitów w tekście.",
+          "usuwaniu wszystkich spacji z wiadomości.",
+          "sprawdzaniu, które litery występują najczęściej."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Wyszukiwanie, sortowanie i analiza algorytmów",
+    "questions": [
+      {
+        "question": "Kiedy najlepiej stosować wyszukiwanie liniowe?",
+        "answers": [
+          "Gdy zbiór jest nieuporządkowany albo mały.",
+          "Wyłącznie dla napisów o jednakowej długości.",
+          "Tylko gdy dane są posortowane rosnąco."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Wyszukiwanie liniowe z wartownikiem ma na celu głównie:",
+        "answers": [
+          "posortowanie danych przed szukaniem.",
+          "uproszczenie warunku zakończenia przeszukiwania.",
+          "zamianę tablicy na listę."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wyszukiwanie binarne można stosować wtedy, gdy dane są:",
+        "answers": [
+          "zaszyfrowane.",
+          "losowe.",
+          "uporządkowane."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Złożoność czasowa algorytmu opisuje przede wszystkim:",
+        "answers": [
+          "ile czasu lub operacji wymaga wykonanie algorytmu.",
+          "ile kolorów ma interfejs programu.",
+          "wielkość monitora użytkownika."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Złożoność pamięciowa algorytmu mówi o:",
+        "answers": [
+          "czasie uruchamiania systemu.",
+          "liczbie komentarzy w kodzie.",
+          "ilości dodatkowej pamięci potrzebnej do działania."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Złożoność pesymistyczna to złożoność w:",
+        "answers": [
+          "przypadku średnim.",
+          "najgorszym przypadku.",
+          "najlepszym przypadku."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Klucz sortowania to:",
+        "answers": [
+          "hasło do otwarcia programu.",
+          "cecha, według której porządkujemy elementy.",
+          "nazwa pliku z danymi."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sortowanie `in situ` oznacza, że algorytm:",
+        "answers": [
+          "zawsze zachowuje kolejność równych elementów.",
+          "działa wyłącznie w internecie.",
+          "sortuje dane w miejscu, bez dużej dodatkowej pamięci."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Sortowanie stabilne zachowuje:",
+        "answers": [
+          "wzajemną kolejność elementów o równych kluczach.",
+          "zawsze malejący porządek danych.",
+          "tylko liczby parzyste."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Które sortowanie należy do metod prostych?",
+        "answers": [
+          "Szybkie.",
+          "Przez scalanie.",
+          "Bąbelkowe."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Sortowanie przez wybieranie polega na tym, że:",
+        "answers": [
+          "dzielimy tablicę według pivota.",
+          "wybieramy najmniejszy element i ustawiamy go na właściwe miejsce.",
+          "łączymy dwie już posortowane tablice."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Pierwotne ułożenie danych szczególnie wpływa na liczbę operacji w sortowaniu:",
+        "answers": [
+          "tylko szesnastkowym.",
+          "bąbelkowym.",
+          "ASCII."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sito Eratostenesa służy do:",
+        "answers": [
+          "sortowania napisów.",
+          "szyfrowania tekstu.",
+          "wyszukiwania liczb pierwszych w przedziale."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Podciąg spójny to elementy ciągu, które:",
+        "answers": [
+          "występują obok siebie w oryginalnym ciągu.",
+          "są tylko dodatnie.",
+          "mają taką samą wartość."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Najdłuższy niemalejący podciąg spójny to taki, w którym kolejne elementy są:",
+        "answers": [
+          "większe lub równe poprzednim.",
+          "zawsze identyczne.",
+          "mniejsze od poprzednich."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Problem maksymalnej sumy spójnego podciągu polega na znalezieniu:",
+        "answers": [
+          "najdłuższego całego ciągu bez wyjątków.",
+          "spójnego fragmentu o największej sumie elementów.",
+          "wszystkich elementów parzystych."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Własne kryterium porównania w funkcji `sort` służy do:",
+        "answers": [
+          "zapisania danych do pliku.",
+          "obliczenia złożoności pamięciowej.",
+          "określenia, według jakiej reguły mają być porównywane elementy."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który algorytm sortowania wykorzystuje element zwany pivotem?",
+        "answers": [
+          "Sortowanie szybkie.",
+          "Sortowanie przez wybieranie.",
+          "Sortowanie bąbelkowe."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który algorytm sortowania łączy wcześniej posortowane fragmenty tablicy?",
+        "answers": [
+          "Sortowanie przez wybieranie.",
+          "Sortowanie przez wstawianie.",
+          "Sortowanie przez scalanie."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który algorytm jest przykładem sortowania innego niż omawiane zwykle sortowanie bąbelkowe, szybkie i przez scalanie?",
+        "answers": [
+          "Heapsort.",
+          "Szyfr Cezara.",
+          "Algorytm Euklidesa."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Rekurencja i metody algorytmiczne",
+    "questions": [
+      {
+        "question": "Rekurencja polega na tym, że:",
+        "answers": [
+          "funkcja wywołuje samą siebie dla mniejszego podproblemu.",
+          "dane zapisujemy tylko w plikach.",
+          "program zawsze działa bez pętli."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Warunek brzegowy w algorytmie rekurencyjnym jest potrzebny po to, aby:",
+        "answers": [
+          "zwiększyć rozmiar tablicy.",
+          "zakończyć dalsze wywołania rekurencyjne.",
+          "posortować dane wejściowe."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Które zdanie poprawnie porównuje iterację i rekurencję?",
+        "answers": [
+          "Rekurencja nie może mieć warunku zakończenia.",
+          "Iteracja działa tylko dla napisów, a rekurencja tylko dla liczb.",
+          "Obie mogą rozwiązywać ten sam problem różnymi sposobami."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Przybliżona wartość złotego podziału to:",
+        "answers": [
+          "1,62",
+          "2,71",
+          "3,14"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Która zależność opisuje ciąg Fibonacciego dla `n > 1`?",
+        "answers": [
+          "`F(n) = 2 * F(n-1)`",
+          "`F(n) = n * n`",
+          "`F(n) = F(n-1) + F(n-2)`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda zachłanna polega na:",
+        "answers": [
+          "podejmowaniu w każdym kroku lokalnie najlepszego wyboru.",
+          "działaniu wyłącznie na posortowanych napisach.",
+          "sprawdzaniu wszystkich możliwych rozwiązań do końca."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W problemie kasjera metoda zachłanna wybiera zwykle:",
+        "answers": [
+          "zawsze najmniejszy nominał.",
+          "jak największy nominał, który można jeszcze użyć.",
+          "nominał losowo."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W problemie plecakowym metoda zachłanna nie zawsze daje wynik optymalny, ponieważ:",
+        "answers": [
+          "lokalnie najlepszy wybór nie musi prowadzić do najlepszego rozwiązania globalnego.",
+          "nie wolno w nim sortować danych.",
+          "działa tylko dla dwóch przedmiotów."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Programowanie dynamiczne polega głównie na:",
+        "answers": [
+          "działaniu bez żadnych tablic pomocniczych.",
+          "zapamiętywaniu wyników podproblemów i wykorzystywaniu ich ponownie.",
+          "losowym wybieraniu najlepszego kroku."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Skrót LCS oznacza problem:",
+        "answers": [
+          "najdłuższego wspólnego podciągu.",
+          "liczenia cyfr w systemie szesnastkowym.",
+          "najmniejszej wspólnej sumy."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Które zdanie poprawnie porównuje metodę zachłanną i dynamiczną?",
+        "answers": [
+          "To dokładnie ta sama metoda pod inną nazwą.",
+          "Dynamiczna zwykle analizuje więcej stanów, a zachłanna szybciej wybiera lokalnie najlepszy ruch.",
+          "Obie działają wyłącznie na grafach."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Metoda „dziel i zwyciężaj” polega na:",
+        "answers": [
+          "szyfrowaniu danych przed obliczeniami.",
+          "wielokrotnym losowaniu odpowiedzi.",
+          "podziale problemu na mniejsze podproblemy i łączeniu wyników."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile ruchów potrzeba do przeniesienia `n` krążków w klasycznym problemie wież Hanoi?",
+        "answers": [
+          "`n + 1`",
+          "`n^2`",
+          "`2^n - 1`"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Hipoteza Collatza dotyczy ciągu tworzonego według reguły:",
+        "answers": [
+          "zawsze dodaj 3 do liczby.",
+          "zawsze zamień liczbę na zapis binarny.",
+          "dla parzystych dziel przez 2, dla nieparzystych oblicz `3n + 1`"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  }
+]
