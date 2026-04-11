@@ -10,5 +10,9 @@
   {
     "file": "informatyka-2lo.json",
     "name": "Informatyka - 2 LO (poziom rozszerzony)"
+  },
+  {
+    "file": "wos-8.json",
+    "name": "Wiedza o Społeczeństwie - 8"
   }
 ]

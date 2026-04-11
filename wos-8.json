@@ -1,0 +1,1142 @@
+[
+  {
+    "category": "Człowiek i społeczeństwo",
+    "questions": [
+      {
+        "question": "Społeczeństwo to:",
+        "answers": [
+          "wyłącznie mieszkańcy jednego miasta",
+          "ogół ludzi żyjących na określonym terytorium i powiązanych relacjami społecznymi",
+          "tylko osoby pełnoletnie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Człowiek jest istotą społeczną, ponieważ:",
+        "answers": [
+          "rozwija się i funkcjonuje w relacjach z innymi ludźmi",
+          "nie potrzebuje kontaktu z innymi",
+          "żyje wyłącznie według własnych zasad"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Socjalizacja to proces, w którym człowiek:",
+        "answers": [
+          "otrzymuje obywatelstwo",
+          "przyswaja normy, wartości i role społeczne",
+          "uczy się tylko przepisów prawa"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Która z poniższych jest potrzebą bezpieczeństwa?",
+        "answers": [
+          "Poczucie ochrony i stabilizacji",
+          "Chęć posiadania modnego telefonu",
+          "Oglądanie telewizji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Potrzeby społeczne to potrzeby związane przede wszystkim z:",
+        "answers": [
+          "oddychaniem i snem",
+          "relacjami z innymi ludźmi",
+          "temperaturą ciała"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Przykładem roli społecznej jest rola:",
+        "answers": [
+          "ucznia",
+          "długopisu",
+          "mapy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Normy społeczne to:",
+        "answers": [
+          "zasady regulujące zachowanie ludzi w społeczeństwie",
+          "wyłącznie ceny w sklepach",
+          "plan lekcji w szkole"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Osobowość człowieka jest związana z:",
+        "answers": [
+          "tylko wyglądem zewnętrznym",
+          "cechami, które wpływają na sposób myślenia i zachowania",
+          "wyłącznie miejscem zamieszkania"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Na samoocenę człowieka może wpływać:",
+        "answers": [
+          "tylko pogoda",
+          "wyłącznie liczba obserwujących w sieci",
+          "opinia otoczenia i własne doświadczenia"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Zdrowie psychiczne oznacza między innymi:",
+        "answers": [
+          "dobrostan pozwalający radzić sobie z codziennym życiem",
+          "brak jakichkolwiek emocji",
+          "wyłącznie sprawność fizyczną"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Grupy społeczne i konflikty",
+    "questions": [
+      {
+        "question": "Grupa społeczna to:",
+        "answers": [
+          "zbiorowość osób połączonych więziami lub wspólnym celem",
+          "każda przypadkowa grupa ludzi w tym samym miejscu",
+          "wyłącznie rodzina"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Grupa formalna charakteryzuje się tym, że:",
+        "answers": [
+          "nigdy nie ma żadnych zasad",
+          "ma określone zasady działania i cele",
+          "opiera się tylko na sympatii"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Przykładem grupy nieformalnej jest najczęściej:",
+        "answers": [
+          "grupa przyjaciół",
+          "rada gminy",
+          "sąd rejonowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jedną z korzyści wynikających z bycia w grupie jest:",
+        "answers": [
+          "całkowity brak obowiązków",
+          "wsparcie i współpraca",
+          "brak kontaktu z innymi"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Konflikt społeczny pojawia się wtedy, gdy:",
+        "answers": [
+          "wszyscy zgadzają się ze sobą",
+          "występuje sprzeczność interesów lub poglądów",
+          "uczniowie mają wolny dzień"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Negocjacje to sposób rozwiązywania konfliktu polegający na:",
+        "answers": [
+          "rozmowie stron i szukaniu porozumienia",
+          "ignorowaniu problemu",
+          "przekazaniu sprawy wyłącznie mediom"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Mediacja polega na udziale:",
+        "answers": [
+          "wyłącznie policji",
+          "bezstronnej osoby pomagającej stronom dojść do porozumienia",
+          "przypadkowego świadka"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Arbitraż to sytuacja, w której:",
+        "answers": [
+          "strony same nie rozmawiają i czekają",
+          "spór rozstrzyga bezstronna osoba lub instytucja",
+          "konflikt jest ukrywany"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Autorytet różni się od idola przede wszystkim tym, że:",
+        "answers": [
+          "autorytet budzi szacunek postawą i wartościami",
+          "idol zawsze jest nauczycielem",
+          "autorytet musi być celebrytą"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Skuteczne negocjacje wymagają przede wszystkim:",
+        "answers": [
+          "krzyku i przerywania",
+          "gotowości do rozmowy i szukania rozwiązania",
+          "odejścia od stołu rozmów"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Komunikacja i autoprezentacja",
+    "questions": [
+      {
+        "question": "Dyskusja to:",
+        "answers": [
+          "wymiana opinii i argumentów na określony temat",
+          "jedynie kłótnia",
+          "rodzaj głosowania"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Debata różni się od zwykłej rozmowy tym, że zwykle:",
+        "answers": [
+          "ma ustalone zasady i porządek wypowiedzi",
+          "nie wolno w niej podawać argumentów",
+          "uczestniczy w niej tylko jedna osoba"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Asertywność oznacza:",
+        "answers": [
+          "uleganie wszystkim prośbom",
+          "wyrażanie własnego zdania z poszanowaniem innych",
+          "narzucanie innym swoich racji siłą"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Asertywność różni się od agresji tym, że:",
+        "answers": [
+          "asertywność szanuje prawa innych",
+          "agresja zawsze jest spokojna",
+          "nie ma między nimi różnicy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W debacie należy przede wszystkim:",
+        "answers": [
+          "słuchać innych i odpowiadać argumentami",
+          "obrażać rozmówców",
+          "mówić jednocześnie z innymi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem zachowania asertywnego jest:",
+        "answers": [
+          "spokojne odmówienie udziału w czymś szkodliwym",
+          "krzyczenie na wszystkich dookoła",
+          "zgadzanie się na wszystko wbrew sobie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Autoprezentacja to:",
+        "answers": [
+          "sposób, w jaki człowiek przedstawia siebie innym",
+          "rodzaj wyborów parlamentarnych",
+          "wyłącznie strój galowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W trakcie dyskusji nie należy:",
+        "answers": [
+          "podawać argumentów",
+          "przerywać i lekceważyć rozmówców",
+          "słuchać drugiej strony"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Młody człowiek powinien zachować się asertywnie wtedy, gdy:",
+        "answers": [
+          "jest namawiany do czegoś szkodliwego",
+          "idzie do szkoły",
+          "czyta książkę"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Budowanie asertywnej wypowiedzi wymaga:",
+        "answers": [
+          "jasnego wyrażenia swojego stanowiska",
+          "ukrywania własnego zdania",
+          "atakowania rozmówcy"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Rodzina, szkoła i ekonomia",
+    "questions": [
+      {
+        "question": "Rodzina jest podstawową grupą społeczną, ponieważ:",
+        "answers": [
+          "to w niej człowiek najwcześniej uczy się relacji społecznych",
+          "zajmuje się wyłącznie zarabianiem pieniędzy",
+          "tworzą ją tylko osoby dorosłe"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jedną z funkcji rodziny jest funkcja:",
+        "answers": [
+          "wychowawcza",
+          "ustawodawcza",
+          "sądownicza"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Władza rodzicielska oznacza:",
+        "answers": [
+          "ogół praw i obowiązków rodziców wobec dziecka",
+          "prawo rodziców do łamania praw dziecka",
+          "obowiązek dziecka do zarabiania pieniędzy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do praw dziecka w rodzinie należy prawo do:",
+        "answers": [
+          "opieki i bezpieczeństwa",
+          "lekceważenia innych domowników",
+          "dowolnego łamania zasad"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jednym z problemów współczesnych rodzin może być:",
+        "answers": [
+          "przemoc domowa",
+          "wzajemny szacunek",
+          "wspólne spędzanie czasu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Podstawową funkcją szkoły jest między innymi:",
+        "answers": [
+          "edukacja i wychowanie",
+          "wydawanie paszportów",
+          "orzekanie wyroków"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Samorząd uczniowski tworzą:",
+        "answers": [
+          "wszyscy uczniowie szkoły",
+          "wyłącznie nauczyciele",
+          "tylko dyrektor szkoły"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Statut szkoły zawiera między innymi:",
+        "answers": [
+          "prawa i obowiązki ucznia",
+          "spis wszystkich ocen uczniów w kraju",
+          "listę wszystkich szkół w Polsce"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Budżet domowy to:",
+        "answers": [
+          "zestawienie dochodów i wydatków gospodarstwa domowego",
+          "spis przedmiotów w domu",
+          "plan lekcji rodziny"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Konsument może złożyć reklamację, gdy towar:",
+        "answers": [
+          "jest wadliwy albo niezgodny z umową",
+          "po prostu przestał mu się podobać",
+          "był kupiony w weekend"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Prawa człowieka",
+    "questions": [
+      {
+        "question": "Powszechna Deklaracja Praw Człowieka to:",
+        "answers": [
+          "międzynarodowy dokument o podstawowych prawach i wolnościach",
+          "regulamin szkoły",
+          "polska ustawa budżetowa"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Prawa człowieka przysługują:",
+        "answers": [
+          "tylko osobom dorosłym",
+          "każdemu człowiekowi",
+          "wyłącznie obywatelom Europy"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jedną z cech praw człowieka jest ich:",
+        "answers": [
+          "powszechność",
+          "zależność od majątku",
+          "tymczasowość"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Konwencja o prawach dziecka dotyczy przede wszystkim:",
+        "answers": [
+          "ochrony praw dzieci",
+          "wyborów parlamentarnych",
+          "samorządu lokalnego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Które z poniższych jest prawem politycznym?",
+        "answers": [
+          "Prawo udziału w wyborach",
+          "Prawo do snu",
+          "Prawo do jazdy na rowerze"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Prawa pierwszej generacji dotyczą głównie:",
+        "answers": [
+          "wolności osobistych i praw politycznych",
+          "wyłącznie ekologii",
+          "handlu międzynarodowego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do praw drugiej generacji zalicza się prawo do:",
+        "answers": [
+          "nauki",
+          "dziedziczenia tronu",
+          "dowolnego łamania prawa"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Rzecznik Praw Obywatelskich zajmuje się:",
+        "answers": [
+          "ochroną praw i wolności obywateli",
+          "kierowaniem rządem",
+          "wydawaniem dowodów osobistych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Rzecznik Praw Dziecka stoi na straży:",
+        "answers": [
+          "praw dzieci",
+          "cen w sklepach",
+          "wyników egzaminów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem łamania praw dziecka jest:",
+        "answers": [
+          "przemoc wobec dziecka",
+          "zapewnienie opieki medycznej",
+          "umożliwienie nauki"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Bezpieczeństwo nieletnich i prawo",
+    "questions": [
+      {
+        "question": "Przemoc to działanie, które:",
+        "answers": [
+          "krzywdzi drugą osobę i narusza jej prawa",
+          "zawsze jest żartem",
+          "dotyczy tylko dorosłych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Cyberprzemoc to przemoc z użyciem:",
+        "answers": [
+          "internetu lub urządzeń elektronicznych",
+          "wyłącznie książek",
+          "sprzętu sportowego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem cyberprzemocy jest:",
+        "answers": [
+          "publikowanie obraźliwych treści o kimś w sieci",
+          "pomoc w odrabianiu pracy domowej",
+          "wspólna nauka do sprawdzianu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Niebieska Karta jest związana z przeciwdziałaniem:",
+        "answers": [
+          "przemocy domowej",
+          "spóźnieniom do szkoły",
+          "brakowi podręczników"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Świadek przemocy powinien:",
+        "answers": [
+          "szukać pomocy u zaufanej osoby dorosłej lub instytucji",
+          "milczeć za wszelką cenę",
+          "udawać, że nic nie widzi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jedną z zasad bezpiecznego korzystania z internetu jest:",
+        "answers": [
+          "nieudostępnianie obcym swoich danych osobowych",
+          "otwieranie wszystkich podejrzanych linków",
+          "podawanie wszystkim swojego hasła"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Policja zajmuje się przede wszystkim:",
+        "answers": [
+          "ochroną bezpieczeństwa i porządku publicznego",
+          "uchwalaniem ustaw",
+          "przyjmowaniem uczniów do szkoły"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Straż miejska działa głównie na terenie:",
+        "answers": [
+          "gminy lub miasta",
+          "całego świata",
+          "wyłącznie parlamentu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Nieletni to osoba, która:",
+        "answers": [
+          "nie ukończyła wieku określonego w przepisach dotyczących odpowiedzialności nieletnich",
+          "zawsze ma dokładnie 18 lat",
+          "pracuje w policji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W kontakcie z policją obywatel ma prawo do:",
+        "answers": [
+          "poznania przyczyny interwencji",
+          "ukrycia tożsamości w każdej sytuacji",
+          "wydawania poleceń funkcjonariuszowi"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Samorząd lokalny i regionalny",
+    "questions": [
+      {
+        "question": "Samorząd terytorialny to forma:",
+        "answers": [
+          "zarządzania sprawami lokalnymi przez mieszkańców i ich organy",
+          "rządów wojskowych",
+          "działania tylko partii politycznych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Podstawową jednostką samorządu terytorialnego w Polsce jest:",
+        "answers": [
+          "gmina",
+          "województwo",
+          "senat"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jednostkami podziału terytorialnego Polski są:",
+        "answers": [
+          "gminy, powiaty i województwa",
+          "wyłącznie miasta i wsie",
+          "parlament i rząd"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do zadań gminy należy na przykład:",
+        "answers": [
+          "dbanie o drogi lokalne i szkoły podstawowe",
+          "prowadzenie polityki zagranicznej państwa",
+          "wydawanie wyroków sądowych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Powiat zajmuje się zadaniami, które:",
+        "answers": [
+          "wykraczają poza możliwości jednej gminy",
+          "dotyczą tylko Unii Europejskiej",
+          "są związane wyłącznie z obroną państwa"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Samorząd wojewódzki odpowiada między innymi za:",
+        "answers": [
+          "rozwój regionu",
+          "wybór prezydenta RP",
+          "uchwalanie konstytucji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Biuletyn Informacji Publicznej służy do:",
+        "answers": [
+          "udostępniania informacji o działalności urzędów",
+          "publikowania prywatnych wiadomości mieszkańców",
+          "sprzedaży biletów autobusowych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Budżet obywatelski umożliwia mieszkańcom:",
+        "answers": [
+          "decydowanie o części wydatków publicznych",
+          "pisanie ustaw krajowych",
+          "wybieranie sędziów do wszystkich sądów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem aktywności obywatelskiej na poziomie lokalnym jest:",
+        "answers": [
+          "udział w konsultacjach społecznych",
+          "unikanie wszystkich spraw gminy",
+          "niszczenie mienia publicznego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Korupcja to:",
+        "answers": [
+          "nadużywanie stanowiska dla prywatnych korzyści",
+          "uczciwe wykonywanie obowiązków",
+          "legalne głosowanie w wyborach"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Naród, obywatelstwo i różnorodność",
+    "questions": [
+      {
+        "question": "Naród to wspólnota ludzi połączonych między innymi:",
+        "answers": [
+          "historią, kulturą i poczuciem tożsamości",
+          "wyłącznie tym samym adresem",
+          "jedynie miejscem w klasie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Obywatelstwo oznacza:",
+        "answers": [
+          "formalną więź człowieka z państwem",
+          "tylko miejsce urodzenia",
+          "udział w jednej wycieczce szkolnej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Paszport służy głównie do:",
+        "answers": [
+          "potwierdzania tożsamości za granicą",
+          "sprawdzania ocen",
+          "głosowania w samorządzie uczniowskim"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jednym z obowiązków obywatela RP jest:",
+        "answers": [
+          "przestrzeganie prawa",
+          "samodzielne wydawanie wyroków",
+          "pisanie ustaw"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Patriotyzm to:",
+        "answers": [
+          "miłość do ojczyzny i troska o dobro wspólne",
+          "wrogość wobec innych narodów",
+          "obowiązek mieszkania w jednej miejscowości"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Polonia to:",
+        "answers": [
+          "Polacy mieszkający poza granicami kraju",
+          "wszyscy mieszkańcy Warszawy",
+          "wyłącznie polscy sportowcy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Mniejszość narodowa różni się od etnicznej tym, że:",
+        "answers": [
+          "utożsamia się z narodem mającym własne państwo",
+          "jest zawsze większa liczebnie",
+          "nie ma żadnej kultury"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Językiem regionalnym uznanym w polskim prawie jest:",
+        "answers": [
+          "kaszubski",
+          "łacina",
+          "esperanto"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Imigrant to osoba, która:",
+        "answers": [
+          "przybywa do danego kraju, aby w nim zamieszkać",
+          "zawsze wraca do domu tego samego dnia",
+          "mieszka wyłącznie na wsi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Uchodźca to osoba, która opuszcza swój kraj z powodu:",
+        "answers": [
+          "zagrożenia, wojny lub prześladowań",
+          "zmiany planu lekcji",
+          "chęci kupienia tańszego telefonu"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Tolerancja i postawy społeczne",
+    "questions": [
+      {
+        "question": "Tolerancja polega na:",
+        "answers": [
+          "szanowaniu prawa innych do odmiennych poglądów i stylu życia",
+          "zgodzie na każde zachowanie bez wyjątków",
+          "narzucaniu wszystkim własnych przekonań"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Nietolerancja to:",
+        "answers": [
+          "brak szacunku dla odmienności innych ludzi",
+          "gotowość do dialogu",
+          "postawa współpracy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Stereotyp to:",
+        "answers": [
+          "uproszczony i często krzywdzący obraz grupy ludzi",
+          "sprawdzona wiedza naukowa",
+          "rodzaj ustawy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ksenofobia oznacza:",
+        "answers": [
+          "niechęć wobec obcych",
+          "zainteresowanie inną kulturą",
+          "pomoc migrantom"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Rasizm polega na:",
+        "answers": [
+          "uznawaniu wyższości jednych ras nad innymi",
+          "obronie praw człowieka",
+          "promowaniu współpracy narodów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Szowinizm to postawa:",
+        "answers": [
+          "bezkrytycznego wywyższania własnego narodu lub grupy",
+          "poszanowania różnorodności",
+          "neutralności światopoglądowej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Antysemityzm to wrogość skierowana wobec:",
+        "answers": [
+          "Żydów",
+          "dzieci",
+          "urzędników"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Hejt i mowa nienawiści są groźne, ponieważ:",
+        "answers": [
+          "krzywdzą ludzi i pogłębiają uprzedzenia",
+          "służą rozwiązywaniu konfliktów",
+          "nie mają wpływu na społeczeństwo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kosmopolityzm to postawa podkreślająca:",
+        "answers": [
+          "więź z całym światem i ludzkością",
+          "niechęć wobec obcych",
+          "obowiązek życia w jednym kraju"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Walka z nietolerancją jest ważna, ponieważ:",
+        "answers": [
+          "sprzyja bezpiecznemu i sprawiedliwemu społeczeństwu",
+          "ogranicza prawa człowieka",
+          "utrudnia współpracę ludzi"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Polska państwem demokratycznym",
+    "questions": [
+      {
+        "question": "Państwo to organizacja polityczna, która:",
+        "answers": [
+          "sprawuje władzę na określonym terytorium",
+          "jest tylko grupą towarzyską",
+          "nie ma instytucji publicznych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Demokracja to ustrój, w którym:",
+        "answers": [
+          "władza należy do narodu",
+          "rządzi jedna osoba bez kontroli",
+          "nie odbywają się wybory"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem demokracji bezpośredniej jest:",
+        "answers": [
+          "referendum",
+          "działalność rządu",
+          "praca sądu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Konstytucja RP jest:",
+        "answers": [
+          "najwyższym aktem prawnym w Polsce",
+          "planem pracy szkoły",
+          "rozkładem jazdy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zasada trójpodziału władzy oznacza podział na władzę:",
+        "answers": [
+          "ustawodawczą, wykonawczą i sądowniczą",
+          "gminną, powiatową i wojewódzką",
+          "szkolną, domową i lokalną"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Władzę ustawodawczą w Polsce sprawują:",
+        "answers": [
+          "Sejm i Senat",
+          "prezydent i premier",
+          "sądy i trybunały"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Sejm i Senat razem tworzą:",
+        "answers": [
+          "parlament",
+          "rząd",
+          "samorząd"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do władzy wykonawczej w Polsce należą:",
+        "answers": [
+          "prezydent i Rada Ministrów",
+          "Sejm i Senat",
+          "wyłącznie sądy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Premier stoi na czele:",
+        "answers": [
+          "Rady Ministrów",
+          "Senatu",
+          "Trybunału Konstytucyjnego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Władzę sądowniczą w Polsce sprawują:",
+        "answers": [
+          "sądy i trybunały",
+          "prezydent i premier",
+          "samorządy lokalne"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Instytucje demokratyczne, media i organizacje obywatelskie",
+    "questions": [
+      {
+        "question": "Trybunał Konstytucyjny zajmuje się przede wszystkim:",
+        "answers": [
+          "badaniem zgodności prawa z konstytucją",
+          "kierowaniem rządem",
+          "prowadzeniem wyborów szkolnych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Dwuinstancyjność postępowania sądowego oznacza, że:",
+        "answers": [
+          "od wyroku można się odwołać do sądu wyższej instancji",
+          "każdy sąd ma dwóch sędziów",
+          "w Polsce istnieją tylko dwa sądy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Partia polityczna to organizacja, która:",
+        "answers": [
+          "stara się wpływać na sprawowanie władzy publicznej",
+          "zajmuje się tylko sportem",
+          "jest częścią sądu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Koalicja parlamentarna to:",
+        "answers": [
+          "współpraca ugrupowań politycznych w parlamencie",
+          "rodzaj przestępstwa",
+          "konflikt w samorządzie uczniowskim"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Opozycja parlamentarna to ugrupowania, które:",
+        "answers": [
+          "nie tworzą rządu i go kontrolują",
+          "zawsze stoją na czele rządu",
+          "nie mogą brać udziału w głosowaniach"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Organizacje pozarządowe to organizacje:",
+        "answers": [
+          "działające niezależnie od administracji państwowej",
+          "będące częścią rządu",
+          "wydające wyroki sądowe"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Wolontariat polega na:",
+        "answers": [
+          "dobrowolnej i bezpłatnej pracy na rzecz innych",
+          "przymusowej pracy w urzędzie",
+          "odpłatnym pełnieniu funkcji politycznej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Opinia publiczna to:",
+        "answers": [
+          "zespół poglądów społeczeństwa na ważne sprawy publiczne",
+          "wyłącznie stanowisko rządu",
+          "jedna wypowiedź dziennikarza"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Fake news to:",
+        "answers": [
+          "fałszywa informacja podawana jak prawdziwa",
+          "oficjalny komunikat urzędowy",
+          "rodzaj gazety lokalnej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Wolność słowa oznacza prawo do:",
+        "answers": [
+          "wyrażania opinii z poszanowaniem prawa i innych osób",
+          "obrażania wszystkich bez konsekwencji",
+          "ukrywania informacji publicznych"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Sprawy międzynarodowe i Unia Europejska",
+    "questions": [
+      {
+        "question": "Polityka zagraniczna to działania państwa dotyczące:",
+        "answers": [
+          "relacji z innymi państwami i organizacjami międzynarodowymi",
+          "wyłącznie planu lekcji",
+          "tylko spraw jednej gminy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "ONZ to skrót od nazwy:",
+        "answers": [
+          "Organizacja Narodów Zjednoczonych",
+          "Ogólny Nadzór Zdrowia",
+          "Organizacja Nauczycieli Zawodowych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jednym z głównych celów ONZ jest:",
+        "answers": [
+          "utrzymanie pokoju i bezpieczeństwa na świecie",
+          "prowadzenie handlu detalicznego",
+          "organizacja egzaminów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ambasador reprezentuje swoje państwo:",
+        "answers": [
+          "w innym państwie",
+          "tylko w szkole",
+          "wyłącznie w samorządzie gminnym"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "NATO jest organizacją, której głównym celem jest:",
+        "answers": [
+          "wspólna obrona i bezpieczeństwo państw członkowskich",
+          "zarządzanie szkolnictwem",
+          "ustalanie cen żywności"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Unia Europejska została utworzona, aby między innymi:",
+        "answers": [
+          "wzmacniać współpracę państw Europy",
+          "zlikwidować wszystkie państwa",
+          "zastąpić wszystkie waluty świata"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Polska przystąpiła do Unii Europejskiej w roku:",
+        "answers": [
+          "2004",
+          "1999",
+          "2015"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jedną z korzyści członkostwa Polski w UE jest:",
+        "answers": [
+          "możliwość korzystania z funduszy unijnych",
+          "likwidacja wszystkich podatków",
+          "brak jakichkolwiek granic na świecie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Strefa Schengen ułatwia przede wszystkim:",
+        "answers": [
+          "podróżowanie bez kontroli na wielu granicach wewnętrznych",
+          "automatyczne uzyskanie obywatelstwa",
+          "udział w wyborach we wszystkich krajach świata"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Globalizacja to proces polegający na:",
+        "answers": [
+          "coraz większym powiązaniu gospodarek i społeczeństw świata",
+          "całkowitym odizolowaniu państw",
+          "likwidacji wszystkich kultur narodowych"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+]
