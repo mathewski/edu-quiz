@@ -5,8 +5,8 @@
       {
         "question": "Co określa specyfikacja algorytmu?",
         "answers": [
-          "Kolor okna programu",
-          "Nazwisko autora programu",
+          "Kolejność instrukcji w implementacji algorytmu",
+          "Złożoność czasową i pamięciową algorytmu",
           "Dane wejściowe i wyniki algorytmu"
         ],
         "correctAnswerIndex": 2
@@ -14,9 +14,9 @@
       {
         "question": "Który zapis jest formą przedstawienia algorytmu?",
         "answers": [
-          "Lista zainstalowanych programów",
+          "Tabela przypadków testowych",
           "Schemat blokowy",
-          "Zrzut ekranu pulpitu"
+          "Opis wyników działania programu"
         ],
         "correctAnswerIndex": 1
       },
@@ -33,17 +33,17 @@
         "question": "Co wykorzystuje algorytm szybkiego podnoszenia do potęgi?",
         "answers": [
           "Binarną reprezentację wykładnika",
-          "Wyłącznie dodawanie kolejnych jedynek",
-          "Tylko system rzymski"
+          "Rozkład wykładnika na czynniki pierwsze",
+          "Tablicowanie wszystkich kolejnych potęg od początku"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Co należy dobrać do problemu, aby rozwiązanie było sensowne i wydajne?",
         "answers": [
-          "Tylko kolor konsoli",
+          "Wyłącznie język programowania",
           "Odpowiedni algorytm i struktury danych",
-          "Wyłącznie nazwę zmiennej"
+          "Jedynie format wypisywania wyniku"
         ],
         "correctAnswerIndex": 1
       },
@@ -59,8 +59,8 @@
       {
         "question": "Operacje plikowe w programie to między innymi:",
         "answers": [
-          "aktualizacja systemu operacyjnego",
-          "zmiana tapety pulpitu",
+          "parsowanie argumentów wiersza poleceń",
+          "przetwarzanie danych wyłącznie w pamięci operacyjnej",
           "wczytywanie danych z pliku i zapisywanie wyniku do pliku"
         ],
         "correctAnswerIndex": 2
@@ -68,9 +68,9 @@
       {
         "question": "Do zliczania wystąpień znaków w tekście wygodnie użyć:",
         "answers": [
-          "tylko funkcji `sqrt()`",
+          "listy unikalnych znaków bez liczników",
           "tablicy liczników",
-          "wykresu słupkowego"
+          "stosu przechowującego kolejne znaki"
         ],
         "correctAnswerIndex": 1
       },
@@ -78,8 +78,8 @@
         "question": "Algorytm naiwny to zwykle algorytm:",
         "answers": [
           "prosty, ale niekoniecznie najbardziej wydajny",
-          "działający tylko dla liczb pierwszych",
-          "zawsze najlepszy możliwy"
+          "oparty wyłącznie na rekurencji",
+          "asymptotycznie optymalny w każdym przypadku"
         ],
         "correctAnswerIndex": 0
       },
@@ -87,16 +87,16 @@
         "question": "Operacja dominująca w analizie algorytmu to operacja:",
         "answers": [
           "wykonywana najczęściej i mająca największy wpływ na czas działania",
-          "odpowiedzialna za kolorowanie kodu",
-          "wykonywana tylko raz na początku"
+          "zużywająca najwięcej pamięci stałej programu",
+          "wywoływana wyłącznie przy inicjalizacji danych"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Problem telewidza lub harmonogramu sali dotyczy głównie:",
         "answers": [
-          "szyfrowania wiadomości",
-          "zamiany liczb na system binarny",
+          "wyznaczania najkrótszej ścieżki w grafie",
+          "przydziału zadań maksymalizującego zysk przy ograniczonym zasobie",
           "wyboru niekolidujących przedziałów czasu"
         ],
         "correctAnswerIndex": 2
@@ -104,9 +104,9 @@
       {
         "question": "Funkcja losująca w programie służy do:",
         "answers": [
-          "obliczania NWD dwóch liczb",
+          "wyznaczania kolejnych elementów ciągu Fibonacciego",
           "generowania pseudolosowych wartości",
-          "zamiany każdego tekstu na szyfr"
+          "porządkowania danych w porządku rosnącym"
         ],
         "correctAnswerIndex": 1
       }
@@ -136,8 +136,8 @@
       {
         "question": "Czym jest bit?",
         "answers": [
-          "Typem wykresu w Excelu",
-          "Ośmiobajtowym blokiem pamięci",
+          "Najmniejszą adresowalną jednostką pamięci",
+          "Pojedynczym znakiem zapisanym w kodzie ASCII",
           "Najmniejszą jednostką informacji przyjmującą 0 albo 1"
         ],
         "correctAnswerIndex": 2
@@ -181,8 +181,8 @@
       {
         "question": "Czym jest tablica kodów ASCII?",
         "answers": [
-          "Programem do rysowania wykresów",
-          "Sposobem sortowania danych",
+          "Zbiorem instrukcji procesora odpowiadających podstawowym znakom",
+          "Metodą kompresji tekstu do postaci binarnej",
           "Zestawem kodów przypisujących liczby znakom"
         ],
         "correctAnswerIndex": 2
@@ -250,16 +250,16 @@
         "question": "Jak odwołujemy się do konkretnego znaku w napisie?",
         "answers": [
           "Za pomocą indeksu",
-          "Za pomocą adresu e-mail",
-          "Za pomocą wykresu"
+          "Za pomocą operatora `in`",
+          "Za pomocą nazwy zmiennej przechowującej napis"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Czym jest palindrom?",
         "answers": [
-          "Każdy wyraz zapisany wielkimi literami",
-          "Napis zawierający tylko cyfry",
+          "Napis, w którym wszystkie znaki są identyczne",
+          "Napis ułożony w porządku alfabetycznym",
           "Napis lub liczba czytane tak samo z lewej i z prawej strony"
         ],
         "correctAnswerIndex": 2
@@ -276,8 +276,8 @@
       {
         "question": "Której funkcji w Pythonie używa się do wczytania napisu ze spacjami?",
         "answers": [
-          "`sqrt()`",
-          "`randint()`",
+          "`split()`",
+          "`readline()`",
           "`input()`"
         ],
         "correctAnswerIndex": 2
@@ -407,9 +407,9 @@
       {
         "question": "Naiwny algorytm sprawdzania pierwszości polega na:",
         "answers": [
-          "losowaniu odpowiedzi",
+          "sprawdzaniu tylko podzielności przez 2 i 3",
           "sprawdzaniu podzielności przez kolejne liczby",
-          "zamianie liczby na tekst"
+          "porównaniu liczby z gotową listą znanych liczb pierwszych"
         ],
         "correctAnswerIndex": 1
       },
@@ -443,8 +443,8 @@
       {
         "question": "Geometryczna interpretacja algorytmu Euklidesa dotyczy:",
         "answers": [
-          "rysowania wykresu funkcji liniowej",
-          "obliczania pola koła",
+          "porównywania pól dwóch prostokątów",
+          "dzielenia odcinka według złotego podziału",
           "wyznaczania największego wspólnego dzielnika"
         ],
         "correctAnswerIndex": 2
@@ -461,8 +461,8 @@
       {
         "question": "Jak najwygodniej reprezentować ułamek w programie?",
         "answers": [
-          "Jako pojedynczy napis `str`",
-          "Jako nazwę pliku",
+          "Jako pojedynczą liczbę typu `float`",
+          "Jako łańcuch znaków z licznikiem i mianownikiem rozdzielonym ukośnikiem",
           "Jako strukturę z licznikiem i mianownikiem"
         ],
         "correctAnswerIndex": 2
@@ -485,16 +485,16 @@
         "question": "Szyfr podstawieniowy polega na:",
         "answers": [
           "zastępowaniu jednych znaków innymi",
-          "zmianie kolejności folderów na dysku",
-          "kompresji pliku do ZIP"
+          "przestawianiu kolejności znaków w tekście",
+          "dzieleniu tekstu na bloki o stałej długości"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Szyfr monoalfabetyczny to taki, w którym:",
         "answers": [
-          "klucz zmienia się przy każdym znaku",
-          "zmieniana jest tylko kolejność wyrazów",
+          "zamiana litery zależy od jej pozycji w tekście",
+          "szyfrowane są tylko wybrane litery alfabetu",
           "każdej literze odpowiada stały zamiennik"
         ],
         "correctAnswerIndex": 2
@@ -502,9 +502,9 @@
       {
         "question": "Szyfr permutacyjny polega głównie na:",
         "answers": [
-          "usuwaniu wszystkich spacji",
+          "zastępowaniu każdej litery inną literą",
           "zmianie kolejności znaków",
-          "zamianie liczb na wykresy"
+          "kodowaniu tekstu wyłącznie w systemie binarnym"
         ],
         "correctAnswerIndex": 1
       },
@@ -512,17 +512,17 @@
         "question": "Na czym polega szyfr Cezara?",
         "answers": [
           "Na przesuwaniu liter alfabetu o stałą liczbę pozycji",
-          "Na losowym mieszaniu liter bez klucza",
-          "Na dzieleniu tekstu na bloki po 8 bitów"
+          "Na podstawianiu liter według dowolnej permutacji alfabetu",
+          "Na zamianie kolejności liter w kolejnych blokach tekstu"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Szyfr Vigenere’a wykorzystuje:",
         "answers": [
-          "tylko jedną stałą zamianę wszystkich liter",
+          "jedną stałą permutację alfabetu dla całego tekstu",
           "słowo-klucz i wiele przesunięć alfabetu",
-          "wyłącznie zapis binarny tekstu"
+          "wyłącznie zamianę kolejności liter w wyrazach"
         ],
         "correctAnswerIndex": 1
       },
@@ -530,16 +530,16 @@
         "question": "Kryptoanaliza to:",
         "answers": [
           "łamanie szyfrów lub analiza sposobów ich złamania",
-          "tworzenie wykresów kołowych",
-          "czyszczenie pamięci komputera"
+          "projektowanie układu klawiatury dla szybkiego pisania",
+          "kompresowanie zaszyfrowanych plików do mniejszego rozmiaru"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Analiza częstości przy łamaniu szyfru Cezara polega na:",
         "answers": [
-          "liczeniu liczby akapitów w tekście",
-          "usuwaniu wszystkich spacji z wiadomości",
+          "porównywaniu długości kolejnych wyrazów w tekście",
+          "wyszukiwaniu wszystkich cyfr występujących w wiadomości",
           "sprawdzaniu, które litery występują najczęściej"
         ],
         "correctAnswerIndex": 2
@@ -553,17 +553,17 @@
         "question": "Kiedy najlepiej stosować wyszukiwanie liniowe?",
         "answers": [
           "Gdy zbiór jest nieuporządkowany albo mały",
-          "Wyłącznie dla napisów o jednakowej długości",
-          "Tylko gdy dane są posortowane rosnąco"
+          "Gdy elementy są podzielone na równoliczne bloki",
+          "Gdy chcemy dzielić zakres wyszukiwania na połowy"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Wyszukiwanie liniowe z wartownikiem ma na celu głównie:",
         "answers": [
-          "posortowanie danych przed szukaniem",
+          "zapewnienie logarytmicznej liczby porównań",
           "uproszczenie warunku zakończenia przeszukiwania",
-          "zamianę tablicy na listę"
+          "umożliwienie przeszukiwania tylko danych liczbowych"
         ],
         "correctAnswerIndex": 1
       },
@@ -580,8 +580,8 @@
         "question": "Złożoność czasowa algorytmu opisuje przede wszystkim:",
         "answers": [
           "ile czasu lub operacji wymaga wykonanie algorytmu",
-          "ile kolorów ma interfejs programu",
-          "wielkość monitora użytkownika"
+          "jak dużo pamięci zajmuje kod źródłowy programu",
+          "jaką liczbę instrukcji zawiera implementacja"
         ],
         "correctAnswerIndex": 0
       },
@@ -615,8 +615,8 @@
       {
         "question": "Sortowanie `in situ` oznacza, że algorytm:",
         "answers": [
-          "zawsze zachowuje kolejność równych elementów",
-          "działa wyłącznie w internecie",
+          "zawsze zachowuje kolejność elementów o równych kluczach",
+          "wymaga dodatkowej tablicy o rozmiarze porównywalnym z danymi",
           "sortuje dane w miejscu, bez dużej dodatkowej pamięci"
         ],
         "correctAnswerIndex": 2
@@ -651,9 +651,9 @@
       {
         "question": "Pierwotne ułożenie danych szczególnie wpływa na liczbę operacji w sortowaniu:",
         "answers": [
-          "tylko szesnastkowym",
+          "przez scalanie",
           "bąbelkowym",
-          "ASCII"
+          "przez zliczanie"
         ],
         "correctAnswerIndex": 1
       },
@@ -738,8 +738,8 @@
         "question": "Rekurencja polega na tym, że:",
         "answers": [
           "funkcja wywołuje samą siebie dla mniejszego podproblemu",
-          "dane zapisujemy tylko w plikach",
-          "program zawsze działa bez pętli"
+          "wynik jest obliczany bez użycia stosu wywołań",
+          "każdy problem rozwiązuje się jednym wywołaniem bez podziału"
         ],
         "correctAnswerIndex": 0
       },
@@ -755,8 +755,8 @@
       {
         "question": "Które zdanie poprawnie porównuje iterację i rekurencję?",
         "answers": [
-          "Rekurencja nie może mieć warunku zakończenia",
-          "Iteracja działa tylko dla napisów, a rekurencja tylko dla liczb",
+          "Rekurencja zawsze działa szybciej od iteracji",
+          "Iteracja i rekurencja służą do zupełnie innych klas problemów",
           "Obie mogą rozwiązywać ten sam problem różnymi sposobami"
         ],
         "correctAnswerIndex": 2
@@ -783,8 +783,8 @@
         "question": "Metoda zachłanna polega na:",
         "answers": [
           "podejmowaniu w każdym kroku lokalnie najlepszego wyboru",
-          "działaniu wyłącznie na posortowanych napisach",
-          "sprawdzaniu wszystkich możliwych rozwiązań do końca"
+          "zapamiętywaniu wyników wszystkich podproblemów w tabeli",
+          "pełnym przeglądzie wszystkich dopuszczalnych rozwiązań"
         ],
         "correctAnswerIndex": 0
       },
@@ -801,8 +801,8 @@
         "question": "W problemie plecakowym metoda zachłanna nie zawsze daje wynik optymalny, ponieważ:",
         "answers": [
           "lokalnie najlepszy wybór nie musi prowadzić do najlepszego rozwiązania globalnego",
-          "nie wolno w nim sortować danych",
-          "działa tylko dla dwóch przedmiotów"
+          "każdy przedmiot musi być zawsze wybierany dokładnie raz",
+          "wartości przedmiotów nie mogą być ze sobą porównywane"
         ],
         "correctAnswerIndex": 0
       },
@@ -836,8 +836,8 @@
       {
         "question": "Metoda „dziel i zwyciężaj” polega na:",
         "answers": [
-          "szyfrowaniu danych przed obliczeniami",
-          "wielokrotnym losowaniu odpowiedzi",
+          "zapamiętywaniu wyników wszystkich podproblemów w jednej tabeli",
+          "wybieraniu w każdym kroku lokalnie najlepszego rozwiązania",
           "podziale problemu na mniejsze podproblemy i łączeniu wyników"
         ],
         "correctAnswerIndex": 2
@@ -854,8 +854,8 @@
       {
         "question": "Hipoteza Collatza dotyczy ciągu tworzonego według reguły:",
         "answers": [
-          "zawsze dodaj 3 do liczby",
-          "zawsze zamień liczbę na zapis binarny",
+          "dla parzystych odejmij 1, a dla nieparzystych dodaj 1",
+          "dla każdej liczby oblicz `n^2 + 1`",
           "dla parzystych dziel przez 2, dla nieparzystych oblicz `3n + 1`"
         ],
         "correctAnswerIndex": 2
