@@ -1,0 +1,988 @@
+[
+  {
+    "category": "ONP i stos",
+    "questions": [
+      {
+        "question": "Wyrażenie (3 + 4) * 2 zapisane w ONP to:",
+        "answers": [
+          "* + 3 4 2",
+          "3 + 4 2 *",
+          "3 4 + 2 *"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jaka jest wartość wyrażenia zapisanego w ONP: 5 1 2 + 4 * + 3 - ?",
+        "answers": [
+          "12",
+          "14",
+          "17"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wyrażenie ONP 2 3 4 * + odpowiada zapisowi:",
+        "answers": [
+          "2 + 3 * 4",
+          "2 * 3 + 4",
+          "(2 + 3) * 4"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zapis + 3 4 to przykład notacji:",
+        "answers": [
+          "infiksowej",
+          "prefiksowej (polskiej)",
+          "sufiksowej (odwrotnej polskiej)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Główną zaletą ONP jest:",
+        "answers": [
+          "brak potrzeby stosowania nawiasów",
+          "krótszy zapis liczb wielocyfrowych",
+          "możliwość zapisu działań bez użycia operatorów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Stos działa według zasady:",
+        "answers": [
+          "dostępu swobodnego do dowolnego elementu",
+          "LIFO — ostatni wszedł, pierwszy wyszedł",
+          "FIFO — pierwszy wszedł, pierwszy wyszedł"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Obliczając wartość wyrażenia w ONP z użyciem stosu, po napotkaniu operatora:",
+        "answers": [
+          "zdejmujemy ze stosu dwa argumenty, wykonujemy działanie i odkładamy wynik",
+          "zdejmujemy ze stosu wszystkie elementy i wykonujemy na nich działanie",
+          "odkładamy operator na stos i czytamy dalej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W algorytmie zamiany wyrażenia z notacji infiksowej na ONP na stosie przechowuje się:",
+        "answers": [
+          "obliczone wyniki częściowe",
+          "operatory i nawiasy otwierające",
+          "liczby (argumenty)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Dynamiczna struktura danych to struktura, która:",
+        "answers": [
+          "może zmieniać rozmiar w trakcie działania programu",
+          "ma rozmiar ustalony podczas kompilacji",
+          "przechowuje wyłącznie dane jednego typu liczbowego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Operacja pop na stosie:",
+        "answers": [
+          "dodaje element na szczyt stosu",
+          "usuwa element ze szczytu stosu",
+          "usuwa element z dna stosu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W korzeniu drzewa wyrażenia (2 + 3) * 4 znajduje się:",
+        "answers": [
+          "operator +",
+          "liczba 4",
+          "operator *"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Przejście drzewa wyrażenia w porządku post-order daje zapis:",
+        "answers": [
+          "infiksowy",
+          "prefiksowy",
+          "w ONP"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Kolejki, listy i labirynt",
+    "questions": [
+      {
+        "question": "Kolejka działa według zasady:",
+        "answers": [
+          "FIFO — pierwszy wszedł, pierwszy wyszedł",
+          "element o najmniejszej wartości wychodzi pierwszy",
+          "LIFO — ostatni wszedł, pierwszy wyszedł"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Do znalezienia najkrótszej drogi wyjścia z labiryntu (każdy krok ma ten sam koszt) stosuje się:",
+        "answers": [
+          "rekurencyjne przeszukiwanie z nawrotami",
+          "przeszukiwanie w głąb (DFS) z użyciem stosu",
+          "przeszukiwanie wszerz (BFS) z użyciem kolejki"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dlaczego rekurencyjne przeszukiwanie z nawrotami nie gwarantuje najkrótszej drogi w labiryncie?",
+        "answers": [
+          "bo odwiedza każde pole labiryntu dokładnie dwa razy",
+          "bo nie potrafi znaleźć żadnej drogi, jeśli labirynt ma cykle",
+          "bo zwraca pierwszą znalezioną drogę, idąc w głąb jednej ścieżki"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Przeszukiwanie z nawrotami (backtracking) polega na:",
+        "answers": [
+          "cofaniu się do ostatniego rozwidlenia po trafieniu w ślepy zaułek",
+          "losowym wybieraniu kierunku aż do znalezienia wyjścia",
+          "sprawdzaniu wszystkich pól labiryntu kolejno, wiersz po wierszu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Lista jednokierunkowa to struktura, w której:",
+        "answers": [
+          "każdy element przechowuje wskaźniki na element poprzedni i następny",
+          "każdy element przechowuje wskaźnik na element następny",
+          "elementy leżą w kolejnych komórkach pamięci i są dostępne przez indeks"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W liście cyklicznej:",
+        "answers": [
+          "ostatni element wskazuje na pierwszy",
+          "elementy są zawsze posortowane rosnąco",
+          "nie można usuwać elementów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Sekwencyjny dostęp do danych na liście oznacza, że:",
+        "answers": [
+          "do k-tego elementu dochodzi się przez wszystkie wcześniejsze",
+          "elementy można odczytywać tylko od końca listy",
+          "dowolny element można odczytać w stałym czasie przez indeks"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W problemie Flawiusza 7 osób stoi w kole, a eliminowana jest co druga, zaczynając od osoby nr 2. Kto zostanie ostatni?",
+        "answers": [
+          "osoba nr 1",
+          "osoba nr 7",
+          "osoba nr 5"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Do symulacji problemu Flawiusza szczególnie dobrze nadaje się:",
+        "answers": [
+          "drzewo binarne",
+          "lista cykliczna",
+          "stos"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sortowanie stabilne to takie, które:",
+        "answers": [
+          "zachowuje kolejność elementów o równych kluczach",
+          "zawsze działa w czasie O(n log n) niezależnie od danych",
+          "nie wymaga dodatkowej pamięci poza sortowaną tablicą"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W porządku leksykograficznym słowo „kot” znajduje się przed słowem:",
+        "answers": [
+          "„koc”",
+          "„kotek”",
+          "„kos”"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sortowanie kubełkowe polega na:",
+        "answers": [
+          "wielokrotnej zamianie sąsiednich elementów stojących w złej kolejności",
+          "dzieleniu tablicy na połowy i scalaniu posortowanych części",
+          "rozdzieleniu elementów do kubełków według klucza i ich połączeniu"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Manipulatory strumienia w C++ (np. setw, setprecision) służą do:",
+        "answers": [
+          "sterowania formatem danych wejścia i wyjścia",
+          "zarządzania pamięcią dynamiczną",
+          "otwierania i zamykania plików tekstowych"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Grafy",
+    "questions": [
+      {
+        "question": "Graf składa się z:",
+        "answers": [
+          "wierzchołków i krawędzi",
+          "wierszy i kolumn",
+          "korzenia i liści"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Graf skierowany to graf, w którym:",
+        "answers": [
+          "każda krawędź ma przypisaną wagę",
+          "krawędzie mają określony kierunek",
+          "istnieje droga między każdą parą wierzchołków"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Macierz sąsiedztwa grafu o n wierzchołkach zajmuje pamięć rzędu:",
+        "answers": [
+          "O(n²)",
+          "O(n log n)",
+          "O(n)"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Listy sąsiedztwa są korzystniejsze od macierzy sąsiedztwa dla grafów:",
+        "answers": [
+          "rzadkich, o małej liczbie krawędzi",
+          "pełnych, w których każdy wierzchołek łączy się z każdym",
+          "ważonych, o krawędziach z wagami"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Algorytm przeszukiwania grafu wszerz (BFS) korzysta z:",
+        "answers": [
+          "stosu",
+          "kopca",
+          "kolejki"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Algorytm przeszukiwania grafu w głąb (DFS) implementuje się rekurencyjnie lub z użyciem:",
+        "answers": [
+          "tablicy haszującej",
+          "stosu",
+          "kolejki"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Algorytm Dijkstry służy do:",
+        "answers": [
+          "sprawdzania, czy graf jest dwudzielny",
+          "znajdowania najkrótszych dróg z jednego wierzchołka",
+          "znajdowania minimalnego drzewa rozpinającego grafu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Algorytm Dijkstry może dać błędny wynik, gdy graf zawiera:",
+        "answers": [
+          "krawędzie o ujemnych wagach",
+          "cykle",
+          "wierzchołki izolowane"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Złożoność BFS i DFS przy reprezentacji grafu listami sąsiedztwa wynosi:",
+        "answers": [
+          "O(V · E)",
+          "O(V² · E)",
+          "O(V + E)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Graf nieskierowany jest spójny, gdy:",
+        "answers": [
+          "każdy wierzchołek jest połączony krawędzią z każdym innym",
+          "między każdą parą wierzchołków istnieje ścieżka",
+          "nie zawiera żadnego cyklu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W C++ słowo kluczowe typedef (lub using) służy do:",
+        "answers": [
+          "deklaracji stałej dostępnej w całym programie",
+          "utworzenia nowej klasy z polami i metodami",
+          "zdefiniowania nowej nazwy dla istniejącego typu"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda push_back() klasy vector:",
+        "answers": [
+          "dodaje element na początku wektora",
+          "usuwa ostatni element wektora",
+          "dodaje element na końcu wektora"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Reprezentacja liczb",
+    "questions": [
+      {
+        "question": "Rozwinięcie binarne ułamka 0,625 to:",
+        "answers": [
+          "0,110",
+          "0,101",
+          "0,011"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który ułamek ma skończone rozwinięcie binarne?",
+        "answers": [
+          "1/3",
+          "1/10",
+          "3/8"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ułamek nieskracalny ma skończone rozwinięcie binarne wtedy, gdy:",
+        "answers": [
+          "jego mianownik jest potęgą liczby 2",
+          "jego mianownik jest liczbą pierwszą",
+          "jego licznik jest liczbą parzystą"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Liczba dziesiętna 0,1 w zapisie binarnym:",
+        "answers": [
+          "ma skończone rozwinięcie 0,1",
+          "ma nieskończone rozwinięcie okresowe",
+          "ma skończone rozwinięcie 0,0001"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W reprezentacji zmiennoprzecinkowej liczba ma postać:",
+        "answers": [
+          "licznik i mianownik zapisane w osobnych polach",
+          "część całkowita i część ułamkowa o stałej liczbie bitów",
+          "mantysa · podstawa^cecha"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Liczba pojedynczej precyzji (float) w standardzie IEEE 754 zajmuje:",
+        "answers": [
+          "32 bity",
+          "64 bity",
+          "16 bitów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ile bitów ma mantysa liczby podwójnej precyzji (double) w standardzie IEEE 754?",
+        "answers": [
+          "64",
+          "52",
+          "23"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Cecha w standardzie IEEE 754 zapisana jest w:",
+        "answers": [
+          "kodzie uzupełnień do dwóch",
+          "kodzie znak-moduł",
+          "kodzie z nadmiarem (przesunięciem)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile wynosi nadmiar (przesunięcie) cechy w liczbie pojedynczej precyzji?",
+        "answers": [
+          "128",
+          "1023",
+          "127"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Liczba 12 zapisana w postaci znormalizowanej (binarnie) to:",
+        "answers": [
+          "1,1 · 2³",
+          "11 · 2²",
+          "1,1 · 2²"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zaletą reprezentacji zmiennoprzecinkowej nad stałoprzecinkową jest:",
+        "answers": [
+          "dokładne przechowywanie wszystkich ułamków dziesiętnych",
+          "znacznie większy zakres liczb przy tej samej liczbie bitów",
+          "szybsze wykonywanie działań na liczbach całkowitych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Dlaczego w C++ porównanie 0.1 + 0.2 == 0.3 może zwrócić false?",
+        "answers": [
+          "bo te liczby nie mają dokładnej reprezentacji binarnej",
+          "bo wynik 0.1 + 0.2 jest zaokrąglany do liczby całkowitej",
+          "bo operator == nie jest zdefiniowany dla typu double"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kiedy lepiej użyć typu double zamiast float?",
+        "answers": [
+          "gdy trzeba zaoszczędzić pamięć przy dużych tablicach",
+          "gdy potrzebna jest większa precyzja obliczeń",
+          "gdy przechowujemy wyłącznie liczby całkowite"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Błędy w obliczeniach",
+    "questions": [
+      {
+        "question": "Błąd bezwzględny przybliżenia to:",
+        "answers": [
+          "stosunek błędu do wartości dokładnej",
+          "różnica między dwoma kolejnymi przybliżeniami",
+          "moduł różnicy wartości dokładnej i przybliżonej"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wartość dokładna wynosi 50, a przybliżona 49. Błąd względny to:",
+        "answers": [
+          "2%",
+          "1%",
+          "0,5%"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Błąd obcięcia powstaje, gdy:",
+        "answers": [
+          "przerywamy nieskończony proces po skończonej liczbie kroków",
+          "wynik działania przekracza zakres typu zmiennej",
+          "dane wejściowe zawierają błąd pomiaru lub odczytu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Błąd reprezentacji wynika z:",
+        "answers": [
+          "użycia niewłaściwego algorytmu sortowania",
+          "błędnego wpisania danych przez użytkownika",
+          "zapisu liczby w skończonej liczbie bitów"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Algorytm numerycznie niestabilny to taki, w którym:",
+        "answers": [
+          "małe błędy zaokrągleń mogą silnie zmienić wynik",
+          "wynik zależy od kolejności wprowadzenia danych",
+          "czas działania jest trudny do przewidzenia"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Klasyczny wzór na pierwiastki równania kwadratowego bywa niestabilny, gdy b² jest dużo większe od 4ac, ponieważ:",
+        "answers": [
+          "wyróżnik staje się ujemny i pierwiastki są zespolone",
+          "wartość wyróżnika przekracza zakres typu double",
+          "odejmuje się dwie bardzo bliskie liczby i traci cyfry znaczące"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "W stabilnym algorytmie obliczania pierwiastków równania kwadratowego drugi pierwiastek wyznacza się ze wzoru:",
+        "answers": [
+          "x₂ = −b / a + x₁",
+          "x₂ = c / (a · x₁)",
+          "x₂ = √Δ / (2a)"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Wielomiany i metody numeryczne",
+    "questions": [
+      {
+        "question": "Schemat Hornera pozwala obliczyć wartość wielomianu stopnia n, wykonując:",
+        "answers": [
+          "n(n+1)/2 mnożeń i n dodawań",
+          "n mnożeń i n dodawań",
+          "n² mnożeń i n dodawań"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wielomian 2x³ + 3x² − x + 5 zapisany schematem Hornera to:",
+        "answers": [
+          "(2x + 3)(x − 1) + 5x",
+          "2(x + 3)(x − 1) + 5",
+          "((2x + 3)x − 1)x + 5"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wartość wielomianu W(x) = x³ − 2x² + 3 dla x = 2 wynosi:",
+        "answers": [
+          "3",
+          "11",
+          "19"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Schemat Hornera można wykorzystać do:",
+        "answers": [
+          "wyznaczania największego wspólnego dzielnika",
+          "zamiany liczby z systemu o dowolnej podstawie na dziesiętny",
+          "sortowania liczb w tablicy w czasie liniowym"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Obliczając schematem Hornera wartość liczby dwójkowej 1011: ((1·2 + 0)·2 + 1)·2 + 1, otrzymamy:",
+        "answers": [
+          "11",
+          "9",
+          "13"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Metoda bisekcji wymaga, aby funkcja ciągła na końcach przedziału [a, b]:",
+        "answers": [
+          "przyjmowała wartości przeciwnych znaków",
+          "była rosnąca w całym przedziale",
+          "przyjmowała wartości dodatnie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W każdym kroku metody bisekcji długość przedziału:",
+        "answers": [
+          "zmniejsza się o jedną trzecią",
+          "zmniejsza się o połowę",
+          "maleje o stałą wartość"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Metoda Newtona–Raphsona obliczania √a korzysta ze wzoru:",
+        "answers": [
+          "xₙ₊₁ = (xₙ + a) / 2",
+          "xₙ₊₁ = xₙ − a/2",
+          "xₙ₊₁ = (xₙ + a/xₙ) / 2"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda Newtona–Raphsona w porównaniu z metodą bisekcji zwykle:",
+        "answers": [
+          "zbiega wolniej, ale zawsze znajduje rozwiązanie w przedziale",
+          "zbiega szybciej, ale wymaga pochodnej i dobrego punktu startowego",
+          "nie wymaga punktu startowego ani znajomości pochodnej"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Metoda trapezów przybliża pole pod wykresem funkcji przez:",
+        "answers": [
+          "losowanie punktów i zliczanie trafień pod wykres",
+          "sumę pól prostokątów o wysokości w lewym końcu podprzedziału",
+          "sumę pól trapezów zbudowanych na kolejnych podprzedziałach"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda Monte Carlo przybliżania liczby π polega na:",
+        "answers": [
+          "mierzeniu obwodu wielokąta wpisanego w okrąg",
+          "losowaniu punktów i zliczaniu trafień w koło",
+          "sumowaniu kolejnych wyrazów szeregu liczbowego"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Z 1000 losowych punktów w kwadracie [0,1]×[0,1] 785 trafiło w ćwiartkę koła o promieniu 1. Przybliżenie π wynosi:",
+        "answers": [
+          "0,785",
+          "3,14",
+          "1,57"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Fraktale i geometria",
+    "questions": [
+      {
+        "question": "Fraktal to obiekt, który:",
+        "answers": [
+          "jest samopodobny — jego części przypominają całość",
+          "składa się wyłącznie z odcinków tej samej długości",
+          "ma zawsze skończony obwód i skończone pole"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem struktury fraktalnej w przyrodzie jest:",
+        "answers": [
+          "kropla wody",
+          "kryształ soli w kształcie sześcianu",
+          "liść paproci"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Zbiór Cantora powstaje przez:",
+        "answers": [
+          "dzielenie trójkąta na cztery mniejsze i usuwanie środkowego",
+          "zastępowanie środkowej jednej trzeciej odcinka dwoma bokami trójkąta",
+          "wielokrotne usuwanie środkowej jednej trzeciej każdego odcinka"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Płatek Kocha powstaje przez:",
+        "answers": [
+          "usuwanie środkowego kwadratu z każdego kolejnego kwadratu",
+          "zastępowanie środkowej części odcinka dwoma bokami trójkąta",
+          "wielokrotne rozgałęzianie odcinka na dwa krótsze"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Dywan Sierpińskiego powstaje przez:",
+        "answers": [
+          "podział trójkąta na 4 części i usunięcie środkowej",
+          "usuwanie środkowej jednej trzeciej odcinka",
+          "podział kwadratu na 9 części i usuwanie środkowej"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile małych kwadratów pozostaje po 2. kroku konstrukcji dywanu Sierpińskiego?",
+        "answers": [
+          "64",
+          "81",
+          "72"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Obwód płatka Kocha w kolejnych krokach konstrukcji:",
+        "answers": [
+          "dąży do skończonej wartości, tak jak pole figury",
+          "pozostaje stały, bo zmienia się tylko kształt krzywej",
+          "rośnie nieograniczenie, bo w każdym kroku mnoży się przez 4/3"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda IFS tworzy fraktale przez:",
+        "answers": [
+          "losowe, wielokrotne stosowanie przekształceń afinicznych",
+          "rekurencyjne dzielenie obrazu na coraz mniejsze piksele",
+          "rysowanie odcinków o malejącej długości w pętli"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Położenie punktu C względem prostej AB bada się za pomocą:",
+        "answers": [
+          "sumy współrzędnych punktów A, B i C",
+          "odległości punktu C od początku układu współrzędnych",
+          "znaku wyznacznika ze współrzędnych punktów A, B i C"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Reguła Sarrusa służy do:",
+        "answers": [
+          "odwracania macierzy kwadratowej",
+          "mnożenia dwóch macierzy",
+          "obliczania wyznacznika macierzy 3×3"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Wyszukiwanie wzorca i haszowanie",
+    "questions": [
+      {
+        "question": "Złożoność pesymistyczna naiwnego wyszukiwania wzorca długości m w tekście długości n to:",
+        "answers": [
+          "O(n + m)",
+          "O(n · m)",
+          "O(log n)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Funkcja haszująca:",
+        "answers": [
+          "przekształca dane dowolnej długości w wartość o stałym rozmiarze",
+          "szyfruje dane tak, aby można je było odszyfrować kluczem",
+          "sortuje dane według klucza"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kolizja w haszowaniu oznacza, że:",
+        "answers": [
+          "dwa różne klucze dają ten sam hasz",
+          "funkcja haszująca zwróciła wartość ujemną",
+          "tablica haszująca jest całkowicie zapełniona"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Algorytm Karpa–Rabina przyspiesza wyszukiwanie wzorca dzięki:",
+        "answers": [
+          "porównywaniu tylko pierwszej litery wzorca z kolejnymi fragmentami",
+          "porównywaniu haszy kolejnych fragmentów tekstu",
+          "wcześniejszemu posortowaniu znaków tekstu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "W algorytmie Karpa–Rabina, gdy hasz fragmentu tekstu jest równy haszowi wzorca:",
+        "answers": [
+          "wzorzec na pewno występuje w tym miejscu",
+          "należy przesunąć okno o długość wzorca",
+          "trzeba porównać znaki, bo może to być kolizja"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile razy wzorzec „aba” występuje w tekście „ababababa”, jeśli wystąpienia mogą się nakładać?",
+        "answers": [
+          "2",
+          "4",
+          "3"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Kryptografia RSA",
+    "questions": [
+      {
+        "question": "W kryptografii symetrycznej:",
+        "answers": [
+          "klucz nie jest potrzebny, bo tajny jest algorytm",
+          "do szyfrowania używa się klucza publicznego, a do deszyfrowania prywatnego",
+          "ten sam klucz służy do szyfrowania i deszyfrowania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby wysłać komuś wiadomość zaszyfrowaną algorytmem RSA, używamy:",
+        "answers": [
+          "klucza prywatnego odbiorcy",
+          "klucza publicznego odbiorcy",
+          "własnego klucza prywatnego"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Bezpieczeństwo RSA opiera się na trudności:",
+        "answers": [
+          "rozkładu dużej liczby na czynniki pierwsze",
+          "obliczania największego wspólnego dzielnika dwóch liczb",
+          "sortowania bardzo dużych zbiorów liczb"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W algorytmie RSA liczba n jest równa:",
+        "answers": [
+          "(p − 1)(q − 1)",
+          "p + q, gdzie p i q to duże liczby pierwsze",
+          "p · q, gdzie p i q to duże liczby pierwsze"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dla p = 5 i q = 11 wartość φ(n) = (p − 1)(q − 1) wynosi:",
+        "answers": [
+          "55",
+          "40",
+          "50"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wykładnik publiczny e w RSA musi spełniać warunek:",
+        "answers": [
+          "e jest dzielnikiem φ(n)",
+          "e = n − 1",
+          "NWD(e, φ(n)) = 1"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wykładnik prywatny d w RSA spełnia warunek:",
+        "answers": [
+          "(e + d) mod n = 1",
+          "(e · d) mod φ(n) = 1",
+          "d = e · φ(n)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Szyfrowanie wiadomości m kluczem publicznym (e, n) w RSA to obliczenie:",
+        "answers": [
+          "c = m · e mod n",
+          "c = (m + e) mod n",
+          "c = mᵉ mod n"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dla klucza publicznego (e = 3, n = 33) zaszyfrowana wiadomość m = 4 to:",
+        "answers": [
+          "7",
+          "31",
+          "12"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ponieważ kryptografia asymetryczna jest wolna, w praktyce (np. w protokole TLS):",
+        "answers": [
+          "szyfruje się nią całą transmisję, bez szyfrów symetrycznych",
+          "szyfruje się nią klucz sesji, a dane szybkim szyfrem symetrycznym",
+          "używa się jej wyłącznie do szyfrowania haseł"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Programowanie",
+    "questions": [
+      {
+        "question": "Przekazanie parametru do funkcji przez referencję w C++ oznacza, że:",
+        "answers": [
+          "funkcja może zmienić oryginalną zmienną",
+          "zmiennej nie można odczytać wewnątrz funkcji",
+          "funkcja otrzymuje kopię zmiennej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak w C++ zadeklarować parametr przekazywany przez referencję?",
+        "answers": [
+          "void f(int &x)",
+          "void f(int x)",
+          "void f(ref int x)"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Konstruktor w klasie to:",
+        "answers": [
+          "metoda wywoływana przy usuwaniu obiektu z pamięci",
+          "metoda wywoływana automatycznie przy tworzeniu obiektu",
+          "pole przechowujące stan obiektu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Specyfikator dostępu private oznacza, że składowa klasy jest dostępna:",
+        "answers": [
+          "w tej klasie i we wszystkich klasach pochodnych",
+          "w całym programie",
+          "tylko wewnątrz tej klasy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Polimorfizm w programowaniu obiektowym to:",
+        "answers": [
+          "różne działanie tej samej metody w obiektach różnych klas",
+          "tworzenie wielu obiektów tej samej klasy",
+          "ukrywanie danych obiektu przed dostępem z zewnątrz"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Metoda wirtualna (virtual) w C++ umożliwia:",
+        "answers": [
+          "wywołanie metody klasy pochodnej przez wskaźnik bazowy",
+          "wywołanie metody bez tworzenia obiektu klasy",
+          "zdefiniowanie metody bez ciała w każdej klasie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Obiekt to:",
+        "answers": [
+          "szablon opisujący atrybuty i metody",
+          "funkcja zdefiniowana poza klasą",
+          "konkretny egzemplarz klasy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Metoda zstępująca (top-down) w projektowaniu programu polega na:",
+        "answers": [
+          "testowaniu programu od ostatniej instrukcji",
+          "łączeniu gotowych, małych modułów w większą całość",
+          "dzieleniu problemu na coraz mniejsze podproblemy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Programowanie strukturalne opiera się na:",
+        "answers": [
+          "sekwencji, wyborze i iteracji",
+          "klasach, obiektach i dziedziczeniu",
+          "wyłącznie na funkcjach rekurencyjnych"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+]

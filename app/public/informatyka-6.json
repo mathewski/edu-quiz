@@ -5,9 +5,9 @@
       {
         "question": "Czym jest \"chmura\" w kontekście informatycznym?",
         "answers": [
-          "Zbiorem serwerów połączonych z internetem, na których można przechowywać dane i uruchamiać programy.",
-          "Oprogramowaniem antywirusowym chroniącym przed zagrożeniami",
-          "Bezprzewodowym połączeniem internetowym WiFi"
+          "Zbiorem serwerów w internecie, na których można przechowywać dane",
+          "Oprogramowaniem antywirusowym chroniącym komputer przed zagrożeniami",
+          "Bezprzewodowym połączeniem internetowym, np. przez sieć Wi-Fi"
         ],
         "correctAnswerIndex": 0
       },
@@ -23,18 +23,18 @@
       {
         "question": "Co oznacza \"praca w czasie rzeczywistym\" nad dokumentem w chmurze?",
         "answers": [
-          "Że wiele osób może jednocześnie edytować ten sam dokument, a zmiany są widoczne dla wszystkich niemal natychmiast.",
-          "Dokument jest automatycznie zapisywany co minutę",
-          "System przywraca poprzednie wersje dokumentu w razie błędu"
+          "Kilka osób edytuje dokument jednocześnie i od razu widzi zmiany",
+          "Dokument jest automatycznie zapisywany na dysku co minutę",
+          "System przywraca poprzednią wersję dokumentu w razie błędu"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Jak udostępnić dokumenty w OneDrive innym osobom?",
         "answers": [
-          "Zapisanie kopii lokalnej zamiast nadania uprawnień.",
-          "Ustawienie pliku jako prywatnego bez wysyłania linku.",
-          "Klikając opcję \"Udostępnij\" i wpisując adresy e-mail lub generując link"
+          "Zapisać kopię pliku na pulpicie i zmienić jego nazwę",
+          "Przenieść plik do folderu Dokumenty na swoim komputerze",
+          "Kliknąć „Udostępnij” i wpisać adres e-mail lub skopiować link"
         ],
         "correctAnswerIndex": 2
       },
@@ -82,9 +82,9 @@
       {
         "question": "Do czego służy arkusz kalkulacyjny?",
         "answers": [
-          "Do formatowania komórek i wyglądu tabeli.",
-          "Do tworzenia wykresów na podstawie danych.",
-          "Do wykonywania obliczeń, analizy danych i tworzenia wykresów"
+          "Do pisania i formatowania długich dokumentów tekstowych",
+          "Do tworzenia prezentacji multimedialnych ze slajdami",
+          "Do wykonywania obliczeń i analizy danych w tabelach"
         ],
         "correctAnswerIndex": 2
       },
@@ -118,9 +118,9 @@
       {
         "question": "Jak tworzy się formuły w arkuszu kalkulacyjnym?",
         "answers": [
-          "Przez wybór gotowych szablonów formuł z menu",
-          "Zaczynając od znaku \"=\" i używając adresów komórek (np. =A1+B1)",
-          "Przez kliknięcie prawym przyciskiem na komórce"
+          "Wybierając gotowy szablon formuły z menu Plik",
+          "Zaczynając od znaku „=”, np. =A1+B1",
+          "Klikając prawym przyciskiem myszy pustą komórkę"
         ],
         "correctAnswerIndex": 1
       },
@@ -128,7 +128,7 @@
         "question": "Jak działa funkcja SUMA w arkuszu kalkulacyjnym?",
         "answers": [
           "Mnoży wszystkie wartości w zaznaczonym zakresie komórek",
-          "Dodaje wartości z wybranych komórek lub zakresu (np. =SUMA(A1:A10))",
+          "Dodaje wartości z wybranego zakresu komórek",
           "Oblicza średnią arytmetyczną z wybranych wartości"
         ],
         "correctAnswerIndex": 1
@@ -146,7 +146,7 @@
         "question": "Co to jest formatowanie warunkowe w arkuszu kalkulacyjnym?",
         "answers": [
           "Ręczne kolorowanie wybranych komórek według własnych preferencji",
-          "Automatyczna zmiana formatowania komórek na podstawie ich wartości lub reguł",
+          "Automatyczna zmiana wyglądu komórek zależnie od ich wartości",
           "Ukrywanie kolumn zawierających puste lub zerowe wartości"
         ],
         "correctAnswerIndex": 1
@@ -154,45 +154,45 @@
       {
         "question": "Jak działa funkcja automatycznego wypełniania komórek serią danych?",
         "answers": [
-          "Losowe generowanie wartości na podstawie zakresu komórek źródłowych",
-          "Rozpoznaje wzorzec i kontynuuje serię (np. 1, 2, 3... lub pon., wt., śr...)",
-          "Kopiowanie pierwszej wartości do wszystkich zaznaczonych komórek"
+          "Generuje losowe wartości na podstawie zakresu komórek źródłowych",
+          "Rozpoznaje wzorzec, np. 1, 2, 3, i kontynuuje serię",
+          "Kopiuje pierwszą wartość do wszystkich zaznaczonych komórek"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Co oznacza sortowanie danych w porządku \"rosnącym\"?",
         "answers": [
-          "Losowe przestawianie wierszy w arkuszu",
-          "Uporządkowanie danych od najmniejszej do największej wartości (lub od A do Z).",
-          "Grupowanie danych według kategorii"
+          "Ułożenie danych od największej wartości do najmniejszej",
+          "Ułożenie danych od najmniejszej wartości do największej",
+          "Ułożenie danych w kolejności, w jakiej je wpisano"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Czym jest sortowanie niestandardowe?",
         "answers": [
-          "Sortowanie ręczne przez przeciąganie wierszy",
-          "Sortowanie według wielu kryteriów jednocześnie (np. najpierw według miasta, potem według nazwiska)",
-          "Sortowanie tylko rosnąco bez możliwości malejąco"
+          "Ręcznym przestawianiem wierszy przez przeciąganie ich myszą",
+          "Sortowaniem według kilku kryteriów, np. miasta, a potem nazwiska",
+          "Sortowaniem tylko jednej kolumny bez zmiany pozostałych"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Jakie operacje formatowania tekstu są dostępne w arkuszu kalkulacyjnym?",
         "answers": [
-          "Czcionka, rozmiar, kolor, pogrubienie, kursywa, podkreślenie",
-          "Tylko zmiana rozmiaru czcionki bez innych opcji",
-          "Wyłącznie zmiana koloru tła komórki"
+          "Zmiana czcionki, rozmiaru, koloru, pogrubienie i kursywa",
+          "Tylko zmiana rozmiaru czcionki, bez innych opcji",
+          "Tylko zmiana koloru tła komórki i obramowania"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Jak zmienić szerokość kolumny w arkuszu kalkulacyjnym?",
         "answers": [
-          "Przez zmianę rozmiaru czcionki w komórkach",
-          "Przeciągnąć krawędź nagłówka kolumny lub użyć opcji formatowania",
-          "Przez dodanie nowej kolumny obok istniejącej"
+          "Zmienić rozmiar czcionki we wszystkich komórkach",
+          "Przeciągnąć krawędź nagłówka kolumny",
+          "Wstawić nową kolumnę obok istniejącej"
         ],
         "correctAnswerIndex": 1
       },
@@ -208,18 +208,18 @@
       {
         "question": "Jak zmienić nazwy arkuszy w skoroszycie?",
         "answers": [
-          "Klikając prawym przyciskiem na zakładkę arkusza i wybierając \"Zmień nazwę\"",
-          "Przez zmianę nazwy pliku skoroszytu",
-          "Przez zapisanie arkusza jako nowy plik"
+          "Kliknąć prawym przyciskiem kartę arkusza i wybrać „Zmień nazwę”",
+          "Zmienić nazwę pliku skoroszytu w Eksploratorze plików",
+          "Zapisać arkusz jako nowy plik pod inną nazwą"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Po co zmieniać kolory kart arkuszy w skoroszycie?",
         "answers": [
-          "Aby zwiększyć szybkość obliczeń w arkuszu",
-          "Aby wizualnie organizować i rozróżniać różne arkusze (np. według kategorii)",
-          "Aby zmniejszyć rozmiar pliku skoroszytu"
+          "Aby przyspieszyć obliczenia wykonywane w arkuszu",
+          "Aby łatwiej rozróżniać arkusze, np. według kategorii",
+          "Aby zmniejszyć rozmiar pliku skoroszytu na dysku"
         ],
         "correctAnswerIndex": 1
       },
@@ -244,9 +244,9 @@
       {
         "question": "Jak wstawić wykres do arkusza kalkulacyjnego?",
         "answers": [
-          "Przez skopiowanie wykresu z innego programu",
-          "Zaznaczyć dane i użyć opcji \"Wstaw wykres\" lub podobnej",
-          "Przez ręczne narysowanie wykresu narzędziami"
+          "Skopiować gotowy wykres z innego programu",
+          "Zaznaczyć dane i wybrać „Wstaw” → wykres",
+          "Narysować wykres ręcznie narzędziami Kształty"
         ],
         "correctAnswerIndex": 1
       },
@@ -262,9 +262,9 @@
       {
         "question": "Jak skopiować serie danych do różnych arkuszy?",
         "answers": [
-          "Przez utworzenie nowego skoroszytu i przeniesienie danych",
-          "Zaznaczając dane, kopiując (Ctrl+C) i wklejając (Ctrl+V) na innym arkuszu",
-          "Przez zastosowanie funkcji SUMA na wielu arkuszach"
+          "Utworzyć nowy skoroszyt i zapisać go pod tą samą nazwą",
+          "Zaznaczyć dane, skopiować (Ctrl+C) i wkleić (Ctrl+V)",
+          "Użyć funkcji SUMA obejmującej kilka arkuszy"
         ],
         "correctAnswerIndex": 1
       },
@@ -272,8 +272,8 @@
         "question": "Co można śledzić w budżecie tworzonym w arkuszu kalkulacyjnym?",
         "answers": [
           "Plan lekcji i zajęć szkolnych",
-          "Przychody, wydatki, bilans, kategorie kosztów",
-          "Lista kontaktów i numery telefonów"
+          "Przychody, wydatki i bilans",
+          "Listę kontaktów i numery telefonów"
         ],
         "correctAnswerIndex": 1
       }
@@ -294,36 +294,36 @@
       {
         "question": "Jak tworzyć skrypty w Scratchu?",
         "answers": [
-          "Przez łączenie bloków graficznych w obszarze skryptów",
-          "Przez pisanie kodu w języku Python",
-          "Przez importowanie gotowych skryptów"
+          "Łącząc bloki w obszarze skryptów",
+          "Pisząc kod tekstowy w języku Python",
+          "Importując gotowe skrypty z plików"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Czym jest zmienna w programie Scratch?",
         "answers": [
-          "Miejscem do przechowywania wartości (np. liczby punktów), która może się zmieniać w trakcie działania programu.",
-          "Duszkiem wykonującym określone akcje",
-          "Tłem sceny zmieniającym się w projekcie"
+          "Miejscem przechowywania wartości, np. liczby punktów",
+          "Duszkiem, który wykonuje określone akcje na scenie",
+          "Tłem sceny, które zmienia się w trakcie projektu"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Jak tworzy się zmienne w Scratchu?",
         "answers": [
-          "Przez dodawanie nowych duszków do projektu",
-          "Przez zmianę ustawień sceny w projekcie",
-          "Przez opcję \"Utwórz zmienną\" w kategorii Zmienne i nadanie jej nazwy"
+          "Dodając nowego duszka do projektu na scenie",
+          "Zmieniając ustawienia sceny w panelu tła",
+          "Opcją „Utwórz zmienną” w kategorii Zmienne"
         ],
         "correctAnswerIndex": 2
       },
       {
         "question": "Jak przypisać wartość zmiennej w Scratchu?",
         "answers": [
-          "Używając bloku \"ustaw [zmienna] na [wartość]\"",
-          "Przez zmianę koloru duszka w projekcie",
-          "Przez dodanie nowego tła do sceny"
+          "Blokiem „ustaw [zmienna] na [wartość]”",
+          "Blokiem „powiedz [wartość]” z kategorii Wygląd",
+          "Blokiem „zapytaj [wartość] i czekaj”"
         ],
         "correctAnswerIndex": 0
       },
@@ -331,53 +331,53 @@
         "question": "Jak działa blok decyzyjny \"jeżeli... to...\" w Scratchu?",
         "answers": [
           "Wykonuje polecenia tylko wtedy, gdy warunek jest spełniony",
-          "Powtarza polecenia określoną liczbę razy",
-          "Zatrzymuje wykonywanie wszystkich skryptów"
+          "Powtarza polecenia tyle razy, ile wynosi podana liczba",
+          "Zatrzymuje wszystkie skrypty, gdy warunek jest spełniony"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Co robi blok \"jeżeli... to... w przeciwnym razie...\" w Scratchu?",
         "answers": [
-          "Wykonuje pierwsze polecenia gdy warunek jest spełniony, lub drugie gdy nie jest spełniony",
-          "Powtarza polecenia do momentu spełnienia warunku",
-          "Kończy działanie programu natychmiast"
+          "Wykonuje jedne polecenia, gdy warunek jest spełniony, a inne, gdy nie",
+          "Powtarza polecenia aż do momentu, gdy warunek zostanie spełniony",
+          "Wykonuje oba zestawy poleceń jeden po drugim, niezależnie od warunku"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Do czego służy blok \"Powtórz\" w Scratchu?",
         "answers": [
-          "Do wielokrotnego wykonania tej samej serii poleceń (pętla)",
-          "Do zmiany koloru duszka na scenie",
-          "Do sprawdzania warunku logicznego"
+          "Do wielokrotnego wykonania tych samych poleceń",
+          "Do zmiany kostiumu duszka po każdym kliknięciu",
+          "Do sprawdzenia, czy warunek logiczny jest spełniony"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Do czego służą bloki z kategorii Wyrażenia w rozbudowanych skryptach Scratcha?",
         "answers": [
-          "Do tworzenia złożonych warunków logicznych (i, lub, nie, porównania)",
-          "Do zmiany tła sceny automatycznie",
-          "Do odtwarzania dźwięków w określonym czasie"
+          "Do tworzenia warunków i porównań, np. „i”, „lub”, „nie”",
+          "Do automatycznej zmiany tła sceny w trakcie gry",
+          "Do odtwarzania dźwięków w określonym momencie"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "W programie Scratch, które bloki pozwalają jednemu duszkowi wysłać sygnał, na który może zareagować inny duszek?",
         "answers": [
-          "Bloki z kategorii \"Zdarzenia\", takie jak \"nadaj komunikat\" i \"kiedy otrzymam komunikat\".",
-          "Bloki ruchu służące do przemieszczania duszków",
-          "Bloki wyglądu zmieniające kostiumy duszków"
+          "Bloki „nadaj komunikat” i „kiedy otrzymam komunikat”",
+          "Bloki „idź do” i „leć do” z kategorii Ruch",
+          "Bloki „zmień kostium” i „pokaż” z kategorii Wygląd"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Jak reagować na komunikaty w Scratchu?",
         "answers": [
-          "Używając bloku \"kiedy otrzymam [komunikat]\" i dodając akcje poniżej",
-          "Przez zmianę koloru duszka automatycznie",
-          "Przez zatrzymanie wszystkich skryptów"
+          "Używając bloku „kiedy otrzymam [komunikat]”",
+          "Używając bloku „kiedy kliknięto zieloną flagę”",
+          "Używając bloku „czekaj [1] s” przed akcją"
         ],
         "correctAnswerIndex": 0
       },
@@ -385,17 +385,17 @@
         "question": "Jaki jest cel wykorzystywania serwisu internetowego Scratcha?",
         "answers": [
           "Tworzenie dokumentów tekstowych i prezentacji",
-          "Do dzielenia się swoimi projektami i wyszukiwania pomysłów na własne projekty",
-          "Edycja zdjęć i tworzenie grafiki"
+          "Dzielenie się projektami i szukanie inspiracji",
+          "Edycja zdjęć i tworzenie grafiki rastrowej"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Jak założyć konto w serwisie Scratcha?",
         "answers": [
-          "Rejestrując się na stronie scratch.mit.edu podając nazwę użytkownika, hasło i email",
-          "Kupując licencję w sklepie internetowym",
-          "Instalując aplikację mobilną Scratch"
+          "Zarejestrować się na stronie scratch.mit.edu",
+          "Kupić licencję w sklepie internetowym",
+          "Zainstalować aplikację Scratch na komputerze"
         ],
         "correctAnswerIndex": 0
       },
@@ -411,18 +411,18 @@
       {
         "question": "Co oznacza \"remiksowanie\" projektu w serwisie Scratch?",
         "answers": [
-          "Usuwanie projektu z serwera Scratch",
-          "Stworzenie własnej kopii czyjegoś projektu, aby móc go modyfikować i rozwijać.",
-          "Zgłaszanie projektu jako naruszający regulamin"
+          "Usunięcie projektu z serwera i zapisanie go na dysku",
+          "Utworzenie własnej kopii cudzego projektu w celu jej zmiany",
+          "Zgłoszenie projektu jako naruszającego regulamin serwisu"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Co jest przykładem prostej gry zręcznościowej w Scratchu?",
         "answers": [
-          "Kalkulator matematyczny z interfejsem graficznym",
-          "Prezentacja slajdów z efektami przejścia",
-          "Gra, w której postać zbiera punkty unikając przeszkód."
+          "Kalkulator wykonujący działania po kliknięciu przycisków",
+          "Prezentacja slajdów z efektami przejścia między nimi",
+          "Gra, w której postać zbiera punkty, unikając przeszkód"
         ],
         "correctAnswerIndex": 2
       }
@@ -452,9 +452,9 @@
       {
         "question": "Jak zmieniać ustawienia narzędzi w programie GIMP?",
         "answers": [
-          "Przez panel opcji narzędzi, gdzie można dostosować rozmiar, twardość, krycie itp.",
-          "Przez zmianę ustawień systemu operacyjnego",
-          "Przez reinstalację programu GIMP"
+          "W panelu opcji narzędzi, np. rozmiar i krycie",
+          "W ustawieniach systemu operacyjnego Windows",
+          "W menu Plik → Właściwości dokumentu"
         ],
         "correctAnswerIndex": 0
       },
@@ -481,16 +481,16 @@
         "answers": [
           "Rozmiar warstwy mierzony w pikselach",
           "Położenie warstwy względem innych warstw",
-          "Przezroczystość warstwy (0% = całkowicie przezroczysta, 100% = nieprzezroczysta)"
+          "Przezroczystość warstwy od 0% do 100%"
         ],
         "correctAnswerIndex": 2
       },
       {
         "question": "Jak kopiować fragmenty obrazu między warstwami w GIMP?",
         "answers": [
-          "Zaznaczając fragment, kopiując (Ctrl+C) i wklejając (Ctrl+V) na wybranej warstwie",
-          "Przez zapisanie fragmentu jako osobny plik",
-          "Przez zastosowanie filtru duplikacji"
+          "Zaznaczyć fragment, skopiować i wkleić na innej warstwie",
+          "Zapisać fragment jako osobny plik i otworzyć go ponownie",
+          "Zastosować filtr duplikacji do całej aktywnej warstwy"
         ],
         "correctAnswerIndex": 0
       },
@@ -506,9 +506,9 @@
       {
         "question": "Jak dobrać odpowiednie narzędzie zaznaczenia w GIMP?",
         "answers": [
-          "Wszystkie narzędzia zaznaczenia działają tak samo",
-          "Zawsze używać tylko zaznaczenia prostokątnego",
-          "W zależności od kształtu i charakteru fragmentu do zaznaczenia (prostokąt, elipsa, lasso, różdżka)"
+          "Dowolnie, bo wszystkie narzędzia zaznaczają tak samo",
+          "Zawsze wybierać zaznaczenie prostokątne jako najdokładniejsze",
+          "Zależnie od kształtu fragmentu, np. lasso lub różdżka"
         ],
         "correctAnswerIndex": 2
       },
@@ -526,14 +526,14 @@
         "answers": [
           "Tylko nazwę pliku i miejsce zapisu",
           "Wyłącznie format pliku graficznego",
-          "Kontrast, jasność, nasycenie, balans kolorów"
+          "Kontrast, jasność i nasycenie kolorów"
         ],
         "correctAnswerIndex": 2
       },
       {
         "question": "Do czego służy narzędzie Rozmycie Gaussa w GIMP?",
         "answers": [
-          "Do zmniejszenia czytelności i rozmycia fragmentu obrazu",
+          "Do rozmycia obrazu lub jego fragmentu",
           "Do zwiększenia ostrości krawędzi obiektów",
           "Do automatycznego kadrowania obrazu"
         ],
@@ -556,8 +556,8 @@
       {
         "question": "Jak działa poczta elektroniczna (e-mail)?",
         "answers": [
-          "Przesyła wiadomości tylko w obrębie jednej firmy",
-          "Wymaga fizycznej karty SIM do działania",
+          "Przesyła wiadomości tylko między komputerami w jednej firmie",
+          "Wysyła wiadomości SMS na numer telefonu odbiorcy",
           "Umożliwia wysyłanie i odbieranie wiadomości przez internet"
         ],
         "correctAnswerIndex": 2
@@ -565,9 +565,9 @@
       {
         "question": "Co znajduje się w interfejsie konta pocztowego?",
         "answers": [
-          "Skrzynka odbiorcza, wysłane, spam, opcje tworzenia wiadomości",
+          "Skrzynka odbiorcza, folder Wysłane i Spam",
           "Tylko lista kontaktów bez dostępu do wiadomości",
-          "Panel ustawień zabezpieczeń serwera pocztowego"
+          "Panel ustawień serwera pocztowego dostawcy"
         ],
         "correctAnswerIndex": 0
       },
@@ -583,26 +583,26 @@
       {
         "question": "Co należy zrobić, aby wysłać wiadomość e-mail?",
         "answers": [
-          "Wpisać adres odbiorcy, temat, treść i kliknąć \"Wyślij\"",
-          "Tylko wpisać adres odbiorcy bez tematu i treści",
-          "Wyłącznie dołączyć załącznik bez treści"
+          "Wpisać adres odbiorcy, temat i treść, a potem kliknąć „Wyślij”",
+          "Wpisać tylko temat i treść, a adres program uzupełni sam",
+          "Dołączyć załącznik i zapisać wiadomość w Wersjach roboczych"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "Jak wysłać wiadomość e-mail do wielu odbiorców jednocześnie?",
         "answers": [
-          "Wpisując wiele adresów w polach \"Do\", \"DW\" (Do wiadomości) lub \"UDW\" (Ukryte do wiadomości)",
-          "Tylko przez utworzenie grupy kontaktów wcześniej",
-          "Wyłącznie przez przekierowanie wiadomości"
+          "Wpisać kilka adresów w polach „Do”, „DW” lub „UDW”",
+          "Tylko przez wcześniejsze utworzenie grupy kontaktów",
+          "Wysłać wiadomość do siebie i przekazać ją dalej"
         ],
         "correctAnswerIndex": 0
       },
       {
         "question": "W jakim celu używa się pola \"UDW\" (lub \"BCC\") podczas wysyłania wiadomości e-mail?",
         "answers": [
-          "Aby oznaczyć wiadomość jako pilną",
-          "Aby wysłać kopię wiadomości do dodatkowych odbiorców tak, aby inni odbiorcy nie widzieli ich adresów.",
+          "Aby oznaczyć wiadomość jako pilną dla wszystkich odbiorców",
+          "Aby wysłać kopię tak, by inni nie widzieli adresu odbiorcy",
           "Aby automatycznie zapisać kopię w folderze Wysłane"
         ],
         "correctAnswerIndex": 1
@@ -610,9 +610,9 @@
       {
         "question": "Do czego służy narzędzie Kontakty w poczcie elektronicznej?",
         "answers": [
-          "Do sortowania wiadomości według daty",
-          "Do filtrowania spamu w skrzynce",
-          "Do zapisywania często używanych adresów e-mail osób i grup"
+          "Do sortowania wiadomości według daty nadania",
+          "Do filtrowania spamu w skrzynce odbiorczej",
+          "Do zapisywania adresów e-mail osób i grup"
         ],
         "correctAnswerIndex": 2
       },
@@ -674,7 +674,7 @@
       {
         "question": "Które z poniższych zachowań jest zgodne z zasadami netykiety?",
         "answers": [
-          "Sprawdzanie pisowni i gramatyki przed wysłaniem wiadomości.",
+          "Sprawdzanie pisowni przed wysłaniem wiadomości",
           "Pisanie WIELKIMI LITERAMI dla podkreślenia emocji",
           "Natychmiastowe odpowiadanie bez przemyślenia treści"
         ],
@@ -692,9 +692,9 @@
       {
         "question": "Co należy zrobić, gdy otrzymasz w internecie wiadomość od nieznajomej osoby, która Cię obraża lub straszy?",
         "answers": [
-          "Odpowiedzieć i wyjaśnić nieporozumienie",
-          "Nie odpowiadać, zablokować nadawcę i poinformować o tym zaufaną osobę dorosłą (np. rodzica lub nauczyciela).",
-          "Przekazać wiadomość znajomym aby wiedzieli"
+          "Odpowiedzieć i spokojnie wyjaśnić nieporozumienie z nadawcą",
+          "Zablokować nadawcę i powiedzieć o tym zaufanej osobie dorosłej",
+          "Przekazać wiadomość znajomym, żeby też uważali na nadawcę"
         ],
         "correctAnswerIndex": 1
       },
@@ -710,18 +710,18 @@
       {
         "question": "Do czego służą komunikatory internetowe?",
         "answers": [
-          "Do tworzenia kopii zapasowych plików",
-          "Do szybkiej komunikacji tekstowej, głosowej i wideo przez internet",
-          "Do edycji dokumentów tekstowych"
+          "Do tworzenia kopii zapasowych plików w chmurze",
+          "Do szybkich rozmów tekstowych, głosowych i wideo",
+          "Do wspólnej edycji dokumentów tekstowych offline"
         ],
         "correctAnswerIndex": 1
       },
       {
         "question": "Która z poniższych zasad dotyczy ergonomii pracy przy komputerze?",
         "answers": [
-          "Ustawienie jasności monitora na maksimum dla lepszej widoczności",
-          "Używanie wyłącznie myszy bez klawiatury dla szybszej pracy",
-          "Ustawienie monitora tak, aby jego górna krawędź znajdowała się na wysokości wzroku lub nieco poniżej."
+          "Jasność monitora powinna być ustawiona na maksimum dla lepszej widoczności",
+          "Klawiaturę najlepiej trzymać na kolanach, aby rozluźnić ramiona",
+          "Górna krawędź monitora powinna być na wysokości wzroku lub niżej"
         ],
         "correctAnswerIndex": 2
       },

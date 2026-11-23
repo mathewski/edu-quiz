@@ -1,0 +1,910 @@
+[
+  {
+    "category": "Dane i pliki",
+    "questions": [
+      {
+        "question": "W jakim systemie liczbowym komputer zapisuje dane?",
+        "answers": [
+          "dziesiętnym",
+          "dwójkowym (binarnym)",
+          "szesnastkowym"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Dlaczego komputery używają systemu dwójkowego?",
+        "answers": [
+          "bo system dwójkowy pozwala wykonywać obliczenia bez użycia procesora",
+          "bo układy elektroniczne łatwo rozróżniają tylko dwa stany",
+          "bo w systemie dwójkowym liczby zapisuje się krócej niż w dziesiętnym"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ile wynosi liczba dziesiętna 13 zapisana w systemie dwójkowym?",
+        "answers": [
+          "1011",
+          "1110",
+          "1101"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Liczba dwójkowa 1010 to w systemie dziesiętnym:",
+        "answers": [
+          "12",
+          "10",
+          "5"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ile bitów ma jeden bajt?",
+        "answers": [
+          "8",
+          "16",
+          "10"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Która jednostka pamięci jest największa?",
+        "answers": [
+          "1 terabajt (TB)",
+          "1 gigabajt (GB)",
+          "1 megabajt (MB)"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ile kilobajtów ma 1 megabajt?",
+        "answers": [
+          "100",
+          "1 000 000",
+          "1024"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kod ASCII służy do:",
+        "answers": [
+          "przypisania kodów liczbowych znakom",
+          "szyfrowania haseł zapisanych w komputerze",
+          "kompresowania plików tekstowych do formatu ZIP"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak sprawdzić rozmiar pliku lub folderu w systemie Windows?",
+        "answers": [
+          "wyszukać jego nazwę w menu Start i otworzyć lokalizację",
+          "kliknąć go prawym przyciskiem myszy i wybrać Właściwości",
+          "otworzyć go dwukrotnym kliknięciem i odczytać pasek tytułu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Do czego służy kompresja plików, np. do formatu ZIP?",
+        "answers": [
+          "do zmniejszenia rozmiaru plików",
+          "do zabezpieczenia plików przed wirusami",
+          "do zamiany plików na inny format, np. DOCX na PDF"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kopia bezpieczeństwa (backup) to:",
+        "answers": [
+          "program, który automatycznie naprawia uszkodzone pliki",
+          "folder w Koszu, do którego trafiają usunięte pliki",
+          "kopia plików przechowywana na wypadek ich utraty"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Które rozszerzenie ma dokument tekstowy programu Word?",
+        "answers": [
+          ".xlsx",
+          ".docx",
+          ".pptx"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Format PDF jest szczególnie przydatny, gdy chcemy, aby dokument:",
+        "answers": [
+          "wyglądał tak samo na każdym komputerze i przy wydruku",
+          "dał się łatwo edytować w dowolnym edytorze",
+          "zawierał animacje i przejścia między stronami"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Które urządzenie jest urządzeniem wejścia?",
+        "answers": [
+          "głośniki",
+          "drukarka",
+          "skaner"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Sieci i internet",
+    "questions": [
+      {
+        "question": "Sieć komputerowa to:",
+        "answers": [
+          "zbiór programów zainstalowanych na jednym komputerze",
+          "połączone urządzenia, które mogą wymieniać dane",
+          "zestaw komputerów stojących w jednej pracowni"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sieć obejmująca komputery w jednej szkole lub w domu to sieć:",
+        "answers": [
+          "WAN",
+          "LAN",
+          "MAN"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sieć o zasięgu miasta to:",
+        "answers": [
+          "LAN",
+          "PAN",
+          "MAN"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Internet jest przykładem sieci:",
+        "answers": [
+          "LAN (lokalnej)",
+          "WAN (rozległej)",
+          "PAN (osobistej)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym jest internet?",
+        "answers": [
+          "największą wyszukiwarką informacji na świecie",
+          "ogólnoświatową siecią łączącą sieci komputerowe",
+          "programem do przeglądania stron internetowych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Która z poniższych jest usługą dostępną w internecie?",
+        "answers": [
+          "poczta elektroniczna (e-mail)",
+          "system plików NTFS",
+          "defragmentacja dysku"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przeglądarka internetowa to program służący do:",
+        "answers": [
+          "indeksowania wszystkich stron w internecie",
+          "tworzenia stron internetowych w HTML",
+          "wyświetlania stron internetowych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Witryna internetowa to:",
+        "answers": [
+          "zbiór powiązanych stron pod wspólnym adresem",
+          "pojedynczy plik graficzny umieszczony w internecie",
+          "program do przeglądania stron WWW"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Aby wyszukiwarka znalazła dokładnie podane wyrażenie, należy wpisać je:",
+        "answers": [
+          "w cudzysłowie",
+          "w nawiasach okrągłych",
+          "po znaku #"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak najlepiej sprawdzić wiarygodność informacji znalezionej w internecie?",
+        "answers": [
+          "sprawdzić, czy strona ma estetyczny wygląd i dużo grafik",
+          "przyjąć, że pierwszy wynik wyszukiwania jest najbardziej wiarygodny",
+          "porównać ją z kilkoma innymi, rzetelnymi źródłami"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Chmura obliczeniowa to:",
+        "answers": [
+          "korzystanie z plików i programów na serwerach w internecie",
+          "program do kompresowania i archiwizacji plików na dysku",
+          "specjalny rodzaj szybkiej pamięci wbudowanej w komputer"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przykładem usługi przechowywania plików w chmurze jest:",
+        "answers": [
+          "OneDrive",
+          "Paint",
+          "Notatnik"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zaletą wspólnej pracy nad dokumentem w chmurze jest to, że:",
+        "answers": [
+          "dokument automatycznie poprawia błędy merytoryczne",
+          "dokument nie wymaga połączenia z internetem",
+          "kilka osób może edytować ten sam plik w tym samym czasie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Komunikator internetowy (np. Teams) służy przede wszystkim do:",
+        "answers": [
+          "rozmów i wymiany wiadomości w czasie rzeczywistym",
+          "przeglądania stron internetowych",
+          "przechowywania kopii zapasowych plików"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Wysyłając e-mail do wielu osób, które nie powinny widzieć swoich adresów, wpisujemy je w polu:",
+        "answers": [
+          "DW (do wiadomości)",
+          "UDW (ukryte do wiadomości)",
+          "Do"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Które polecenie w wierszu poleceń Windows wyświetla parametry sieci, np. adres IP?",
+        "answers": [
+          "ping",
+          "ipconfig",
+          "tracert"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "HTML",
+    "questions": [
+      {
+        "question": "HTML to:",
+        "answers": [
+          "język programowania służący do pisania aplikacji",
+          "program do edycji stron internetowych",
+          "język znaczników do tworzenia stron internetowych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak wygląda poprawny znacznik zamykający akapit?",
+        "answers": [
+          "</p>",
+          "<\\p>",
+          "<p end>"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Która sekcja dokumentu HTML zawiera treść widoczną na stronie?",
+        "answers": [
+          "<head>",
+          "<body>",
+          "<title>"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Co zawiera sekcja <head> dokumentu HTML?",
+        "answers": [
+          "główną treść strony widoczną dla użytkownika",
+          "stopkę z danymi autora strony",
+          "informacje o stronie, np. tytuł i kodowanie znaków"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jakie rozszerzenie powinien mieć plik strony internetowej?",
+        "answers": [
+          ".html",
+          ".txt",
+          ".web"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który znacznik tworzy nagłówek najwyższego stopnia?",
+        "answers": [
+          "<head>",
+          "<h6>",
+          "<h1>"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który znacznik pogrubia tekst?",
+        "answers": [
+          "<b>",
+          "<i>",
+          "<u>"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który znacznik wstawia obraz na stronę?",
+        "answers": [
+          "<pic>",
+          "<image>",
+          "<img>"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Atrybut src w znaczniku <img> określa:",
+        "answers": [
+          "adres (ścieżkę) pliku z obrazem",
+          "rozmiar obrazu w pikselach",
+          "tekst wyświetlany zamiast obrazu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który znacznik tworzy listę numerowaną?",
+        "answers": [
+          "<ul>",
+          "<ol>",
+          "<li>"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Znacznik <li> oznacza:",
+        "answers": [
+          "nowy wiersz tabeli",
+          "pojedynczy element listy",
+          "całą listę punktowaną"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który znacznik tworzy wiersz tabeli?",
+        "answers": [
+          "<th>",
+          "<td>",
+          "<tr>"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Znacznik <br> służy do:",
+        "answers": [
+          "przejścia do nowej linii",
+          "wstawienia poziomej linii",
+          "pogrubienia tekstu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kolorowanie składni w edytorze kodu HTML pomaga, ponieważ:",
+        "answers": [
+          "zmienia kolory elementów na gotowej stronie",
+          "automatycznie poprawia błędy w kodzie",
+          "ułatwia odróżnienie znaczników od treści"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Jak zobaczyć kod HTML strony otwartej w przeglądarce?",
+        "answers": [
+          "zapisać stronę jako obraz i otworzyć go w edytorze",
+          "wydrukować stronę do pliku PDF i otworzyć go",
+          "użyć opcji „Wyświetl źródło strony” (np. Ctrl+U)"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "CSS służy do:",
+        "answers": [
+          "określania wyglądu strony, np. kolorów i czcionek",
+          "przechowywania danych użytkowników strony",
+          "tworzenia nowych znaczników w języku HTML"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "GIMP i grafika",
+    "questions": [
+      {
+        "question": "Który format graficzny obsługuje przezroczystość i kompresję bezstratną?",
+        "answers": [
+          "JPG",
+          "PNG",
+          "BMP"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Format JPG najlepiej nadaje się do zapisywania:",
+        "answers": [
+          "zdjęć",
+          "obrazów z przezroczystym tłem",
+          "animacji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który format pozwala zapisać prostą animację?",
+        "answers": [
+          "GIF",
+          "JPG",
+          "BMP"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Własny format programu GIMP, który zachowuje warstwy, to:",
+        "answers": [
+          "PSD",
+          "PNG",
+          "XCF"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Warstwy w programie GIMP pozwalają:",
+        "answers": [
+          "edytować elementy obrazu niezależnie od siebie",
+          "zapisać obraz w kilku formatach jednocześnie",
+          "zmniejszyć rozmiar pliku graficznego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Warstwa umieszczona wyżej na liście warstw:",
+        "answers": [
+          "jest zawsze półprzezroczysta",
+          "zasłania warstwy znajdujące się pod nią",
+          "jest widoczna dopiero po wydrukowaniu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Narzędzie „Zaznaczanie odręczne” (lasso) w GIMP służy do zaznaczania:",
+        "answers": [
+          "prostokątnego fragmentu obrazu",
+          "obszaru o dowolnym kształcie",
+          "sąsiednich pikseli o podobnym kolorze"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Narzędzie „Zaznaczanie rozmyte” (różdżka) w GIMP zaznacza:",
+        "answers": [
+          "sąsiadujące piksele o podobnym kolorze",
+          "cały obraz wraz ze wszystkimi warstwami",
+          "obszar w kształcie elipsy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Fotomontaż to:",
+        "answers": [
+          "zmiana formatu zdjęcia z JPG na PNG",
+          "seria zdjęć wyświetlanych jako pokaz slajdów",
+          "połączenie fragmentów kilku zdjęć w jeden obraz"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Animacja poklatkowa w GIMP powstaje z:",
+        "answers": [
+          "kilku obrazów połączonych w jeden plik JPG",
+          "jednej warstwy z nałożonym filtrem ruchu",
+          "kolejnych warstw, z których każda jest jedną klatką"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby poprawić jasność i kontrast zdjęcia w GIMP, należy użyć menu:",
+        "answers": [
+          "Obraz → Skaluj obraz",
+          "Kolory",
+          "Widok"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Animacja to:",
+        "answers": [
+          "obraz złożony z wielu nałożonych warstw",
+          "obraz, na który nałożono filtr rozmycia ruchu",
+          "szybkie wyświetlanie kolejnych obrazów"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Edytor tekstu",
+    "questions": [
+      {
+        "question": "Style nagłówkowe w edytorze tekstu są potrzebne m.in. do:",
+        "answers": [
+          "automatycznego utworzenia spisu treści",
+          "sprawdzania pisowni w dokumencie",
+          "wstawiania numerów stron"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Narzędzie „Malarz formatów” służy do:",
+        "answers": [
+          "zmiany koloru tła całej strony dokumentu",
+          "kopiowania formatowania między fragmentami tekstu",
+          "rysowania kształtów i linii w dokumencie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wersaliki to:",
+        "answers": [
+          "wielkie litery",
+          "litery pochylone",
+          "wielkie litery o wysokości małych liter"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kapitaliki to:",
+        "answers": [
+          "wielkie litery o zwiększonym rozmiarze",
+          "litery pogrubione i podkreślone",
+          "wielkie litery o wysokości małych liter"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Do równego ustawiania tekstu w kolumnach w obrębie wiersza służy:",
+        "answers": [
+          "twarda spacja",
+          "wielokrotne naciśnięcie spacji",
+          "tabulator"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Opcja „Znajdź i zamień” pozwala:",
+        "answers": [
+          "zamienić wybrane słowo na inne w całym dokumencie",
+          "przetłumaczyć dokument na inny język",
+          "odszukać zaginiony plik na dysku komputera"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Słownik synonimów w edytorze tekstu pomaga:",
+        "answers": [
+          "znaleźć wyrazy bliskoznaczne",
+          "sprawdzić poprawność ortograficzną",
+          "przetłumaczyć wyraz na język angielski"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Statystyka wyrazów w edytorze tekstu pokazuje:",
+        "answers": [
+          "najczęściej używane słowa w dokumencie",
+          "liczbę błędów ortograficznych",
+          "liczbę wyrazów, znaków i akapitów w dokumencie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Gdzie umieszcza się informacje powtarzające się na każdej stronie, np. numer strony?",
+        "answers": [
+          "w nagłówku lub stopce",
+          "w spisie treści",
+          "w przypisie dolnym"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Przypis dolny to:",
+        "answers": [
+          "tekst powtarzany automatycznie na dole każdej strony",
+          "objaśnienie na dole strony, oznaczone numerem w tekście",
+          "podpis umieszczony pod obrazem lub tabelą"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ustawienie zawijania tekstu przy obrazie określa:",
+        "answers": [
+          "położenie obrazu względem tekstu",
+          "przezroczystość obrazu",
+          "rozmiar obrazu w dokumencie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "SmartArt w edytorze tekstu to:",
+        "answers": [
+          "gotowe grafiki do przedstawiania list, procesów i hierarchii",
+          "narzędzie do sprawdzania stylu i poprawności wypowiedzi",
+          "galeria zdjęć i ilustracji pobieranych z internetu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak podzielić tekst na dwie kolumny w programie Word?",
+        "answers": [
+          "zmniejszyć szerokość marginesów strony",
+          "użyć opcji Kolumny na karcie Układ",
+          "wstawić dwa pola tekstowe obok siebie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czerwone falowane podkreślenie wyrazu w edytorze tekstu oznacza zwykle:",
+        "answers": [
+          "hiperłącze do strony internetowej",
+          "błąd gramatyczny lub interpunkcyjny",
+          "możliwy błąd ortograficzny"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby kolejny rozdział zaczynał się zawsze od nowej strony, należy wstawić:",
+        "answers": [
+          "nowy nagłówek strony",
+          "podział strony",
+          "kilka pustych akapitów"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Prezentacje i film",
+    "questions": [
+      {
+        "question": "Prezentacja multimedialna to:",
+        "answers": [
+          "zestaw slajdów łączących tekst, obrazy i dźwięk",
+          "wielostronicowy dokument tekstowy z ilustracjami",
+          "film nagrany kamerą i zmontowany w programie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Która zasada dotyczy dobrej prezentacji?",
+        "answers": [
+          "każdy slajd powinien mieć inną czcionkę i kolor tła",
+          "na slajdzie powinno być mało tekstu, najlepiej w punktach",
+          "cały tekst wystąpienia warto umieścić na slajdach"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym różni się przejście od animacji w prezentacji?",
+        "answers": [
+          "przejście dotyczy elementów na slajdzie, a animacja zmiany slajdów",
+          "przejście działa tylko z dźwiękiem, a animacja bez dźwięku",
+          "przejście dotyczy zmiany slajdów, a animacja elementów na slajdzie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Którym klawiszem uruchamia się pokaz slajdów od początku w PowerPoint?",
+        "answers": [
+          "F1",
+          "F12",
+          "F5"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Zapisanie prezentacji jako pokazu slajdów (.ppsx) sprawia, że:",
+        "answers": [
+          "prezentacja zapisuje się jako film MP4",
+          "po otwarciu pliku od razu uruchamia się pokaz",
+          "prezentacja zajmuje mniej miejsca na dysku"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Przycisk akcji w prezentacji pozwala:",
+        "answers": [
+          "nagrać komentarz głosowy do slajdu",
+          "przejść po kliknięciu do wybranego slajdu",
+          "automatycznie wyrównać elementy na slajdzie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Nagrywanie zawartości ekranu przydaje się szczególnie do:",
+        "answers": [
+          "przygotowania samouczka obsługi programu",
+          "zmniejszenia rozmiaru prezentacji",
+          "sprawdzania pisowni w prezentacji"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który z formatów jest formatem pliku wideo?",
+        "answers": [
+          "MP3",
+          "WAV",
+          "MP4"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Przycinanie klipu w programie do montażu (np. Shotcut) oznacza:",
+        "answers": [
+          "zmianę formatu pliku wideo",
+          "zmniejszenie rozmiaru obrazu w kadrze",
+          "usunięcie początku lub końca nagrania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ścieżka dźwiękowa w projekcie filmu to:",
+        "answers": [
+          "warstwa z muzyką lub głosem lektora",
+          "przejście między dwoma klipami",
+          "napisy wyświetlane na dole ekranu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Eksport filmu w programie Shotcut służy do:",
+        "answers": [
+          "zaimportowania nowych klipów do projektu",
+          "zapisania gotowego filmu w wybranym formacie wideo",
+          "zapisania projektu do dalszej edycji"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Bezpieczeństwo, prawo i netykieta",
+    "questions": [
+      {
+        "question": "Zalecana odległość oczu od monitora wynosi około:",
+        "answers": [
+          "20–30 cm",
+          "100–120 cm",
+          "50–70 cm"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Program antywirusowy służy do:",
+        "answers": [
+          "przyspieszania połączenia z internetem",
+          "wykrywania i usuwania złośliwego oprogramowania",
+          "tworzenia kopii zapasowej plików"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Licencja freeware oznacza, że program:",
+        "answers": [
+          "można używać za darmo tylko przez określony czas",
+          "ma udostępniony kod źródłowy, który można zmieniać",
+          "można używać bezpłatnie, ale nie wolno go zmieniać"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Shareware to oprogramowanie, które:",
+        "answers": [
+          "można dowolnie zmieniać i rozpowszechniać za darmo",
+          "można bezpłatnie testować, a potem trzeba za nie zapłacić",
+          "jest całkowicie darmowe i bez żadnych ograniczeń"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Licencja Creative Commons z oznaczeniem BY wymaga:",
+        "answers": [
+          "zapłaty autorowi za każde użycie",
+          "podania autora utworu",
+          "uzyskania pisemnej zgody autora"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Oprogramowanie open source to takie, które:",
+        "answers": [
+          "jest dostępne tylko w wersji próbnej",
+          "można używać wyłącznie w celach niekomercyjnych",
+          "ma publicznie dostępny kod źródłowy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Czy można dowolnie wykorzystać zdjęcie znalezione w internecie we własnej pracy?",
+        "answers": [
+          "tak, jeśli zdjęcie pochodzi z wyników wyszukiwarki",
+          "nie, trzeba sprawdzić licencję i podać autora lub źródło",
+          "tak, jeśli na zdjęciu nie ma znaku wodnego"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Netykieta to:",
+        "answers": [
+          "program chroniący skrzynkę przed spamem",
+          "zasady dobrego zachowania w internecie",
+          "przepisy prawa karnego dotyczące internetu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Pisanie wiadomości WIELKIMI LITERAMI w internecie jest odbierane jako:",
+        "answers": [
+          "krzyczenie",
+          "oznaczenie wiadomości jako pilnej",
+          "oznaka szacunku dla odbiorcy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Cyfrowa tożsamość to:",
+        "answers": [
+          "login i hasło do konta pocztowego",
+          "wszystkie informacje o nas dostępne w sieci",
+          "numer PESEL zapisany w systemach komputerowych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Silne hasło powinno:",
+        "answers": [
+          "być łatwe do zapamiętania, np. imię i data urodzenia",
+          "być takie samo we wszystkich serwisach, żeby go nie zapomnieć",
+          "zawierać wielkie i małe litery, cyfry oraz znaki specjalne"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Co zrobić, gdy ktoś w internecie nas obraża lub nęka?",
+        "answers": [
+          "zachować dowody i powiedzieć o tym zaufanej osobie dorosłej",
+          "usunąć wszystkie wiadomości i nikomu o tym nie mówić",
+          "odpowiedzieć tym samym, żeby pokazać, że się nie boimy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Phishing to:",
+        "answers": [
+          "ukrywanie plików przed programem antywirusowym",
+          "zalewanie skrzynki pocztowej niechcianymi reklamami",
+          "podszywanie się pod zaufaną instytucję, by wyłudzić dane"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  }
+]
