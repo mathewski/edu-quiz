@@ -4,12 +4,24 @@
     "name": "Informatyka - 6"
   },
   {
+    "file": "informatyka-7.json",
+    "name": "Informatyka - 7"
+  },
+  {
     "file": "informatyka-8.json",
     "name": "Informatyka - 8"
   },
   {
+    "file": "informatyka-1lo.json",
+    "name": "Informatyka - 1 LO (poziom rozszerzony)"
+  },
+  {
     "file": "informatyka-2lo.json",
     "name": "Informatyka - 2 LO (poziom rozszerzony)"
+  },
+  {
+    "file": "informatyka-3lo.json",
+    "name": "Informatyka - 3 LO (poziom rozszerzony)"
   },
   {
     "file": "wos-8.json",

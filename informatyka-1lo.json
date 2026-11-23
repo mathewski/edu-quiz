@@ -1,0 +1,1163 @@
+[
+  {
+    "category": "Systemy operacyjne",
+    "questions": [
+      {
+        "question": "Które z poniższych jest systemem operacyjnym?",
+        "answers": [
+          "Java",
+          "Android",
+          "Firefox"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Głównym zadaniem systemu operacyjnego jest:",
+        "answers": [
+          "ochrona komputera przed złośliwym oprogramowaniem",
+          "tworzenie i edycja dokumentów użytkownika",
+          "zarządzanie sprzętem i zasobami komputera"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "W jakim trybie powinien pracować sterownik urządzenia w większości systemów operacyjnych?",
+        "answers": [
+          "w trybie użytkownika",
+          "w trybie jądra",
+          "w trybie awaryjnym"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Czym różni się tryb jądra od trybu użytkownika?",
+        "answers": [
+          "w trybie jądra kod ma pełny dostęp do sprzętu i pamięci, a w trybie użytkownika ograniczony",
+          "w trybie jądra system działa bez interfejsu graficznego, a w trybie użytkownika z interfejsem",
+          "w trybie jądra działają programy administratora, a w trybie użytkownika programy zwykłych kont"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Fragmentacja dysku polega na tym, że:",
+        "answers": [
+          "dysk zostaje podzielony na kilka partycji",
+          "pliki są automatycznie kompresowane, by zajmowały mniej miejsca",
+          "części jednego pliku są zapisane w różnych, odległych miejscach dysku"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dlaczego zwykle nie defragmentuje się dysków SSD?",
+        "answers": [
+          "czas dostępu nie zależy od położenia danych, a zapisy zużywają dysk",
+          "pliki na SSD są zawsze zapisywane w jednym ciągłym obszarze pamięci",
+          "dyski SSD nie korzystają z systemu plików, więc nie ma czego porządkować"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który system plików obsługuje pliki większe niż 4 GB oraz uprawnienia do plików?",
+        "answers": [
+          "FAT32",
+          "NTFS",
+          "FAT16"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Rolą systemu plików jest:",
+        "answers": [
+          "ochrona plików przed złośliwym oprogramowaniem",
+          "kompresowanie plików w celu oszczędzania miejsca",
+          "organizacja zapisu i odnajdywania plików na nośniku"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Która ścieżka jest ścieżką bezwzględną w Windows?",
+        "answers": [
+          "C:\\Users\\Jan\\Dokumenty\\plik.txt",
+          "Dokumenty\\plik.txt",
+          "..\\Dokumenty\\plik.txt"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ścieżka względna to ścieżka:",
+        "answers": [
+          "zaczynająca się od litery dysku",
+          "podawana względem bieżącego katalogu",
+          "prowadząca zawsze do katalogu głównego"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "UEFI w porównaniu z tradycyjnym BIOS-em:",
+        "answers": [
+          "obsługuje dyski większe niż 2 TB i bezpieczny rozruch (Secure Boot)",
+          "nie pozwala na zmianę kolejności urządzeń, z których startuje system",
+          "jest systemem operacyjnym instalowanym na osobnej partycji dysku"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Tryb awaryjny systemu Windows służy do:",
+        "answers": [
+          "szybszego uruchamiania komputera na co dzień",
+          "uruchomienia systemu z minimalnym zestawem sterowników",
+          "przywracania systemu do ustawień fabrycznych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Nośnik awaryjny (dysk odzyskiwania) przydaje się, gdy:",
+        "answers": [
+          "zainstalowany system operacyjny nie uruchamia się poprawnie",
+          "trzeba przyspieszyć działanie przeglądarki internetowej",
+          "brakuje wolnego miejsca na dysku twardym"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Które polecenie w wierszu poleceń Windows (cmd) wyświetla zawartość katalogu?",
+        "answers": [
+          "cd",
+          "dir",
+          "ls"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Polecenie cd w wierszu poleceń Windows służy do:",
+        "answers": [
+          "kopiowania plików",
+          "tworzenia nowego katalogu",
+          "zmiany bieżącego katalogu"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Menedżer zadań w Windows pozwala m.in.:",
+        "answers": [
+          "zakończyć zawieszony program",
+          "zmienić system plików dysku",
+          "zainstalować sterowniki urządzeń"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Po co tworzy się w systemie operacyjnym oddzielne konta użytkowników?",
+        "answers": [
+          "aby komputer działał szybciej przy wielu użytkownikach",
+          "aby każdy użytkownik miał własną kopię systemu operacyjnego",
+          "aby oddzielić dane użytkowników i ograniczyć ich uprawnienia"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który atrybut pliku uniemożliwia jego zmianę bez wcześniejszego zdjęcia atrybutu?",
+        "answers": [
+          "archiwalny",
+          "tylko do odczytu",
+          "ukryty"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Sieci komputerowe",
+    "questions": [
+      {
+        "question": "Protokół sieciowy to:",
+        "answers": [
+          "program monitorujący i rejestrujący ruch w sieci",
+          "fizyczne medium, np. kabel, łączące komputery w sieci",
+          "zbiór reguł komunikacji między urządzeniami w sieci"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile bitów ma adres IPv4?",
+        "answers": [
+          "128",
+          "32",
+          "64"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ile bitów ma adres IPv6?",
+        "answers": [
+          "64",
+          "48",
+          "128"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Maska podsieci 255.255.255.0 oznacza, że na część sieciową adresu przypada:",
+        "answers": [
+          "24 bity",
+          "8 bitów",
+          "16 bitów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Ile hostów można zaadresować w sieci z maską /24 (255.255.255.0)?",
+        "answers": [
+          "255",
+          "256",
+          "254"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile hostów można zaadresować w sieci z maską /26?",
+        "answers": [
+          "62",
+          "64",
+          "30"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zadaniem serwera DNS jest:",
+        "answers": [
+          "automatyczne przydzielanie adresów IP urządzeniom",
+          "zamiana nazw domenowych na adresy IP",
+          "szyfrowanie połączeń ze stronami WWW"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Która usługa automatycznie przydziela urządzeniom adresy IP w sieci lokalnej?",
+        "answers": [
+          "DHCP",
+          "NAT",
+          "DNS"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Brama domyślna to:",
+        "answers": [
+          "adres serwera DNS, który tłumaczy nazwy domen",
+          "adres routera, przez który ruch trafia do innych sieci",
+          "pierwszy wolny adres w puli serwera DHCP"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Adres MAC to:",
+        "answers": [
+          "adres serwera, na którym działa strona WWW",
+          "fizyczny adres karty sieciowej nadany przez producenta",
+          "adres IP przydzielony przez dostawcę internetu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Ile bitów ma adres MAC?",
+        "answers": [
+          "48",
+          "64",
+          "32"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "NAT (translacja adresów sieciowych) pozwala:",
+        "answers": [
+          "wielu urządzeniom korzystać z internetu przez jeden adres publiczny",
+          "zamieniać nazwy domen na adresy IP bez użycia serwera DNS",
+          "szyfrować dane przesyłane między routerem a urządzeniami Wi-Fi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który adres jest adresem prywatnym?",
+        "answers": [
+          "212.77.98.9",
+          "8.8.8.8",
+          "192.168.1.10"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Ile warstw ma model OSI?",
+        "answers": [
+          "4",
+          "5",
+          "7"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Do której warstwy modelu TCP/IP należy protokół HTTP?",
+        "answers": [
+          "aplikacji",
+          "transportowej",
+          "internetowej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Protokół TCP w odróżnieniu od UDP:",
+        "answers": [
+          "przesyła dane szybciej, bez potwierdzeń odbioru",
+          "gwarantuje dostarczenie danych w poprawnej kolejności",
+          "działa wyłącznie w sieciach bezprzewodowych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Enkapsulacja danych w transmisji sieciowej polega na:",
+        "answers": [
+          "szyfrowaniu danych w każdej warstwie przed wysłaniem do sieci",
+          "dzieleniu sieci na mniejsze podsieci za pomocą maski",
+          "dodawaniu nagłówków kolejnych warstw do przesyłanych danych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Polecenie ping służy do:",
+        "answers": [
+          "pokazania trasy pakietów do hosta docelowego",
+          "sprawdzenia, czy host odpowiada, i jak szybko",
+          "wyświetlenia konfiguracji kart sieciowych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Polecenie tracert pokazuje:",
+        "answers": [
+          "trasę pakietów do wskazanego hosta",
+          "adres IP i maskę podsieci komputera",
+          "listę otwartych połączeń sieciowych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Urządzenie łączące różne sieci i kierujące pakiety między nimi to:",
+        "answers": [
+          "router",
+          "przełącznik (switch)",
+          "punkt dostępowy (access point)"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W modelu peer-to-peer:",
+        "answers": [
+          "wszystkie komputery korzystają z jednego centralnego serwera",
+          "każdy komputer może być jednocześnie klientem i serwerem",
+          "komputery mogą komunikować się tylko przez kabel"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Która domena jest domeną krajową?",
+        "answers": [
+          ".pl",
+          ".org",
+          ".com"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "W adresie URL https://www.szkola.pl/kontakt.html protokołem jest:",
+        "answers": [
+          "www",
+          "https",
+          ".pl"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Test łącza pokazał prędkość pobierania 100 Mb/s. Ile to w przybliżeniu megabajtów na sekundę?",
+        "answers": [
+          "100 MB/s",
+          "800 MB/s",
+          "12,5 MB/s"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wartość „ping” w wyniku testu łącza oznacza:",
+        "answers": [
+          "liczbę urządzeń podłączonych do sieci",
+          "prędkość pobierania danych",
+          "opóźnienie przesyłu danych w milisekundach"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Nowe technologie i e-usługi",
+    "questions": [
+      {
+        "question": "Sztuczna inteligencja to:",
+        "answers": [
+          "każdy program, który wykonuje zadania automatycznie, bez udziału człowieka",
+          "dziedzina informatyki tworząca systemy zdolne do uczenia się i wnioskowania",
+          "technologia przechowywania i przetwarzania danych na zdalnych serwerach"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Rzeczywistość rozszerzona (AR) różni się od wirtualnej (VR) tym, że:",
+        "answers": [
+          "całkowicie zastępuje świat rzeczywisty wygenerowanym obrazem",
+          "nakłada cyfrowe elementy na obraz świata rzeczywistego",
+          "działa wyłącznie w goglach z dwoma ekranami"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Zaletą druku 3D jest:",
+        "answers": [
+          "możliwość szybkiego wytworzenia prototypu lub pojedynczej części",
+          "niski koszt masowej produkcji milionów identycznych elementów",
+          "możliwość drukowania z dowolnego materiału"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Sztuczny neuron:",
+        "answers": [
+          "przechowuje jeden bit informacji jak komórka pamięci",
+          "przekształca ważoną sumę wejść funkcją aktywacji",
+          "jest osobnym układem scalonym w procesorze"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Chmura obliczeniowa w modelu SaaS oznacza:",
+        "answers": [
+          "wynajem fizycznych serwerów w serwerowni",
+          "udostępnienie platformy do tworzenia własnych aplikacji",
+          "dostęp do gotowej aplikacji przez internet"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "E-usługa to:",
+        "answers": [
+          "usługa świadczona drogą elektroniczną, na odległość",
+          "każda usługa związana z naprawą sprzętu elektronicznego",
+          "usługa dostępna wyłącznie w aplikacji mobilnej"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "ePUAP to:",
+        "answers": [
+          "ogólnopolska platforma e-learningowa dla szkół",
+          "platforma do załatwiania spraw urzędowych przez internet",
+          "system płatności mobilnych obsługiwany przez banki"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Który sposób potwierdzania tożsamości jest używany w polskich e-usługach publicznych?",
+        "answers": [
+          "Profil Zaufany",
+          "podanie numeru PESEL i daty urodzenia",
+          "logowanie kontem z portalu społecznościowego"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Wykluczenie cyfrowe oznacza:",
+        "answers": [
+          "celowe ograniczenie czasu spędzanego przed ekranem i w internecie",
+          "brak dostępu do technologii cyfrowych lub umiejętności korzystania z nich",
+          "zablokowanie konta w serwisie społecznościowym za łamanie regulaminu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Pozycjonowanie stron (SEO) to:",
+        "answers": [
+          "rejestrowanie domeny dla nowej strony",
+          "ustalanie położenia elementów na stronie za pomocą CSS",
+          "działania zwiększające widoczność strony w wynikach wyszukiwarek"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Przeglądarka internetowa różni się od wyszukiwarki tym, że:",
+        "answers": [
+          "przeglądarka znajduje strony, a wyszukiwarka je wyświetla",
+          "przeglądarka działa bez internetu, a wyszukiwarka tylko z internetem",
+          "przeglądarka wyświetla strony, a wyszukiwarka je znajduje"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "E-learning to:",
+        "answers": [
+          "nauka z wykorzystaniem internetu i narzędzi cyfrowych",
+          "elektroniczny dziennik ocen i frekwencji uczniów",
+          "sprzedaż kursów w sklepach internetowych"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Prawo i cyfrowa tożsamość",
+    "questions": [
+      {
+        "question": "Autorskie prawa majątkowe w Polsce wygasają co do zasady po:",
+        "answers": [
+          "50 latach od pierwszej publikacji utworu",
+          "70 latach od śmierci twórcy",
+          "20 latach od śmierci twórcy"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Autorskie prawa osobiste:",
+        "answers": [
+          "można je przenieść na wydawcę na podstawie umowy",
+          "nie wygasają i nie można ich przenieść na inną osobę",
+          "wygasają razem z prawami majątkowymi po 70 latach"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wolne oprogramowanie (free software) to takie, które:",
+        "answers": [
+          "można uruchamiać, analizować, zmieniać i rozpowszechniać",
+          "można używać tylko w celach edukacyjnych",
+          "jest bezpłatne, ale ma zamknięty kod źródłowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Licencja CC BY-NC oznacza, że utwór można wykorzystać:",
+        "answers": [
+          "tylko bez wprowadzania jakichkolwiek zmian",
+          "w dowolnym celu bez podawania autora",
+          "z podaniem autora, ale nie w celach komercyjnych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Licencja CC BY-ND zabrania:",
+        "answers": [
+          "tworzenia utworów zależnych, czyli zmieniania utworu",
+          "udostępniania utworu innym osobom w internecie",
+          "komercyjnego wykorzystania utworu przez firmy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Prawo cytatu pozwala:",
+        "answers": [
+          "skopiować cały cudzy utwór, jeśli podamy autora",
+          "przytoczyć fragment cudzego utworu z podaniem autora i źródła",
+          "korzystać z cudzego utworu bez podawania źródła w celach edukacyjnych"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak sprawdzić, kto jest właścicielem domeny internetowej?",
+        "answers": [
+          "użyć polecenia ping",
+          "skorzystać z usługi WHOIS",
+          "odczytać tytuł strony w przeglądarce"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Zautomatyzowane profilowanie to:",
+        "answers": [
+          "ustawianie zdjęcia profilowego przez algorytm",
+          "automatyczne tworzenie kopii zapasowej profilu użytkownika",
+          "automatyczna ocena cech osoby na podstawie jej danych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "RODO daje osobie, której dane dotyczą, m.in. prawo do:",
+        "answers": [
+          "wynagrodzenia za każde przetwarzanie jej danych",
+          "dostępu do swoich danych i żądania ich usunięcia",
+          "wglądu w dane osobowe innych użytkowników serwisu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Hejt to:",
+        "answers": [
+          "obraźliwe, agresywne treści w sieci wobec osoby lub grupy",
+          "masowe wysyłanie reklam pocztą elektroniczną",
+          "krytyczna, ale merytoryczna recenzja produktu lub usługi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Cyfrowa tożsamość to:",
+        "answers": [
+          "hasło używane do logowania w e-usługach",
+          "numer identyfikacyjny przypisany do komputera",
+          "zbiór informacji o osobie dostępnych w sieci"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Cyberbezpieczeństwo i kryptografia",
+    "questions": [
+      {
+        "question": "Ransomware to złośliwe oprogramowanie, które:",
+        "answers": [
+          "udaje przydatny program, aby skłonić do instalacji",
+          "szyfruje pliki ofiary i żąda okupu za ich odszyfrowanie",
+          "wyświetla niechciane reklamy w przeglądarce"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Koń trojański to program, który:",
+        "answers": [
+          "szyfruje pliki i żąda okupu",
+          "samodzielnie rozprzestrzenia się przez sieć bez udziału użytkownika",
+          "udaje użyteczną aplikację, a w tle wykonuje szkodliwe działania"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Robak komputerowy różni się od wirusa tym, że:",
+        "answers": [
+          "atakuje wyłącznie urządzenia mobilne z Androidem",
+          "nie może uszkodzić ani usunąć danych na dysku",
+          "rozprzestrzenia się samodzielnie, bez pliku-nosiciela"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Atak DDoS polega na:",
+        "answers": [
+          "przeciążeniu serwera ogromną liczbą żądań z wielu urządzeń",
+          "przechwyceniu hasła przez fałszywą stronę logowania",
+          "odgadywaniu hasła metodą prób i błędów"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Atak brute force polega na:",
+        "answers": [
+          "podszywaniu się pod bank w wiadomości e-mail",
+          "przeciążeniu serwera dużą liczbą zapytań",
+          "sprawdzaniu kolejnych kombinacji haseł"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Uwierzytelnianie dwuskładnikowe (2FA) polega na:",
+        "answers": [
+          "potwierdzeniu tożsamości dwoma niezależnymi sposobami",
+          "używaniu dwóch różnych haseł do dwóch kont",
+          "dwukrotnym wpisaniu tego samego hasła przy logowaniu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Symptomem zainfekowania komputera złośliwym oprogramowaniem może być:",
+        "answers": [
+          "regularne pobieranie aktualizacji systemu",
+          "komunikat o kończącym się miejscu w chmurze",
+          "nagłe spowolnienie i nieznane procesy w systemie"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Infrastruktura krytyczna to:",
+        "answers": [
+          "serwery największych portali społecznościowych",
+          "systemy kluczowe dla państwa, np. energetyka",
+          "najważniejsze pliki systemu operacyjnego"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Bezpieczne korzystanie z bankowości elektronicznej wymaga m.in.:",
+        "answers": [
+          "zapisania hasła w notatkach telefonu",
+          "sprawdzenia adresu strony i certyfikatu przed zalogowaniem",
+          "logowania przez link z wiadomości e-mail od banku"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Steganografia to:",
+        "answers": [
+          "szyfrowanie wiadomości kluczem publicznym",
+          "łamanie szyfrów bez znajomości klucza",
+          "ukrywanie samego faktu przesyłania wiadomości"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kryptoanaliza to:",
+        "answers": [
+          "łamanie szyfrów i badanie ich odporności na ataki",
+          "tworzenie nowych algorytmów szyfrowania",
+          "ukrywanie wiadomości w plikach multimedialnych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kryptogram to:",
+        "answers": [
+          "algorytm szyfrujący",
+          "zaszyfrowana wiadomość",
+          "klucz służący do szyfrowania"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Zasada Kerckhoffsa mówi, że:",
+        "answers": [
+          "algorytm szyfrowania musi być utrzymywany w tajemnicy",
+          "klucz musi być dłuższy niż szyfrowana wiadomość",
+          "bezpieczeństwo szyfru ma zależeć tylko od tajności klucza"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Podpis elektroniczny zapewnia:",
+        "answers": [
+          "potwierdzenie tożsamości nadawcy i integralności dokumentu",
+          "kompresję dokumentu przed wysłaniem",
+          "ukrycie treści dokumentu przed niepowołanymi osobami"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Certyfikat SSL typu EV w porównaniu z certyfikatem DV:",
+        "answers": [
+          "wymaga szczegółowej weryfikacji organizacji",
+          "jest wydawany bez weryfikacji, za to szybciej",
+          "zapewnia silniejszy algorytm szyfrowania danych"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Kolizja funkcji haszującej to sytuacja, gdy:",
+        "answers": [
+          "skrótu nie da się obliczyć dla bardzo długich danych",
+          "funkcja zwraca różne skróty dla tych samych danych",
+          "dwie różne dane wejściowe dają ten sam skrót"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Dokumenty i prezentacje",
+    "questions": [
+      {
+        "question": "Tryb śledzenia zmian w edytorze tekstu:",
+        "answers": [
+          "blokuje edycję dokumentu przez inne osoby",
+          "automatycznie zapisuje kolejne wersje pliku na dysku",
+          "zaznacza poprawki do zaakceptowania lub odrzucenia"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Aby automatycznie utworzyć spis ilustracji, należy:",
+        "answers": [
+          "zastosować styl Nagłówek 1 do akapitu z każdą ilustracją",
+          "dodać do ilustracji podpisy za pomocą funkcji „Wstaw podpis”",
+          "umieścić wszystkie ilustracje w jednej tabeli z opisami"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Widok konspektu w edytorze tekstu ułatwia:",
+        "answers": [
+          "pracę ze strukturą długiego dokumentu",
+          "podgląd wydruku dokumentu",
+          "sprawdzanie pisowni w całym dokumencie"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Korespondencja seryjna polega na:",
+        "answers": [
+          "wysyłaniu tej samej wiadomości e-mail do wielu osób jako kopii",
+          "łączeniu kilku dokumentów w jeden plik ze wspólnym spisem treści",
+          "tworzeniu wielu spersonalizowanych dokumentów z jednego szablonu"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wpisanie w programie Word formuły =lorem() i naciśnięcie Enter:",
+        "answers": [
+          "generuje przykładowy blok tekstu",
+          "oblicza sumę liczb w tabeli",
+          "wstawia bieżącą datę"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Podczas wystąpienia z prezentacją należy:",
+        "answers": [
+          "odczytywać pełny tekst wystąpienia ze slajdów",
+          "utrzymywać kontakt wzrokowy ze słuchaczami",
+          "mówić jak najszybciej, aby zmieścić się w czasie"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Prezentację z nagranym komentarzem głosowym można zapisać jako:",
+        "answers": [
+          "plik graficzny PNG",
+          "plik PDF z dźwiękiem",
+          "plik wideo, np. MP4"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Szablon dokumentu w edytorze tekstu to:",
+        "answers": [
+          "wzorzec z gotowym układem i stylami dla nowych dokumentów",
+          "dokument zabezpieczony hasłem przed edycją i kopiowaniem",
+          "kopia zapasowa dokumentu tworzona automatycznie"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "HTML i strony WWW",
+    "questions": [
+      {
+        "question": "Który znacznik HTML tworzy hiperłącze?",
+        "answers": [
+          "<a href=\"...\">",
+          "<url src=\"...\">",
+          "<link href=\"...\">"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Jak dołączyć zewnętrzny arkusz stylów CSS do dokumentu HTML?",
+        "answers": [
+          "<css href=\"style.css\"> na końcu sekcji body",
+          "<link rel=\"stylesheet\" href=\"style.css\"> w sekcji head",
+          "<style src=\"style.css\"></style> w sekcji head"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Komentarz w kodzie HTML zapisujemy jako:",
+        "answers": [
+          "/* komentarz */",
+          "// komentarz",
+          "<!-- komentarz -->"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kolor czerwony w zapisie szesnastkowym HTML/CSS to:",
+        "answers": [
+          "#FF0000",
+          "#0000FF",
+          "#00FF00"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Który znacznik tworzy listę nieuporządkowaną?",
+        "answers": [
+          "<ol>",
+          "<ul>",
+          "<dl>"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Responsywność strony oznacza, że:",
+        "answers": [
+          "strona szybko reaguje na kliknięcia użytkownika",
+          "strona automatycznie tłumaczy się na inne języki",
+          "strona dostosowuje układ do rozmiaru ekranu urządzenia"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Hosting to:",
+        "answers": [
+          "rejestracja nazwy domeny dla strony WWW",
+          "udostępnienie miejsca na serwerze dla strony WWW",
+          "program do tworzenia i edycji stron WWW"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Jak zapisać odnośnik do miejsca na tej samej stronie, oznaczonego id=\"kontakt\"?",
+        "answers": [
+          "<a href=\"kontakt.html\">",
+          "<a name=\"kontakt\">",
+          "<a href=\"#kontakt\">"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "CMS to:",
+        "answers": [
+          "system zarządzania treścią, np. WordPress",
+          "język opisu wyglądu stron internetowych",
+          "protokół przesyłania plików na serwer"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Atrybut alt w znaczniku <img> służy do:",
+        "answers": [
+          "podania tekstu alternatywnego dla obrazu",
+          "określenia ścieżki do pliku obrazu",
+          "ustawienia wyrównania obrazu"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "JavaScript na stronach WWW służy głównie do:",
+        "answers": [
+          "określania kolorów i czcionek strony",
+          "dodawania interaktywności do strony",
+          "definiowania struktury dokumentu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Sekcja HEAD dokumentu HTML różni się od sekcji BODY tym, że:",
+        "answers": [
+          "jest wyświetlana tylko na urządzeniach mobilnych",
+          "zawiera informacje o dokumencie, a nie jego treść",
+          "zawiera nagłówek strony widoczny na górze ekranu"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Grafika i animacja",
+    "questions": [
+      {
+        "question": "Grafika wektorowa:",
+        "answers": [
+          "nadaje się najlepiej do zapisywania zdjęć",
+          "składa się z siatki pikseli o stałym rozmiarze",
+          "można ją skalować bez utraty jakości"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który format jest formatem grafiki wektorowej?",
+        "answers": [
+          "SVG",
+          "PNG",
+          "JPG"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Programem do grafiki wektorowej jest:",
+        "answers": [
+          "GIMP",
+          "Paint",
+          "Inkscape"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Krzywe Béziera służą do:",
+        "answers": [
+          "zaznaczania obszarów o podobnym kolorze",
+          "korygowania kolorów zdjęcia",
+          "rysowania gładkich linii krzywych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kadrowanie obrazu polega na:",
+        "answers": [
+          "wycięciu wybranego fragmentu i usunięciu reszty obrazu",
+          "zmianie rozmiaru całego obrazu bez utraty fragmentów",
+          "obróceniu obrazu o wybrany kąt"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Bryła obrotowa w modelowaniu 3D powstaje przez:",
+        "answers": [
+          "wyciągnięcie figury płaskiej wzdłuż prostej",
+          "połączenie kilku prostopadłościanów",
+          "obrót płaskiego profilu (przekroju) wokół osi"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Który format pliku służy do zapisu modelu 3D, np. do druku?",
+        "answers": [
+          "SVG",
+          "STL",
+          "GIF"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Rozdzielczość obrazu rastrowego określa:",
+        "answers": [
+          "liczbę kolorów w palecie obrazu",
+          "liczbę pikseli tworzących obraz",
+          "rozmiar pliku w megabajtach"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Arkusz kalkulacyjny i bazy danych",
+    "questions": [
+      {
+        "question": "Tabela przestawna w arkuszu kalkulacyjnym służy do:",
+        "answers": [
+          "zamiany wierszy z kolumnami",
+          "sortowania danych alfabetycznie",
+          "podsumowywania i grupowania danych"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Do przedstawienia udziału części w całości najlepiej nadaje się wykres:",
+        "answers": [
+          "kołowy",
+          "punktowy",
+          "liniowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Zmianę wartości w czasie najlepiej przedstawia wykres:",
+        "answers": [
+          "liniowy",
+          "pierścieniowy",
+          "kołowy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Funkcja WYSZUKAJ.PIONOWO:",
+        "answers": [
+          "zlicza komórki spełniające podany warunek",
+          "zwraca wartość z wiersza, w którym znalazła szukany klucz",
+          "sortuje dane w wybranej kolumnie od góry do dołu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Funkcja LICZ.JEŻELI:",
+        "answers": [
+          "sprawdza, czy komórka jest pusta",
+          "sumuje komórki spełniające podany warunek",
+          "zlicza komórki spełniające podany warunek"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Wynik formuły =ZAOKR(2,456;2) to:",
+        "answers": [
+          "2,5",
+          "2,46",
+          "2,45"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Wynik formuły =ZAOKR.DÓŁ(3,79;0) to:",
+        "answers": [
+          "3",
+          "4",
+          "3,8"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Błąd zaokrąglenia w obliczeniach komputerowych wynika z:",
+        "answers": [
+          "zapisu liczby z ograniczoną liczbą cyfr",
+          "pomyłki programisty w algorytmie",
+          "przegrzania procesora podczas obliczeń"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Format walutowy komórki w arkuszu kalkulacyjnym:",
+        "answers": [
+          "przelicza wartość według aktualnego kursu waluty",
+          "zaokrągla wartość komórki do dwóch miejsc po przecinku",
+          "zmienia sposób wyświetlania liczby, ale nie jej wartość"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Filtrowanie danych w arkuszu kalkulacyjnym:",
+        "answers": [
+          "trwale usuwa wiersze niespełniające kryteriów",
+          "ukrywa wiersze niespełniające kryteriów",
+          "zmienia kolejność wierszy według kryteriów"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Relacja w bazie danych to:",
+        "answers": [
+          "pojedynczy wiersz tabeli",
+          "zapytanie wybierające dane",
+          "powiązanie między tabelami przez wspólne pole"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Kwerenda w bazie danych służy do:",
+        "answers": [
+          "wybierania danych spełniających warunki",
+          "przygotowania danych do wydruku",
+          "wprowadzania danych przez użytkownika"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Raport w bazie danych (np. Access) służy do:",
+        "answers": [
+          "wprowadzania i edycji danych",
+          "tworzenia relacji między tabelami",
+          "przygotowania danych do wydruku"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Klucz główny w tabeli bazy danych:",
+        "answers": [
+          "jednoznacznie identyfikuje każdy rekord",
+          "automatycznie łączy wszystkie tabele w bazie",
+          "może mieć tę samą wartość w wielu rekordach"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+]
